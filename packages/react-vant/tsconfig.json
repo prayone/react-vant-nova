@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "rootDir": ".",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "declaration": true,
+    "pretty": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["DOM", "ES2015"],
+    "typeRoots": ["src/typings", "node_modules/@types"],
+    "paths": {
+      "react-vant": ["src/components/index.ts"]
+    },
+    "noEmitOnError": false
+  },
+  "exclude": ["node_modules", "dist", ".rcdoc", "propsType","src"],
+  "include": ["docs", "_rcdoc_", "rcdoc.config.ts"]
+}
