@@ -16797,7 +16797,7 @@ function V0(e) {
         )
       var m = {
         method: 'POST',
-        path: '/{path}'.replace('{path}', p),
+        path: '/react-vant-nova/{path}'.replace('{path}', p),
         queryParameters: c || {},
         headers: {},
         data: d || {},
@@ -16815,7 +16815,7 @@ function V0(e) {
         )
       var p = {
         method: 'POST',
-        path: '/1/indexes/*/recommendations',
+        path: '/react-vant-nova/1/indexes/*/recommendations',
         queryParameters: {},
         headers: {},
         data: l,
@@ -16851,7 +16851,7 @@ function V0(e) {
         )
       var c = {
         method: 'POST',
-        path: '/1/indexes/*/queries',
+        path: '/react-vant-nova/1/indexes/*/queries',
         queryParameters: {},
         headers: {},
         data: l,
@@ -18906,7 +18906,7 @@ const C1 = 'modulepreload',
   }
 var ci = [
   {
-    path: '/',
+    path: '/react-vant-nova/',
     lang: 'en',
     title: 'README',
     component: f.lazy(() =>
@@ -18923,7 +18923,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/',
+    path: '/react-vant-nova/',
     lang: 'zh',
     title: 'README',
     component: f.lazy(() =>
@@ -18940,21 +18940,21 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/guide/about',
+    path: '/react-vant-nova/guide/about',
     lang: 'en',
     title: '\u{1F481} \u4ECB\u7ECD',
     component: f.lazy(() => P(() => import('./about.c39c734f.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/about',
+    path: '/react-vant-nova/guide/about',
     lang: 'zh',
     title: '\u{1F481} \u4ECB\u7ECD',
     component: f.lazy(() => P(() => import('./about.c39c734f.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/advanced-usage',
+    path: '/react-vant-nova/guide/advanced-usage',
     lang: 'en',
     title: '\u8FDB\u9636\u7528\u6CD5',
     component: f.lazy(() =>
@@ -18963,7 +18963,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/guide/advanced-usage',
+    path: '/react-vant-nova/guide/advanced-usage',
     lang: 'zh',
     title: '\u8FDB\u9636\u7528\u6CD5',
     component: f.lazy(() =>
@@ -18972,119 +18972,119 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/guide/changelog',
+    path: '/react-vant-nova/guide/changelog',
     lang: 'en',
     title: '\u66F4\u65B0\u65E5\u5FD7',
     component: f.lazy(() => P(() => import('./changelog.68bf9c3d.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/changelog',
+    path: '/react-vant-nova/guide/changelog',
     lang: 'zh',
     title: '\u66F4\u65B0\u65E5\u5FD7',
     component: f.lazy(() => P(() => import('./changelog.68bf9c3d.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/contribution',
+    path: '/react-vant-nova/guide/contribution',
     lang: 'en',
     title: '\u5F00\u53D1\u6307\u5357',
     component: f.lazy(() => P(() => import('./contribution.74fac8c1.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/contribution',
+    path: '/react-vant-nova/guide/contribution',
     lang: 'zh',
     title: '\u5F00\u53D1\u6307\u5357',
     component: f.lazy(() => P(() => import('./contribution.74fac8c1.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/hd',
+    path: '/react-vant-nova/guide/hd',
     lang: 'en',
     title: '\u6D4F\u89C8\u5668\u9002\u914D',
     component: f.lazy(() => P(() => import('./hd.7f5d4d30.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/hd',
+    path: '/react-vant-nova/guide/hd',
     lang: 'zh',
     title: '\u6D4F\u89C8\u5668\u9002\u914D',
     component: f.lazy(() => P(() => import('./hd.7f5d4d30.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/i-18-n',
+    path: '/react-vant-nova/guide/i-18-n',
     lang: 'en',
     title: '\u56FD\u9645\u5316',
     component: f.lazy(() => P(() => import('./i18n.497df34d.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/i-18-n',
+    path: '/react-vant-nova/guide/i-18-n',
     lang: 'zh',
     title: '\u56FD\u9645\u5316',
     component: f.lazy(() => P(() => import('./i18n.497df34d.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/migrate',
+    path: '/react-vant-nova/guide/migrate',
     lang: 'en',
     title: '\u{1F680} \u5347\u7EA7\u5230 v3',
     component: f.lazy(() => P(() => import('./migrate.32c703b7.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/migrate',
+    path: '/react-vant-nova/guide/migrate',
     lang: 'zh',
     title: '\u{1F680} \u5347\u7EA7\u5230 v3',
     component: f.lazy(() => P(() => import('./migrate.32c703b7.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/quickstart',
+    path: '/react-vant-nova/guide/quickstart',
     lang: 'en',
     title: '\u26A1\uFE0F \u5FEB\u901F\u4E0A\u624B',
     component: f.lazy(() => P(() => import('./quickstart.36ef4d76.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/quickstart',
+    path: '/react-vant-nova/guide/quickstart',
     lang: 'zh',
     title: '\u26A1\uFE0F \u5FEB\u901F\u4E0A\u624B',
     component: f.lazy(() => P(() => import('./quickstart.36ef4d76.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/theme',
+    path: '/react-vant-nova/guide/theme',
     lang: 'en',
     title: '\u{1F3A8} \u4E3B\u9898\u5B9A\u5236',
     component: f.lazy(() => P(() => import('./theme.226a0d0b.js'), [])),
     redirect: !1,
   },
   {
-    path: '/guide/theme',
+    path: '/react-vant-nova/guide/theme',
     lang: 'zh',
     title: '\u{1F3A8} \u4E3B\u9898\u5B9A\u5236',
     component: f.lazy(() => P(() => import('./theme.226a0d0b.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/intro',
+    path: '/react-vant-nova/hooks/intro',
     lang: 'en',
     title: 'React Vant Hooks (Beta)',
     component: f.lazy(() => P(() => import('./intro.abe47240.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/intro',
+    path: '/react-vant-nova/hooks/intro',
     lang: 'zh',
     title: 'React Vant Hooks (Beta)',
     component: f.lazy(() => P(() => import('./intro.abe47240.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-click-away',
+    path: '/react-vant-nova/hooks/use-click-away',
     lang: 'en',
     title: 'useClickAway',
     component: f.lazy(() =>
@@ -19093,7 +19093,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-click-away',
+    path: '/react-vant-nova/hooks/use-click-away',
     lang: 'zh',
     title: 'useClickAway',
     component: f.lazy(() =>
@@ -19102,7 +19102,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-count-down',
+    path: '/react-vant-nova/hooks/use-count-down',
     lang: 'en',
     title: 'useCountDown',
     component: f.lazy(() =>
@@ -19111,7 +19111,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-count-down',
+    path: '/react-vant-nova/hooks/use-count-down',
     lang: 'zh',
     title: 'useCountDown',
     component: f.lazy(() =>
@@ -19120,7 +19120,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-event-listener',
+    path: '/react-vant-nova/hooks/use-event-listener',
     lang: 'en',
     title: 'useEventListener',
     component: f.lazy(() =>
@@ -19129,7 +19129,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-event-listener',
+    path: '/react-vant-nova/hooks/use-event-listener',
     lang: 'zh',
     title: 'useEventListener',
     component: f.lazy(() =>
@@ -19138,7 +19138,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-form-smart',
+    path: '/react-vant-nova/hooks/use-form-smart',
     lang: 'en',
     title: 'useFormSmart',
     component: f.lazy(() =>
@@ -19147,7 +19147,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-form-smart',
+    path: '/react-vant-nova/hooks/use-form-smart',
     lang: 'zh',
     title: 'useFormSmart',
     component: f.lazy(() =>
@@ -19156,7 +19156,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-in-viewport',
+    path: '/react-vant-nova/hooks/use-in-viewport',
     lang: 'en',
     title: 'useInViewport',
     component: f.lazy(() =>
@@ -19165,7 +19165,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-in-viewport',
+    path: '/react-vant-nova/hooks/use-in-viewport',
     lang: 'zh',
     title: 'useInViewport',
     component: f.lazy(() =>
@@ -19174,21 +19174,21 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-mount',
+    path: '/react-vant-nova/hooks/use-mount',
     lang: 'en',
     title: 'useMount',
     component: f.lazy(() => P(() => import('./use-mount.a0e67dfb.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-mount',
+    path: '/react-vant-nova/hooks/use-mount',
     lang: 'zh',
     title: 'useMount',
     component: f.lazy(() => P(() => import('./use-mount.a0e67dfb.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-page-visibility',
+    path: '/react-vant-nova/hooks/use-page-visibility',
     lang: 'en',
     title: 'usePageVisibility',
     component: f.lazy(() =>
@@ -19197,7 +19197,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-page-visibility',
+    path: '/react-vant-nova/hooks/use-page-visibility',
     lang: 'zh',
     title: 'usePageVisibility',
     component: f.lazy(() =>
@@ -19206,7 +19206,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-scroll-parent',
+    path: '/react-vant-nova/hooks/use-scroll-parent',
     lang: 'en',
     title: 'useScrollParent',
     component: f.lazy(() =>
@@ -19215,7 +19215,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-scroll-parent',
+    path: '/react-vant-nova/hooks/use-scroll-parent',
     lang: 'zh',
     title: 'useScrollParent',
     component: f.lazy(() =>
@@ -19224,35 +19224,35 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-set-state',
+    path: '/react-vant-nova/hooks/use-set-state',
     lang: 'en',
     title: 'useSetState',
     component: f.lazy(() => P(() => import('./use-set-state.75b4b312.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-set-state',
+    path: '/react-vant-nova/hooks/use-set-state',
     lang: 'zh',
     title: 'useSetState',
     component: f.lazy(() => P(() => import('./use-set-state.75b4b312.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-touch',
+    path: '/react-vant-nova/hooks/use-touch',
     lang: 'en',
     title: 'useTouch',
     component: f.lazy(() => P(() => import('./use-touch.df8abd77.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-touch',
+    path: '/react-vant-nova/hooks/use-touch',
     lang: 'zh',
     title: 'useTouch',
     component: f.lazy(() => P(() => import('./use-touch.df8abd77.js'), [])),
     redirect: !1,
   },
   {
-    path: '/hooks/use-update-effect',
+    path: '/react-vant-nova/hooks/use-update-effect',
     lang: 'en',
     title: 'useUpdateEffect',
     component: f.lazy(() =>
@@ -19261,7 +19261,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-update-effect',
+    path: '/react-vant-nova/hooks/use-update-effect',
     lang: 'zh',
     title: 'useUpdateEffect',
     component: f.lazy(() =>
@@ -19270,7 +19270,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-window-size',
+    path: '/react-vant-nova/hooks/use-window-size',
     lang: 'en',
     title: 'useWindowSize',
     component: f.lazy(() =>
@@ -19279,7 +19279,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/hooks/use-window-size',
+    path: '/react-vant-nova/hooks/use-window-size',
     lang: 'zh',
     title: 'useWindowSize',
     component: f.lazy(() =>
@@ -19288,7 +19288,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/action-bar',
+    path: '/react-vant-nova/components/action-bar',
     lang: 'en',
     title: 'ActionBar \u52A8\u4F5C\u680F',
     component: f.lazy(() =>
@@ -19305,7 +19305,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/action-bar',
+    path: '/react-vant-nova/components/action-bar',
     lang: 'zh',
     title: 'ActionBar \u52A8\u4F5C\u680F',
     component: f.lazy(() =>
@@ -19322,7 +19322,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/action-sheet',
+    path: '/react-vant-nova/components/action-sheet',
     lang: 'en',
     title: 'ActionSheet \u52A8\u4F5C\u9762\u677F',
     component: f.lazy(() =>
@@ -19338,7 +19338,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/action-sheet',
+    path: '/react-vant-nova/components/action-sheet',
     lang: 'zh',
     title: 'ActionSheet \u52A8\u4F5C\u9762\u677F',
     component: f.lazy(() =>
@@ -19354,7 +19354,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/area',
+    path: '/react-vant-nova/components/area',
     lang: 'en',
     title: 'Area \u7701\u5E02\u533A\u9009\u62E9',
     component: f.lazy(() =>
@@ -19370,7 +19370,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/area',
+    path: '/react-vant-nova/components/area',
     lang: 'zh',
     title: 'Area \u7701\u5E02\u533A\u9009\u62E9',
     component: f.lazy(() =>
@@ -19386,7 +19386,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/badge',
+    path: '/react-vant-nova/components/badge',
     lang: 'en',
     title: 'Badge \u5FBD\u6807',
     component: f.lazy(() =>
@@ -19402,7 +19402,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/badge',
+    path: '/react-vant-nova/components/badge',
     lang: 'zh',
     title: 'Badge \u5FBD\u6807',
     component: f.lazy(() =>
@@ -19418,7 +19418,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/button',
+    path: '/react-vant-nova/components/button',
     lang: 'en',
     title: 'Button \u6309\u94AE',
     component: f.lazy(() =>
@@ -19435,7 +19435,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/button',
+    path: '/react-vant-nova/components/button',
     lang: 'zh',
     title: 'Button \u6309\u94AE',
     component: f.lazy(() =>
@@ -19452,7 +19452,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/calendar',
+    path: '/react-vant-nova/components/calendar',
     lang: 'en',
     title: 'Calendar \u65E5\u5386',
     component: f.lazy(() =>
@@ -19468,7 +19468,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/calendar',
+    path: '/react-vant-nova/components/calendar',
     lang: 'zh',
     title: 'Calendar \u65E5\u5386',
     component: f.lazy(() =>
@@ -19484,7 +19484,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/card',
+    path: '/react-vant-nova/components/card',
     lang: 'en',
     title: 'Card \u5361\u7247',
     component: f.lazy(() =>
@@ -19500,7 +19500,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/card',
+    path: '/react-vant-nova/components/card',
     lang: 'zh',
     title: 'Card \u5361\u7247',
     component: f.lazy(() =>
@@ -19516,7 +19516,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/cascader',
+    path: '/react-vant-nova/components/cascader',
     lang: 'en',
     title: 'Cascader \u7EA7\u8054\u9009\u62E9',
     component: f.lazy(() =>
@@ -19532,7 +19532,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/cascader',
+    path: '/react-vant-nova/components/cascader',
     lang: 'zh',
     title: 'Cascader \u7EA7\u8054\u9009\u62E9',
     component: f.lazy(() =>
@@ -19548,7 +19548,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/cell',
+    path: '/react-vant-nova/components/cell',
     lang: 'en',
     title: 'Cell \u5355\u5143\u683C',
     component: f.lazy(() =>
@@ -19564,7 +19564,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/cell',
+    path: '/react-vant-nova/components/cell',
     lang: 'zh',
     title: 'Cell \u5355\u5143\u683C',
     component: f.lazy(() =>
@@ -19580,7 +19580,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/checkbox',
+    path: '/react-vant-nova/components/checkbox',
     lang: 'en',
     title: 'Checkbox \u590D\u9009\u6846',
     component: f.lazy(() =>
@@ -19597,7 +19597,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/checkbox',
+    path: '/react-vant-nova/components/checkbox',
     lang: 'zh',
     title: 'Checkbox \u590D\u9009\u6846',
     component: f.lazy(() =>
@@ -19614,7 +19614,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/circle',
+    path: '/react-vant-nova/components/circle',
     lang: 'en',
     title: 'Circle \u73AF\u5F62\u8FDB\u5EA6\u6761',
     component: f.lazy(() =>
@@ -19630,7 +19630,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/circle',
+    path: '/react-vant-nova/components/circle',
     lang: 'zh',
     title: 'Circle \u73AF\u5F62\u8FDB\u5EA6\u6761',
     component: f.lazy(() =>
@@ -19646,7 +19646,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/collapse',
+    path: '/react-vant-nova/components/collapse',
     lang: 'en',
     title: 'Collapse \u6298\u53E0\u9762\u677F',
     component: f.lazy(() =>
@@ -19662,7 +19662,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/collapse',
+    path: '/react-vant-nova/components/collapse',
     lang: 'zh',
     title: 'Collapse \u6298\u53E0\u9762\u677F',
     component: f.lazy(() =>
@@ -19678,7 +19678,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/config-provider',
+    path: '/react-vant-nova/components/config-provider',
     lang: 'en',
     title: 'ConfigProvider \u5168\u5C40\u914D\u7F6E',
     component: f.lazy(() =>
@@ -19696,7 +19696,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/config-provider',
+    path: '/react-vant-nova/components/config-provider',
     lang: 'zh',
     title: 'ConfigProvider \u5168\u5C40\u914D\u7F6E',
     component: f.lazy(() =>
@@ -19714,7 +19714,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/count-down',
+    path: '/react-vant-nova/components/count-down',
     lang: 'en',
     title: 'CountDown \u5012\u8BA1\u65F6',
     component: f.lazy(() =>
@@ -19731,7 +19731,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/count-down',
+    path: '/react-vant-nova/components/count-down',
     lang: 'zh',
     title: 'CountDown \u5012\u8BA1\u65F6',
     component: f.lazy(() =>
@@ -19748,7 +19748,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/coupon-list',
+    path: '/react-vant-nova/components/coupon-list',
     lang: 'en',
     title: 'Coupon \u4F18\u60E0\u5238\u9009\u62E9\u5668',
     component: f.lazy(() =>
@@ -19764,7 +19764,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/coupon-list',
+    path: '/react-vant-nova/components/coupon-list',
     lang: 'zh',
     title: 'Coupon \u4F18\u60E0\u5238\u9009\u62E9\u5668',
     component: f.lazy(() =>
@@ -19780,7 +19780,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/datetime-picker',
+    path: '/react-vant-nova/components/datetime-picker',
     lang: 'en',
     title: 'DatetimePicker \u65F6\u95F4\u9009\u62E9',
     component: f.lazy(() =>
@@ -19796,7 +19796,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/datetime-picker',
+    path: '/react-vant-nova/components/datetime-picker',
     lang: 'zh',
     title: 'DatetimePicker \u65F6\u95F4\u9009\u62E9',
     component: f.lazy(() =>
@@ -19812,7 +19812,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/dialog',
+    path: '/react-vant-nova/components/dialog',
     lang: 'en',
     title: 'Dialog \u5F39\u51FA\u6846',
     component: f.lazy(() =>
@@ -19829,7 +19829,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/dialog',
+    path: '/react-vant-nova/components/dialog',
     lang: 'zh',
     title: 'Dialog \u5F39\u51FA\u6846',
     component: f.lazy(() =>
@@ -19846,7 +19846,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/divider',
+    path: '/react-vant-nova/components/divider',
     lang: 'en',
     title: 'Divider \u5206\u5272\u7EBF',
     component: f.lazy(() =>
@@ -19862,7 +19862,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/divider',
+    path: '/react-vant-nova/components/divider',
     lang: 'zh',
     title: 'Divider \u5206\u5272\u7EBF',
     component: f.lazy(() =>
@@ -19878,7 +19878,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/dropdown-menu',
+    path: '/react-vant-nova/components/dropdown-menu',
     lang: 'en',
     title: 'DropdownMenu \u4E0B\u62C9\u83DC\u5355',
     component: f.lazy(() =>
@@ -19894,7 +19894,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/dropdown-menu',
+    path: '/react-vant-nova/components/dropdown-menu',
     lang: 'zh',
     title: 'DropdownMenu \u4E0B\u62C9\u83DC\u5355',
     component: f.lazy(() =>
@@ -19910,7 +19910,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/empty',
+    path: '/react-vant-nova/components/empty',
     lang: 'en',
     title: 'Empty \u7A7A\u72B6\u6001',
     component: f.lazy(() =>
@@ -19926,7 +19926,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/empty',
+    path: '/react-vant-nova/components/empty',
     lang: 'zh',
     title: 'Empty \u7A7A\u72B6\u6001',
     component: f.lazy(() =>
@@ -19942,7 +19942,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/field',
+    path: '/react-vant-nova/components/field',
     lang: 'en',
     title: 'Field \u8868\u5355\u9879',
     component: f.lazy(() =>
@@ -19958,7 +19958,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/field',
+    path: '/react-vant-nova/components/field',
     lang: 'zh',
     title: 'Field \u8868\u5355\u9879',
     component: f.lazy(() =>
@@ -19974,7 +19974,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/flex',
+    path: '/react-vant-nova/components/flex',
     lang: 'en',
     title: 'Flex \u5E03\u5C40',
     component: f.lazy(() =>
@@ -19991,7 +19991,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/flex',
+    path: '/react-vant-nova/components/flex',
     lang: 'zh',
     title: 'Flex \u5E03\u5C40',
     component: f.lazy(() =>
@@ -20008,7 +20008,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/floating-ball',
+    path: '/react-vant-nova/components/floating-ball',
     lang: 'en',
     title: 'FloatingBall \u60AC\u6D6E\u7403',
     component: f.lazy(() =>
@@ -20026,7 +20026,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/floating-ball',
+    path: '/react-vant-nova/components/floating-ball',
     lang: 'zh',
     title: 'FloatingBall \u60AC\u6D6E\u7403',
     component: f.lazy(() =>
@@ -20044,7 +20044,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/floating-panel',
+    path: '/react-vant-nova/components/floating-panel',
     lang: 'en',
     title: 'FloatingPanel \u6D6E\u52A8\u9762\u677F',
     component: f.lazy(() =>
@@ -20060,7 +20060,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/floating-panel',
+    path: '/react-vant-nova/components/floating-panel',
     lang: 'zh',
     title: 'FloatingPanel \u6D6E\u52A8\u9762\u677F',
     component: f.lazy(() =>
@@ -20076,7 +20076,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/form',
+    path: '/react-vant-nova/components/form',
     lang: 'en',
     title: 'Form \u8868\u5355',
     component: f.lazy(() =>
@@ -20093,7 +20093,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/form',
+    path: '/react-vant-nova/components/form',
     lang: 'zh',
     title: 'Form \u8868\u5355',
     component: f.lazy(() =>
@@ -20110,7 +20110,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/grid',
+    path: '/react-vant-nova/components/grid',
     lang: 'en',
     title: 'Grid \u5BAB\u683C',
     component: f.lazy(() =>
@@ -20126,7 +20126,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/grid',
+    path: '/react-vant-nova/components/grid',
     lang: 'zh',
     title: 'Grid \u5BAB\u683C',
     component: f.lazy(() =>
@@ -20142,7 +20142,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/icon',
+    path: '/react-vant-nova/components/icon',
     lang: 'en',
     title: 'Icon \u56FE\u6807',
     component: f.lazy(() =>
@@ -20159,7 +20159,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/icon',
+    path: '/react-vant-nova/components/icon',
     lang: 'zh',
     title: 'Icon \u56FE\u6807',
     component: f.lazy(() =>
@@ -20176,7 +20176,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/image',
+    path: '/react-vant-nova/components/image',
     lang: 'en',
     title: 'Image \u56FE\u7247',
     component: f.lazy(() =>
@@ -20193,7 +20193,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/image',
+    path: '/react-vant-nova/components/image',
     lang: 'zh',
     title: 'Image \u56FE\u7247',
     component: f.lazy(() =>
@@ -20210,7 +20210,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/image-preview',
+    path: '/react-vant-nova/components/image-preview',
     lang: 'en',
     title: 'ImagePreview \u56FE\u7247\u9884\u89C8',
     component: f.lazy(() =>
@@ -20226,7 +20226,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/image-preview',
+    path: '/react-vant-nova/components/image-preview',
     lang: 'zh',
     title: 'ImagePreview \u56FE\u7247\u9884\u89C8',
     component: f.lazy(() =>
@@ -20242,7 +20242,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/index-bar',
+    path: '/react-vant-nova/components/index-bar',
     lang: 'en',
     title: 'IndexBar \u7D22\u5F15\u680F',
     component: f.lazy(() =>
@@ -20258,7 +20258,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/index-bar',
+    path: '/react-vant-nova/components/index-bar',
     lang: 'zh',
     title: 'IndexBar \u7D22\u5F15\u680F',
     component: f.lazy(() =>
@@ -20274,7 +20274,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/input',
+    path: '/react-vant-nova/components/input',
     lang: 'en',
     title: 'Input \u8F93\u5165\u6846',
     component: f.lazy(() =>
@@ -20291,7 +20291,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/input',
+    path: '/react-vant-nova/components/input',
     lang: 'zh',
     title: 'Input \u8F93\u5165\u6846',
     component: f.lazy(() =>
@@ -20308,7 +20308,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/lazyload',
+    path: '/react-vant-nova/components/lazyload',
     lang: 'en',
     title: 'Lazyload \u61D2\u52A0\u8F7D',
     component: f.lazy(() =>
@@ -20325,7 +20325,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/lazyload',
+    path: '/react-vant-nova/components/lazyload',
     lang: 'zh',
     title: 'Lazyload \u61D2\u52A0\u8F7D',
     component: f.lazy(() =>
@@ -20342,7 +20342,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/list',
+    path: '/react-vant-nova/components/list',
     lang: 'en',
     title: 'List \u5217\u8868',
     component: f.lazy(() =>
@@ -20359,7 +20359,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/list',
+    path: '/react-vant-nova/components/list',
     lang: 'zh',
     title: 'List \u5217\u8868',
     component: f.lazy(() =>
@@ -20376,7 +20376,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/loading',
+    path: '/react-vant-nova/components/loading',
     lang: 'en',
     title: 'Loading \u52A0\u8F7D',
     component: f.lazy(() =>
@@ -20392,7 +20392,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/loading',
+    path: '/react-vant-nova/components/loading',
     lang: 'zh',
     title: 'Loading \u52A0\u8F7D',
     component: f.lazy(() =>
@@ -20408,7 +20408,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/nav-bar',
+    path: '/react-vant-nova/components/nav-bar',
     lang: 'en',
     title: 'NavBar \u5BFC\u822A\u680F',
     component: f.lazy(() =>
@@ -20424,7 +20424,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/nav-bar',
+    path: '/react-vant-nova/components/nav-bar',
     lang: 'zh',
     title: 'NavBar \u5BFC\u822A\u680F',
     component: f.lazy(() =>
@@ -20440,7 +20440,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/notice-bar',
+    path: '/react-vant-nova/components/notice-bar',
     lang: 'en',
     title: 'NoticeBar \u901A\u77E5\u680F',
     component: f.lazy(() =>
@@ -20457,7 +20457,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/notice-bar',
+    path: '/react-vant-nova/components/notice-bar',
     lang: 'zh',
     title: 'NoticeBar \u901A\u77E5\u680F',
     component: f.lazy(() =>
@@ -20474,7 +20474,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/notify',
+    path: '/react-vant-nova/components/notify',
     lang: 'en',
     title: 'Notify \u6D88\u606F\u63D0\u793A',
     component: f.lazy(() =>
@@ -20490,7 +20490,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/notify',
+    path: '/react-vant-nova/components/notify',
     lang: 'zh',
     title: 'Notify \u6D88\u606F\u63D0\u793A',
     component: f.lazy(() =>
@@ -20506,7 +20506,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/number-keyboard',
+    path: '/react-vant-nova/components/number-keyboard',
     lang: 'en',
     title: 'NumberKeyboard \u6570\u5B57\u952E\u76D8',
     component: f.lazy(() =>
@@ -20523,7 +20523,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/number-keyboard',
+    path: '/react-vant-nova/components/number-keyboard',
     lang: 'zh',
     title: 'NumberKeyboard \u6570\u5B57\u952E\u76D8',
     component: f.lazy(() =>
@@ -20540,7 +20540,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/overlay',
+    path: '/react-vant-nova/components/overlay',
     lang: 'en',
     title: 'Overlay \u906E\u7F69\u5C42',
     component: f.lazy(() =>
@@ -20556,7 +20556,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/overlay',
+    path: '/react-vant-nova/components/overlay',
     lang: 'zh',
     title: 'Overlay \u906E\u7F69\u5C42',
     component: f.lazy(() =>
@@ -20572,7 +20572,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/pagination',
+    path: '/react-vant-nova/components/pagination',
     lang: 'en',
     title: 'Pagination \u5206\u9875',
     component: f.lazy(() =>
@@ -20588,7 +20588,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/pagination',
+    path: '/react-vant-nova/components/pagination',
     lang: 'zh',
     title: 'Pagination \u5206\u9875',
     component: f.lazy(() =>
@@ -20604,7 +20604,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/password-input',
+    path: '/react-vant-nova/components/password-input',
     lang: 'en',
     title: 'PasswordInput \u5BC6\u7801\u8F93\u5165\u6846',
     component: f.lazy(() =>
@@ -20620,7 +20620,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/password-input',
+    path: '/react-vant-nova/components/password-input',
     lang: 'zh',
     title: 'PasswordInput \u5BC6\u7801\u8F93\u5165\u6846',
     component: f.lazy(() =>
@@ -20636,7 +20636,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/picker',
+    path: '/react-vant-nova/components/picker',
     lang: 'en',
     title: 'Picker \u9009\u62E9\u5668',
     component: f.lazy(() =>
@@ -20652,7 +20652,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/picker',
+    path: '/react-vant-nova/components/picker',
     lang: 'zh',
     title: 'Picker \u9009\u62E9\u5668',
     component: f.lazy(() =>
@@ -20668,7 +20668,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/popover',
+    path: '/react-vant-nova/components/popover',
     lang: 'en',
     title: 'Popover \u6C14\u6CE1\u5F39\u51FA\u6846',
     component: f.lazy(() =>
@@ -20684,7 +20684,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/popover',
+    path: '/react-vant-nova/components/popover',
     lang: 'zh',
     title: 'Popover \u6C14\u6CE1\u5F39\u51FA\u6846',
     component: f.lazy(() =>
@@ -20700,7 +20700,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/popup',
+    path: '/react-vant-nova/components/popup',
     lang: 'en',
     title: 'Popup \u5F39\u51FA\u5C42',
     component: f.lazy(() =>
@@ -20717,7 +20717,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/popup',
+    path: '/react-vant-nova/components/popup',
     lang: 'zh',
     title: 'Popup \u5F39\u51FA\u5C42',
     component: f.lazy(() =>
@@ -20734,7 +20734,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/product-card',
+    path: '/react-vant-nova/components/product-card',
     lang: 'en',
     title: 'ProductCard \u5546\u54C1\u5361\u7247',
     component: f.lazy(() =>
@@ -20750,7 +20750,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/product-card',
+    path: '/react-vant-nova/components/product-card',
     lang: 'zh',
     title: 'ProductCard \u5546\u54C1\u5361\u7247',
     component: f.lazy(() =>
@@ -20766,7 +20766,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/progress',
+    path: '/react-vant-nova/components/progress',
     lang: 'en',
     title: 'Progress \u8FDB\u5EA6\u6761',
     component: f.lazy(() =>
@@ -20782,7 +20782,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/progress',
+    path: '/react-vant-nova/components/progress',
     lang: 'zh',
     title: 'Progress \u8FDB\u5EA6\u6761',
     component: f.lazy(() =>
@@ -20798,7 +20798,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/pull-refresh',
+    path: '/react-vant-nova/components/pull-refresh',
     lang: 'en',
     title: 'PullRefresh \u4E0B\u62C9\u5237\u65B0',
     component: f.lazy(() =>
@@ -20815,7 +20815,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/pull-refresh',
+    path: '/react-vant-nova/components/pull-refresh',
     lang: 'zh',
     title: 'PullRefresh \u4E0B\u62C9\u5237\u65B0',
     component: f.lazy(() =>
@@ -20832,7 +20832,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/radio',
+    path: '/react-vant-nova/components/radio',
     lang: 'en',
     title: 'Radio \u5355\u9009\u6846',
     component: f.lazy(() =>
@@ -20848,7 +20848,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/radio',
+    path: '/react-vant-nova/components/radio',
     lang: 'zh',
     title: 'Radio \u5355\u9009\u6846',
     component: f.lazy(() =>
@@ -20864,7 +20864,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/rate',
+    path: '/react-vant-nova/components/rate',
     lang: 'en',
     title: 'Rate \u8BC4\u5206',
     component: f.lazy(() =>
@@ -20880,7 +20880,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/rate',
+    path: '/react-vant-nova/components/rate',
     lang: 'zh',
     title: 'Rate \u8BC4\u5206',
     component: f.lazy(() =>
@@ -20896,7 +20896,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/search',
+    path: '/react-vant-nova/components/search',
     lang: 'en',
     title: 'Search \u641C\u7D22',
     component: f.lazy(() =>
@@ -20912,7 +20912,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/search',
+    path: '/react-vant-nova/components/search',
     lang: 'zh',
     title: 'Search \u641C\u7D22',
     component: f.lazy(() =>
@@ -20928,7 +20928,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/selector',
+    path: '/react-vant-nova/components/selector',
     lang: 'en',
     title: 'Selector \u9009\u62E9\u7EC4',
     component: f.lazy(() =>
@@ -20944,7 +20944,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/selector',
+    path: '/react-vant-nova/components/selector',
     lang: 'zh',
     title: 'Selector \u9009\u62E9\u7EC4',
     component: f.lazy(() =>
@@ -20960,7 +20960,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/share-sheet',
+    path: '/react-vant-nova/components/share-sheet',
     lang: 'en',
     title: 'ShareSheet \u5206\u4EAB\u9762\u677F',
     component: f.lazy(() =>
@@ -20976,7 +20976,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/share-sheet',
+    path: '/react-vant-nova/components/share-sheet',
     lang: 'zh',
     title: 'ShareSheet \u5206\u4EAB\u9762\u677F',
     component: f.lazy(() =>
@@ -20992,7 +20992,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/sidebar',
+    path: '/react-vant-nova/components/sidebar',
     lang: 'en',
     title: 'Sidebar \u4FA7\u8FB9\u5BFC\u822A',
     component: f.lazy(() =>
@@ -21008,7 +21008,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/sidebar',
+    path: '/react-vant-nova/components/sidebar',
     lang: 'zh',
     title: 'Sidebar \u4FA7\u8FB9\u5BFC\u822A',
     component: f.lazy(() =>
@@ -21024,7 +21024,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/skeleton',
+    path: '/react-vant-nova/components/skeleton',
     lang: 'en',
     title: 'Skeleton \u9AA8\u67B6\u5C4F',
     component: f.lazy(() =>
@@ -21041,7 +21041,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/skeleton',
+    path: '/react-vant-nova/components/skeleton',
     lang: 'zh',
     title: 'Skeleton \u9AA8\u67B6\u5C4F',
     component: f.lazy(() =>
@@ -21058,7 +21058,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/sku',
+    path: '/react-vant-nova/components/sku',
     lang: 'en',
     title: 'Sku \u5546\u54C1\u89C4\u683C',
     component: f.lazy(() =>
@@ -21074,7 +21074,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/sku',
+    path: '/react-vant-nova/components/sku',
     lang: 'zh',
     title: 'Sku \u5546\u54C1\u89C4\u683C',
     component: f.lazy(() =>
@@ -21090,7 +21090,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/slider',
+    path: '/react-vant-nova/components/slider',
     lang: 'en',
     title: 'Slider \u6ED1\u5757',
     component: f.lazy(() =>
@@ -21107,7 +21107,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/slider',
+    path: '/react-vant-nova/components/slider',
     lang: 'zh',
     title: 'Slider \u6ED1\u5757',
     component: f.lazy(() =>
@@ -21124,7 +21124,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/space',
+    path: '/react-vant-nova/components/space',
     lang: 'en',
     title: 'Space \u95F4\u8DDD',
     component: f.lazy(() =>
@@ -21140,7 +21140,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/space',
+    path: '/react-vant-nova/components/space',
     lang: 'zh',
     title: 'Space \u95F4\u8DDD',
     component: f.lazy(() =>
@@ -21156,7 +21156,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/stepper',
+    path: '/react-vant-nova/components/stepper',
     lang: 'en',
     title: 'Stepper \u6B65\u8FDB\u5668',
     component: f.lazy(() =>
@@ -21172,7 +21172,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/stepper',
+    path: '/react-vant-nova/components/stepper',
     lang: 'zh',
     title: 'Stepper \u6B65\u8FDB\u5668',
     component: f.lazy(() =>
@@ -21188,7 +21188,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/steps',
+    path: '/react-vant-nova/components/steps',
     lang: 'en',
     title: 'Steps \u6B65\u9AA4\u6761',
     component: f.lazy(() =>
@@ -21204,7 +21204,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/steps',
+    path: '/react-vant-nova/components/steps',
     lang: 'zh',
     title: 'Steps \u6B65\u9AA4\u6761',
     component: f.lazy(() =>
@@ -21220,7 +21220,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/sticky',
+    path: '/react-vant-nova/components/sticky',
     lang: 'en',
     title: 'Sticky \u7C98\u6027\u5E03\u5C40',
     component: f.lazy(() =>
@@ -21237,7 +21237,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/sticky',
+    path: '/react-vant-nova/components/sticky',
     lang: 'zh',
     title: 'Sticky \u7C98\u6027\u5E03\u5C40',
     component: f.lazy(() =>
@@ -21254,7 +21254,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/styles',
+    path: '/react-vant-nova/components/styles',
     lang: 'en',
     title: 'Style \u5185\u7F6E\u6837\u5F0F',
     component: f.lazy(() =>
@@ -21271,7 +21271,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/styles',
+    path: '/react-vant-nova/components/styles',
     lang: 'zh',
     title: 'Style \u5185\u7F6E\u6837\u5F0F',
     component: f.lazy(() =>
@@ -21288,7 +21288,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/submit-bar',
+    path: '/react-vant-nova/components/submit-bar',
     lang: 'en',
     title: 'SubmitBar \u63D0\u4EA4\u8BA2\u5355\u680F',
     component: f.lazy(() =>
@@ -21305,7 +21305,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/submit-bar',
+    path: '/react-vant-nova/components/submit-bar',
     lang: 'zh',
     title: 'SubmitBar \u63D0\u4EA4\u8BA2\u5355\u680F',
     component: f.lazy(() =>
@@ -21322,7 +21322,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/swipe-cell',
+    path: '/react-vant-nova/components/swipe-cell',
     lang: 'en',
     title: 'SwipeCell \u6ED1\u52A8\u5355\u5143\u683C',
     component: f.lazy(() =>
@@ -21339,7 +21339,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/swipe-cell',
+    path: '/react-vant-nova/components/swipe-cell',
     lang: 'zh',
     title: 'SwipeCell \u6ED1\u52A8\u5355\u5143\u683C',
     component: f.lazy(() =>
@@ -21356,7 +21356,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/swiper',
+    path: '/react-vant-nova/components/swiper',
     lang: 'en',
     title: 'Swiper \u8F6E\u64AD',
     component: f.lazy(() =>
@@ -21373,7 +21373,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/swiper',
+    path: '/react-vant-nova/components/swiper',
     lang: 'zh',
     title: 'Swiper \u8F6E\u64AD',
     component: f.lazy(() =>
@@ -21390,7 +21390,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/switch',
+    path: '/react-vant-nova/components/switch',
     lang: 'en',
     title: 'Switch \u5F00\u5173',
     component: f.lazy(() =>
@@ -21406,7 +21406,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/switch',
+    path: '/react-vant-nova/components/switch',
     lang: 'zh',
     title: 'Switch \u5F00\u5173',
     component: f.lazy(() =>
@@ -21422,7 +21422,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/tabbar',
+    path: '/react-vant-nova/components/tabbar',
     lang: 'en',
     title: 'Tabbar \u6807\u7B7E\u680F',
     component: f.lazy(() =>
@@ -21439,7 +21439,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/tabbar',
+    path: '/react-vant-nova/components/tabbar',
     lang: 'zh',
     title: 'Tabbar \u6807\u7B7E\u680F',
     component: f.lazy(() =>
@@ -21456,7 +21456,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/tabs',
+    path: '/react-vant-nova/components/tabs',
     lang: 'en',
     title: 'Tabs \u6807\u7B7E\u9875',
     component: f.lazy(() =>
@@ -21473,7 +21473,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/tabs',
+    path: '/react-vant-nova/components/tabs',
     lang: 'zh',
     title: 'Tabs \u6807\u7B7E\u9875',
     component: f.lazy(() =>
@@ -21490,7 +21490,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/tag',
+    path: '/react-vant-nova/components/tag',
     lang: 'en',
     title: 'Tag \u6807\u7B7E',
     component: f.lazy(() =>
@@ -21506,7 +21506,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/tag',
+    path: '/react-vant-nova/components/tag',
     lang: 'zh',
     title: 'Tag \u6807\u7B7E',
     component: f.lazy(() =>
@@ -21522,7 +21522,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/toast',
+    path: '/react-vant-nova/components/toast',
     lang: 'en',
     title: 'Toast \u8F7B\u63D0\u793A',
     component: f.lazy(() =>
@@ -21538,7 +21538,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/toast',
+    path: '/react-vant-nova/components/toast',
     lang: 'zh',
     title: 'Toast \u8F7B\u63D0\u793A',
     component: f.lazy(() =>
@@ -21554,7 +21554,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/typography',
+    path: '/react-vant-nova/components/typography',
     lang: 'en',
     title: 'Typography \u6587\u672C',
     component: f.lazy(() =>
@@ -21571,7 +21571,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/typography',
+    path: '/react-vant-nova/components/typography',
     lang: 'zh',
     title: 'Typography \u6587\u672C',
     component: f.lazy(() =>
@@ -21588,7 +21588,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/uploader',
+    path: '/react-vant-nova/components/uploader',
     lang: 'en',
     title: 'Uploader \u6587\u4EF6\u4E0A\u4F20',
     component: f.lazy(() =>
@@ -21605,7 +21605,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/uploader',
+    path: '/react-vant-nova/components/uploader',
     lang: 'zh',
     title: 'Uploader \u6587\u4EF6\u4E0A\u4F20',
     component: f.lazy(() =>
@@ -21622,7 +21622,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/water-mark',
+    path: '/react-vant-nova/components/water-mark',
     lang: 'en',
     title: 'WaterMark \u6C34\u5370',
     component: f.lazy(() =>
@@ -21639,7 +21639,7 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/components/water-mark',
+    path: '/react-vant-nova/components/water-mark',
     lang: 'zh',
     title: 'WaterMark \u6C34\u5370',
     component: f.lazy(() =>
@@ -21656,42 +21656,42 @@ var ci = [
     redirect: !1,
   },
   {
-    path: '/guide',
+    path: '/react-vant-nova/guide',
     lang: 'undefined',
     title: 'undefined',
     component: void 0,
     redirect: '/guide/about',
   },
   {
-    path: '/hooks',
+    path: '/react-vant-nova/hooks',
     lang: 'undefined',
     title: 'undefined',
     component: void 0,
     redirect: '/hooks/intro',
   },
   {
-    path: '/components',
+    path: '/react-vant-nova/components',
     lang: 'undefined',
     title: 'undefined',
     component: void 0,
     redirect: '/components/action-bar',
   },
   {
-    path: '/en/guide',
+    path: '/react-vant-nova/en/guide',
     lang: 'undefined',
     title: 'undefined',
     component: void 0,
     redirect: '/en/guide/about',
   },
   {
-    path: '/en/hooks',
+    path: '/react-vant-nova/en/hooks',
     lang: 'undefined',
     title: 'undefined',
     component: void 0,
     redirect: '/en/hooks/intro',
   },
   {
-    path: '/en/components',
+    path: '/react-vant-nova/en/components',
     lang: 'undefined',
     title: 'undefined',
     component: void 0,
@@ -25138,8 +25138,8 @@ const dE = [
     favicon: '/react-vant-nova/favicon.png',
     github: 'https://github.com/3lang3/react-vant',
     versions: [
-      { title: 'v1', path: 'https://react-vant-v1.3lang.dev' },
-      { title: 'v2 alpha', path: 'https://react-vant-v2.surge.sh' },
+      { title: 'v1', path: '/react-vant-novahttps://react-vant-v1.3lang.dev' },
+      { title: 'v2 alpha', path: '/react-vant-novahttps://react-vant-v2.surge.sh' },
     ],
     themeConfig: {
       simulator: {
@@ -25170,20 +25170,20 @@ const dE = [
   EE = '/logo.svg',
   _E = {
     zh: [
-      { title: '\u9996\u9875', path: '/react-vant-nova', index: !0 },
-      { title: '\u6587\u6863', path: '/react-vant-nova/guide' },
-      { title: '\u7EC4\u4EF6', path: '/react-vant-nova/components' },
-      { title: 'Hooks', path: '/react-vant-nova/hooks' },
-      { title: 'Vant', path: 'https://github.com/youzan/vant' },
-      { title: 'Taroify', path: 'https://github.com/mallfoundry/taroify' },
+      { title: '\u9996\u9875', path: '/react-vant-nova/react-vant-nova', index: !0 },
+      { title: '\u6587\u6863', path: '/react-vant-nova/react-vant-nova/guide' },
+      { title: '\u7EC4\u4EF6', path: '/react-vant-nova/react-vant-nova/components' },
+      { title: 'Hooks', path: '/react-vant-nova/react-vant-nova/hooks' },
+      { title: 'Vant', path: '/react-vant-novahttps://github.com/youzan/vant' },
+      { title: 'Taroify', path: '/react-vant-novahttps://github.com/mallfoundry/taroify' },
     ],
     en: [
-      { title: 'Home', path: '/react-vant-nova/en', index: !0 },
-      { title: 'Guide', path: '/react-vant-nova/en/guide' },
-      { title: 'Components', path: '/react-vant-nova/en/components' },
-      { title: 'Hooks', path: '/react-vant-nova/en/hooks' },
-      { title: 'Vant', path: 'https://github.com/ant-design/ant-design' },
-      { title: 'Taroify', path: 'https://github.com/mallfoundry/taroify' },
+      { title: 'Home', path: '/react-vant-nova/react-vant-nova/en', index: !0 },
+      { title: 'Guide', path: '/react-vant-nova/react-vant-nova/en/guide' },
+      { title: 'Components', path: '/react-vant-nova/react-vant-nova/en/components' },
+      { title: 'Hooks', path: '/react-vant-nova/react-vant-nova/en/hooks' },
+      { title: 'Vant', path: '/react-vant-novahttps://github.com/ant-design/ant-design' },
+      { title: 'Taroify', path: '/react-vant-novahttps://github.com/mallfoundry/taroify' },
     ],
   },
   wE = {
@@ -25342,20 +25342,20 @@ var wm = {
       {
         lang: 'zh',
         title: 'README',
-        path: '/',
-        langPath: '/',
+        path: '/react-vant-nova/',
+        langpath: '/react-vant-nova/',
         isLink: !0,
         filePath:
           '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/README.md',
       },
       {
-        path: '/guide',
+        path: '/react-vant-nova/guide',
         children: [
           {
             lang: 'zh',
             title: '\u{1F481} \u4ECB\u7ECD',
-            path: '/guide/about',
-            langPath: '/guide/about',
+            path: '/react-vant-nova/guide/about',
+            langpath: '/react-vant-nova/guide/about',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/about.md',
@@ -25363,8 +25363,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u8FDB\u9636\u7528\u6CD5',
-            path: '/guide/advanced-usage',
-            langPath: '/guide/advanced-usage',
+            path: '/react-vant-nova/guide/advanced-usage',
+            langpath: '/react-vant-nova/guide/advanced-usage',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/advanced-usage.md',
@@ -25372,8 +25372,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u66F4\u65B0\u65E5\u5FD7',
-            path: '/guide/changelog',
-            langPath: '/guide/changelog',
+            path: '/react-vant-nova/guide/changelog',
+            langpath: '/react-vant-nova/guide/changelog',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/changelog.md',
@@ -25381,8 +25381,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u5F00\u53D1\u6307\u5357',
-            path: '/guide/contribution',
-            langPath: '/guide/contribution',
+            path: '/react-vant-nova/guide/contribution',
+            langpath: '/react-vant-nova/guide/contribution',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/contribution.md',
@@ -25390,8 +25390,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u6D4F\u89C8\u5668\u9002\u914D',
-            path: '/guide/hd',
-            langPath: '/guide/hd',
+            path: '/react-vant-nova/guide/hd',
+            langpath: '/react-vant-nova/guide/hd',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/hd.md',
@@ -25399,8 +25399,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u56FD\u9645\u5316',
-            path: '/guide/i-18-n',
-            langPath: '/guide/i-18-n',
+            path: '/react-vant-nova/guide/i-18-n',
+            langpath: '/react-vant-nova/guide/i-18-n',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/i18n.md',
@@ -25408,8 +25408,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u{1F680} \u5347\u7EA7\u5230 v3',
-            path: '/guide/migrate',
-            langPath: '/guide/migrate',
+            path: '/react-vant-nova/guide/migrate',
+            langpath: '/react-vant-nova/guide/migrate',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/migrate.md',
@@ -25417,8 +25417,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u26A1\uFE0F \u5FEB\u901F\u4E0A\u624B',
-            path: '/guide/quickstart',
-            langPath: '/guide/quickstart',
+            path: '/react-vant-nova/guide/quickstart',
+            langpath: '/react-vant-nova/guide/quickstart',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/quickstart.md',
@@ -25426,8 +25426,8 @@ var wm = {
           {
             lang: 'zh',
             title: '\u{1F3A8} \u4E3B\u9898\u5B9A\u5236',
-            path: '/guide/theme',
-            langPath: '/guide/theme',
+            path: '/react-vant-nova/guide/theme',
+            langpath: '/react-vant-nova/guide/theme',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/theme.md',
@@ -25435,13 +25435,13 @@ var wm = {
         ],
       },
       {
-        path: '/hooks',
+        path: '/react-vant-nova/hooks',
         children: [
           {
             lang: 'zh',
             title: 'React Vant Hooks (Beta)',
-            path: '/hooks/intro',
-            langPath: '/hooks/intro',
+            path: '/react-vant-nova/hooks/intro',
+            langpath: '/react-vant-nova/hooks/intro',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/intro.md',
@@ -25449,8 +25449,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useClickAway',
-            path: '/hooks/use-click-away',
-            langPath: '/hooks/use-click-away',
+            path: '/react-vant-nova/hooks/use-click-away',
+            langpath: '/react-vant-nova/hooks/use-click-away',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-click-away.md',
@@ -25458,8 +25458,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useCountDown',
-            path: '/hooks/use-count-down',
-            langPath: '/hooks/use-count-down',
+            path: '/react-vant-nova/hooks/use-count-down',
+            langpath: '/react-vant-nova/hooks/use-count-down',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-count-down.md',
@@ -25467,8 +25467,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useEventListener',
-            path: '/hooks/use-event-listener',
-            langPath: '/hooks/use-event-listener',
+            path: '/react-vant-nova/hooks/use-event-listener',
+            langpath: '/react-vant-nova/hooks/use-event-listener',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-event-listener.md',
@@ -25476,8 +25476,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useFormSmart',
-            path: '/hooks/use-form-smart',
-            langPath: '/hooks/use-form-smart',
+            path: '/react-vant-nova/hooks/use-form-smart',
+            langpath: '/react-vant-nova/hooks/use-form-smart',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-form-smart.md',
@@ -25485,8 +25485,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useInViewport',
-            path: '/hooks/use-in-viewport',
-            langPath: '/hooks/use-in-viewport',
+            path: '/react-vant-nova/hooks/use-in-viewport',
+            langpath: '/react-vant-nova/hooks/use-in-viewport',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-in-viewport.md',
@@ -25494,8 +25494,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useMount',
-            path: '/hooks/use-mount',
-            langPath: '/hooks/use-mount',
+            path: '/react-vant-nova/hooks/use-mount',
+            langpath: '/react-vant-nova/hooks/use-mount',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-mount.md',
@@ -25503,8 +25503,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'usePageVisibility',
-            path: '/hooks/use-page-visibility',
-            langPath: '/hooks/use-page-visibility',
+            path: '/react-vant-nova/hooks/use-page-visibility',
+            langpath: '/react-vant-nova/hooks/use-page-visibility',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-page-visibility.md',
@@ -25512,8 +25512,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useScrollParent',
-            path: '/hooks/use-scroll-parent',
-            langPath: '/hooks/use-scroll-parent',
+            path: '/react-vant-nova/hooks/use-scroll-parent',
+            langpath: '/react-vant-nova/hooks/use-scroll-parent',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-scroll-parent.md',
@@ -25521,8 +25521,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useSetState',
-            path: '/hooks/use-set-state',
-            langPath: '/hooks/use-set-state',
+            path: '/react-vant-nova/hooks/use-set-state',
+            langpath: '/react-vant-nova/hooks/use-set-state',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-set-state.md',
@@ -25530,8 +25530,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useTouch',
-            path: '/hooks/use-touch',
-            langPath: '/hooks/use-touch',
+            path: '/react-vant-nova/hooks/use-touch',
+            langpath: '/react-vant-nova/hooks/use-touch',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-touch.md',
@@ -25539,8 +25539,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useUpdateEffect',
-            path: '/hooks/use-update-effect',
-            langPath: '/hooks/use-update-effect',
+            path: '/react-vant-nova/hooks/use-update-effect',
+            langpath: '/react-vant-nova/hooks/use-update-effect',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-update-effect.md',
@@ -25548,8 +25548,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'useWindowSize',
-            path: '/hooks/use-window-size',
-            langPath: '/hooks/use-window-size',
+            path: '/react-vant-nova/hooks/use-window-size',
+            langpath: '/react-vant-nova/hooks/use-window-size',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-window-size.md',
@@ -25557,13 +25557,13 @@ var wm = {
         ],
       },
       {
-        path: '/components',
+        path: '/react-vant-nova/components',
         children: [
           {
             lang: 'zh',
             title: 'ActionBar \u52A8\u4F5C\u680F',
-            path: '/components/action-bar',
-            langPath: '/components/action-bar',
+            path: '/react-vant-nova/components/action-bar',
+            langpath: '/react-vant-nova/components/action-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/action-bar/README.md',
@@ -25571,8 +25571,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'ActionSheet \u52A8\u4F5C\u9762\u677F',
-            path: '/components/action-sheet',
-            langPath: '/components/action-sheet',
+            path: '/react-vant-nova/components/action-sheet',
+            langpath: '/react-vant-nova/components/action-sheet',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/action-sheet/README.md',
@@ -25580,8 +25580,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Area \u7701\u5E02\u533A\u9009\u62E9',
-            path: '/components/area',
-            langPath: '/components/area',
+            path: '/react-vant-nova/components/area',
+            langpath: '/react-vant-nova/components/area',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/area/README.md',
@@ -25589,8 +25589,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Badge \u5FBD\u6807',
-            path: '/components/badge',
-            langPath: '/components/badge',
+            path: '/react-vant-nova/components/badge',
+            langpath: '/react-vant-nova/components/badge',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/badge/README.md',
@@ -25598,8 +25598,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Button \u6309\u94AE',
-            path: '/components/button',
-            langPath: '/components/button',
+            path: '/react-vant-nova/components/button',
+            langpath: '/react-vant-nova/components/button',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/button/README.md',
@@ -25607,8 +25607,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Calendar \u65E5\u5386',
-            path: '/components/calendar',
-            langPath: '/components/calendar',
+            path: '/react-vant-nova/components/calendar',
+            langpath: '/react-vant-nova/components/calendar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/calendar/README.md',
@@ -25616,8 +25616,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Card \u5361\u7247',
-            path: '/components/card',
-            langPath: '/components/card',
+            path: '/react-vant-nova/components/card',
+            langpath: '/react-vant-nova/components/card',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/card/README.md',
@@ -25625,8 +25625,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Cascader \u7EA7\u8054\u9009\u62E9',
-            path: '/components/cascader',
-            langPath: '/components/cascader',
+            path: '/react-vant-nova/components/cascader',
+            langpath: '/react-vant-nova/components/cascader',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/cascader/README.md',
@@ -25634,8 +25634,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Cell \u5355\u5143\u683C',
-            path: '/components/cell',
-            langPath: '/components/cell',
+            path: '/react-vant-nova/components/cell',
+            langpath: '/react-vant-nova/components/cell',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/cell/README.md',
@@ -25643,8 +25643,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Checkbox \u590D\u9009\u6846',
-            path: '/components/checkbox',
-            langPath: '/components/checkbox',
+            path: '/react-vant-nova/components/checkbox',
+            langpath: '/react-vant-nova/components/checkbox',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/checkbox/README.md',
@@ -25652,8 +25652,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Circle \u73AF\u5F62\u8FDB\u5EA6\u6761',
-            path: '/components/circle',
-            langPath: '/components/circle',
+            path: '/react-vant-nova/components/circle',
+            langpath: '/react-vant-nova/components/circle',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/circle/README.md',
@@ -25661,8 +25661,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Collapse \u6298\u53E0\u9762\u677F',
-            path: '/components/collapse',
-            langPath: '/components/collapse',
+            path: '/react-vant-nova/components/collapse',
+            langpath: '/react-vant-nova/components/collapse',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/collapse/README.md',
@@ -25670,8 +25670,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'ConfigProvider \u5168\u5C40\u914D\u7F6E',
-            path: '/components/config-provider',
-            langPath: '/components/config-provider',
+            path: '/react-vant-nova/components/config-provider',
+            langpath: '/react-vant-nova/components/config-provider',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/config-provider/README.md',
@@ -25679,8 +25679,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'CountDown \u5012\u8BA1\u65F6',
-            path: '/components/count-down',
-            langPath: '/components/count-down',
+            path: '/react-vant-nova/components/count-down',
+            langpath: '/react-vant-nova/components/count-down',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/count-down/README.md',
@@ -25688,8 +25688,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Coupon \u4F18\u60E0\u5238\u9009\u62E9\u5668',
-            path: '/components/coupon-list',
-            langPath: '/components/coupon-list',
+            path: '/react-vant-nova/components/coupon-list',
+            langpath: '/react-vant-nova/components/coupon-list',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/coupon-list/README.md',
@@ -25697,8 +25697,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'DatetimePicker \u65F6\u95F4\u9009\u62E9',
-            path: '/components/datetime-picker',
-            langPath: '/components/datetime-picker',
+            path: '/react-vant-nova/components/datetime-picker',
+            langpath: '/react-vant-nova/components/datetime-picker',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/datetime-picker/README.md',
@@ -25706,8 +25706,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Dialog \u5F39\u51FA\u6846',
-            path: '/components/dialog',
-            langPath: '/components/dialog',
+            path: '/react-vant-nova/components/dialog',
+            langpath: '/react-vant-nova/components/dialog',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/dialog/README.md',
@@ -25715,8 +25715,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Divider \u5206\u5272\u7EBF',
-            path: '/components/divider',
-            langPath: '/components/divider',
+            path: '/react-vant-nova/components/divider',
+            langpath: '/react-vant-nova/components/divider',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/divider/README.md',
@@ -25724,8 +25724,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'DropdownMenu \u4E0B\u62C9\u83DC\u5355',
-            path: '/components/dropdown-menu',
-            langPath: '/components/dropdown-menu',
+            path: '/react-vant-nova/components/dropdown-menu',
+            langpath: '/react-vant-nova/components/dropdown-menu',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/dropdown-menu/README.md',
@@ -25733,8 +25733,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Empty \u7A7A\u72B6\u6001',
-            path: '/components/empty',
-            langPath: '/components/empty',
+            path: '/react-vant-nova/components/empty',
+            langpath: '/react-vant-nova/components/empty',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/empty/README.md',
@@ -25742,8 +25742,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Field \u8868\u5355\u9879',
-            path: '/components/field',
-            langPath: '/components/field',
+            path: '/react-vant-nova/components/field',
+            langpath: '/react-vant-nova/components/field',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/field/README.md',
@@ -25751,8 +25751,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Flex \u5E03\u5C40',
-            path: '/components/flex',
-            langPath: '/components/flex',
+            path: '/react-vant-nova/components/flex',
+            langpath: '/react-vant-nova/components/flex',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/flex/README.md',
@@ -25760,8 +25760,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'FloatingBall \u60AC\u6D6E\u7403',
-            path: '/components/floating-ball',
-            langPath: '/components/floating-ball',
+            path: '/react-vant-nova/components/floating-ball',
+            langpath: '/react-vant-nova/components/floating-ball',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/floating-ball/README.md',
@@ -25769,8 +25769,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'FloatingPanel \u6D6E\u52A8\u9762\u677F',
-            path: '/components/floating-panel',
-            langPath: '/components/floating-panel',
+            path: '/react-vant-nova/components/floating-panel',
+            langpath: '/react-vant-nova/components/floating-panel',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/floating-panel/README.md',
@@ -25778,8 +25778,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Form \u8868\u5355',
-            path: '/components/form',
-            langPath: '/components/form',
+            path: '/react-vant-nova/components/form',
+            langpath: '/react-vant-nova/components/form',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/form/README.md',
@@ -25787,8 +25787,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Grid \u5BAB\u683C',
-            path: '/components/grid',
-            langPath: '/components/grid',
+            path: '/react-vant-nova/components/grid',
+            langpath: '/react-vant-nova/components/grid',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/grid/README.md',
@@ -25796,8 +25796,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Icon \u56FE\u6807',
-            path: '/components/icon',
-            langPath: '/components/icon',
+            path: '/react-vant-nova/components/icon',
+            langpath: '/react-vant-nova/components/icon',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/icon/README.md',
@@ -25805,8 +25805,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Image \u56FE\u7247',
-            path: '/components/image',
-            langPath: '/components/image',
+            path: '/react-vant-nova/components/image',
+            langpath: '/react-vant-nova/components/image',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/image/README.md',
@@ -25814,8 +25814,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'ImagePreview \u56FE\u7247\u9884\u89C8',
-            path: '/components/image-preview',
-            langPath: '/components/image-preview',
+            path: '/react-vant-nova/components/image-preview',
+            langpath: '/react-vant-nova/components/image-preview',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/image-preview/README.md',
@@ -25823,8 +25823,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'IndexBar \u7D22\u5F15\u680F',
-            path: '/components/index-bar',
-            langPath: '/components/index-bar',
+            path: '/react-vant-nova/components/index-bar',
+            langpath: '/react-vant-nova/components/index-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/index-bar/README.md',
@@ -25832,8 +25832,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Input \u8F93\u5165\u6846',
-            path: '/components/input',
-            langPath: '/components/input',
+            path: '/react-vant-nova/components/input',
+            langpath: '/react-vant-nova/components/input',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/input/README.md',
@@ -25841,8 +25841,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Lazyload \u61D2\u52A0\u8F7D',
-            path: '/components/lazyload',
-            langPath: '/components/lazyload',
+            path: '/react-vant-nova/components/lazyload',
+            langpath: '/react-vant-nova/components/lazyload',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/lazyload/README.md',
@@ -25850,8 +25850,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'List \u5217\u8868',
-            path: '/components/list',
-            langPath: '/components/list',
+            path: '/react-vant-nova/components/list',
+            langpath: '/react-vant-nova/components/list',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/list/README.md',
@@ -25859,8 +25859,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Loading \u52A0\u8F7D',
-            path: '/components/loading',
-            langPath: '/components/loading',
+            path: '/react-vant-nova/components/loading',
+            langpath: '/react-vant-nova/components/loading',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/loading/README.md',
@@ -25868,8 +25868,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'NavBar \u5BFC\u822A\u680F',
-            path: '/components/nav-bar',
-            langPath: '/components/nav-bar',
+            path: '/react-vant-nova/components/nav-bar',
+            langpath: '/react-vant-nova/components/nav-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/nav-bar/README.md',
@@ -25877,8 +25877,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'NoticeBar \u901A\u77E5\u680F',
-            path: '/components/notice-bar',
-            langPath: '/components/notice-bar',
+            path: '/react-vant-nova/components/notice-bar',
+            langpath: '/react-vant-nova/components/notice-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/notice-bar/README.md',
@@ -25886,8 +25886,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Notify \u6D88\u606F\u63D0\u793A',
-            path: '/components/notify',
-            langPath: '/components/notify',
+            path: '/react-vant-nova/components/notify',
+            langpath: '/react-vant-nova/components/notify',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/notify/README.md',
@@ -25895,8 +25895,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'NumberKeyboard \u6570\u5B57\u952E\u76D8',
-            path: '/components/number-keyboard',
-            langPath: '/components/number-keyboard',
+            path: '/react-vant-nova/components/number-keyboard',
+            langpath: '/react-vant-nova/components/number-keyboard',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/number-keyboard/README.md',
@@ -25904,8 +25904,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Overlay \u906E\u7F69\u5C42',
-            path: '/components/overlay',
-            langPath: '/components/overlay',
+            path: '/react-vant-nova/components/overlay',
+            langpath: '/react-vant-nova/components/overlay',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/overlay/README.md',
@@ -25913,8 +25913,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Pagination \u5206\u9875',
-            path: '/components/pagination',
-            langPath: '/components/pagination',
+            path: '/react-vant-nova/components/pagination',
+            langpath: '/react-vant-nova/components/pagination',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/pagination/README.md',
@@ -25922,8 +25922,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'PasswordInput \u5BC6\u7801\u8F93\u5165\u6846',
-            path: '/components/password-input',
-            langPath: '/components/password-input',
+            path: '/react-vant-nova/components/password-input',
+            langpath: '/react-vant-nova/components/password-input',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/password-input/README.md',
@@ -25931,8 +25931,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Picker \u9009\u62E9\u5668',
-            path: '/components/picker',
-            langPath: '/components/picker',
+            path: '/react-vant-nova/components/picker',
+            langpath: '/react-vant-nova/components/picker',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/picker/README.md',
@@ -25940,8 +25940,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Popover \u6C14\u6CE1\u5F39\u51FA\u6846',
-            path: '/components/popover',
-            langPath: '/components/popover',
+            path: '/react-vant-nova/components/popover',
+            langpath: '/react-vant-nova/components/popover',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/popover/README.md',
@@ -25949,8 +25949,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Popup \u5F39\u51FA\u5C42',
-            path: '/components/popup',
-            langPath: '/components/popup',
+            path: '/react-vant-nova/components/popup',
+            langpath: '/react-vant-nova/components/popup',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/popup/README.md',
@@ -25958,8 +25958,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'ProductCard \u5546\u54C1\u5361\u7247',
-            path: '/components/product-card',
-            langPath: '/components/product-card',
+            path: '/react-vant-nova/components/product-card',
+            langpath: '/react-vant-nova/components/product-card',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/product-card/README.md',
@@ -25967,8 +25967,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Progress \u8FDB\u5EA6\u6761',
-            path: '/components/progress',
-            langPath: '/components/progress',
+            path: '/react-vant-nova/components/progress',
+            langpath: '/react-vant-nova/components/progress',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/progress/README.md',
@@ -25976,8 +25976,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'PullRefresh \u4E0B\u62C9\u5237\u65B0',
-            path: '/components/pull-refresh',
-            langPath: '/components/pull-refresh',
+            path: '/react-vant-nova/components/pull-refresh',
+            langpath: '/react-vant-nova/components/pull-refresh',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/pull-refresh/README.md',
@@ -25985,8 +25985,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Radio \u5355\u9009\u6846',
-            path: '/components/radio',
-            langPath: '/components/radio',
+            path: '/react-vant-nova/components/radio',
+            langpath: '/react-vant-nova/components/radio',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/radio/README.md',
@@ -25994,8 +25994,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Rate \u8BC4\u5206',
-            path: '/components/rate',
-            langPath: '/components/rate',
+            path: '/react-vant-nova/components/rate',
+            langpath: '/react-vant-nova/components/rate',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/rate/README.md',
@@ -26003,8 +26003,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Search \u641C\u7D22',
-            path: '/components/search',
-            langPath: '/components/search',
+            path: '/react-vant-nova/components/search',
+            langpath: '/react-vant-nova/components/search',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/search/README.md',
@@ -26012,8 +26012,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Selector \u9009\u62E9\u7EC4',
-            path: '/components/selector',
-            langPath: '/components/selector',
+            path: '/react-vant-nova/components/selector',
+            langpath: '/react-vant-nova/components/selector',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/selector/README.md',
@@ -26021,8 +26021,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'ShareSheet \u5206\u4EAB\u9762\u677F',
-            path: '/components/share-sheet',
-            langPath: '/components/share-sheet',
+            path: '/react-vant-nova/components/share-sheet',
+            langpath: '/react-vant-nova/components/share-sheet',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/share-sheet/README.md',
@@ -26030,8 +26030,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Sidebar \u4FA7\u8FB9\u5BFC\u822A',
-            path: '/components/sidebar',
-            langPath: '/components/sidebar',
+            path: '/react-vant-nova/components/sidebar',
+            langpath: '/react-vant-nova/components/sidebar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/sidebar/README.md',
@@ -26039,8 +26039,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Skeleton \u9AA8\u67B6\u5C4F',
-            path: '/components/skeleton',
-            langPath: '/components/skeleton',
+            path: '/react-vant-nova/components/skeleton',
+            langpath: '/react-vant-nova/components/skeleton',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/skeleton/README.md',
@@ -26048,8 +26048,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Sku \u5546\u54C1\u89C4\u683C',
-            path: '/components/sku',
-            langPath: '/components/sku',
+            path: '/react-vant-nova/components/sku',
+            langpath: '/react-vant-nova/components/sku',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/sku/README.md',
@@ -26057,8 +26057,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Slider \u6ED1\u5757',
-            path: '/components/slider',
-            langPath: '/components/slider',
+            path: '/react-vant-nova/components/slider',
+            langpath: '/react-vant-nova/components/slider',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/slider/README.md',
@@ -26066,8 +26066,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Space \u95F4\u8DDD',
-            path: '/components/space',
-            langPath: '/components/space',
+            path: '/react-vant-nova/components/space',
+            langpath: '/react-vant-nova/components/space',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/space/README.md',
@@ -26075,8 +26075,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Stepper \u6B65\u8FDB\u5668',
-            path: '/components/stepper',
-            langPath: '/components/stepper',
+            path: '/react-vant-nova/components/stepper',
+            langpath: '/react-vant-nova/components/stepper',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/stepper/README.md',
@@ -26084,8 +26084,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Steps \u6B65\u9AA4\u6761',
-            path: '/components/steps',
-            langPath: '/components/steps',
+            path: '/react-vant-nova/components/steps',
+            langpath: '/react-vant-nova/components/steps',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/steps/README.md',
@@ -26093,8 +26093,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Sticky \u7C98\u6027\u5E03\u5C40',
-            path: '/components/sticky',
-            langPath: '/components/sticky',
+            path: '/react-vant-nova/components/sticky',
+            langpath: '/react-vant-nova/components/sticky',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/sticky/README.md',
@@ -26102,8 +26102,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Style \u5185\u7F6E\u6837\u5F0F',
-            path: '/components/styles',
-            langPath: '/components/styles',
+            path: '/react-vant-nova/components/styles',
+            langpath: '/react-vant-nova/components/styles',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/styles/README.md',
@@ -26111,8 +26111,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'SubmitBar \u63D0\u4EA4\u8BA2\u5355\u680F',
-            path: '/components/submit-bar',
-            langPath: '/components/submit-bar',
+            path: '/react-vant-nova/components/submit-bar',
+            langpath: '/react-vant-nova/components/submit-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/submit-bar/README.md',
@@ -26120,8 +26120,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'SwipeCell \u6ED1\u52A8\u5355\u5143\u683C',
-            path: '/components/swipe-cell',
-            langPath: '/components/swipe-cell',
+            path: '/react-vant-nova/components/swipe-cell',
+            langpath: '/react-vant-nova/components/swipe-cell',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/swipe-cell/README.md',
@@ -26129,8 +26129,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Swiper \u8F6E\u64AD',
-            path: '/components/swiper',
-            langPath: '/components/swiper',
+            path: '/react-vant-nova/components/swiper',
+            langpath: '/react-vant-nova/components/swiper',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/swiper/README.md',
@@ -26138,8 +26138,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Switch \u5F00\u5173',
-            path: '/components/switch',
-            langPath: '/components/switch',
+            path: '/react-vant-nova/components/switch',
+            langpath: '/react-vant-nova/components/switch',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/switch/README.md',
@@ -26147,8 +26147,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Tabbar \u6807\u7B7E\u680F',
-            path: '/components/tabbar',
-            langPath: '/components/tabbar',
+            path: '/react-vant-nova/components/tabbar',
+            langpath: '/react-vant-nova/components/tabbar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/tabbar/README.md',
@@ -26156,8 +26156,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Tabs \u6807\u7B7E\u9875',
-            path: '/components/tabs',
-            langPath: '/components/tabs',
+            path: '/react-vant-nova/components/tabs',
+            langpath: '/react-vant-nova/components/tabs',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/tabs/README.md',
@@ -26165,8 +26165,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Tag \u6807\u7B7E',
-            path: '/components/tag',
-            langPath: '/components/tag',
+            path: '/react-vant-nova/components/tag',
+            langpath: '/react-vant-nova/components/tag',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/tag/README.md',
@@ -26174,8 +26174,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Toast \u8F7B\u63D0\u793A',
-            path: '/components/toast',
-            langPath: '/components/toast',
+            path: '/react-vant-nova/components/toast',
+            langpath: '/react-vant-nova/components/toast',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/toast/README.md',
@@ -26183,8 +26183,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Typography \u6587\u672C',
-            path: '/components/typography',
-            langPath: '/components/typography',
+            path: '/react-vant-nova/components/typography',
+            langpath: '/react-vant-nova/components/typography',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/typography/README.md',
@@ -26192,8 +26192,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'Uploader \u6587\u4EF6\u4E0A\u4F20',
-            path: '/components/uploader',
-            langPath: '/components/uploader',
+            path: '/react-vant-nova/components/uploader',
+            langpath: '/react-vant-nova/components/uploader',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/uploader/README.md',
@@ -26201,8 +26201,8 @@ var wm = {
           {
             lang: 'zh',
             title: 'WaterMark \u6C34\u5370',
-            path: '/components/water-mark',
-            langPath: '/components/water-mark',
+            path: '/react-vant-nova/components/water-mark',
+            langpath: '/react-vant-nova/components/water-mark',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/water-mark/README.md',
@@ -26214,20 +26214,20 @@ var wm = {
       {
         lang: 'en',
         title: 'README',
-        path: '/',
-        langPath: '/en/',
+        path: '/react-vant-nova/',
+        langpath: '/react-vant-nova/en/',
         isLink: !0,
         filePath:
           '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/README.md',
       },
       {
-        path: '/guide',
+        path: '/react-vant-nova/guide',
         children: [
           {
             lang: 'en',
             title: '\u{1F481} \u4ECB\u7ECD',
-            path: '/guide/about',
-            langPath: '/en/guide/about',
+            path: '/react-vant-nova/guide/about',
+            langpath: '/react-vant-nova/en/guide/about',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/about.md',
@@ -26235,8 +26235,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u8FDB\u9636\u7528\u6CD5',
-            path: '/guide/advanced-usage',
-            langPath: '/en/guide/advanced-usage',
+            path: '/react-vant-nova/guide/advanced-usage',
+            langpath: '/react-vant-nova/en/guide/advanced-usage',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/advanced-usage.md',
@@ -26244,8 +26244,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u66F4\u65B0\u65E5\u5FD7',
-            path: '/guide/changelog',
-            langPath: '/en/guide/changelog',
+            path: '/react-vant-nova/guide/changelog',
+            langpath: '/react-vant-nova/en/guide/changelog',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/changelog.md',
@@ -26253,8 +26253,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u5F00\u53D1\u6307\u5357',
-            path: '/guide/contribution',
-            langPath: '/en/guide/contribution',
+            path: '/react-vant-nova/guide/contribution',
+            langpath: '/react-vant-nova/en/guide/contribution',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/contribution.md',
@@ -26262,8 +26262,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u6D4F\u89C8\u5668\u9002\u914D',
-            path: '/guide/hd',
-            langPath: '/en/guide/hd',
+            path: '/react-vant-nova/guide/hd',
+            langpath: '/react-vant-nova/en/guide/hd',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/hd.md',
@@ -26271,8 +26271,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u56FD\u9645\u5316',
-            path: '/guide/i-18-n',
-            langPath: '/en/guide/i-18-n',
+            path: '/react-vant-nova/guide/i-18-n',
+            langpath: '/react-vant-nova/en/guide/i-18-n',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/i18n.md',
@@ -26280,8 +26280,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u{1F680} \u5347\u7EA7\u5230 v3',
-            path: '/guide/migrate',
-            langPath: '/en/guide/migrate',
+            path: '/react-vant-nova/guide/migrate',
+            langpath: '/react-vant-nova/en/guide/migrate',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/migrate.md',
@@ -26289,8 +26289,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u26A1\uFE0F \u5FEB\u901F\u4E0A\u624B',
-            path: '/guide/quickstart',
-            langPath: '/en/guide/quickstart',
+            path: '/react-vant-nova/guide/quickstart',
+            langpath: '/react-vant-nova/en/guide/quickstart',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/quickstart.md',
@@ -26298,8 +26298,8 @@ var wm = {
           {
             lang: 'en',
             title: '\u{1F3A8} \u4E3B\u9898\u5B9A\u5236',
-            path: '/guide/theme',
-            langPath: '/en/guide/theme',
+            path: '/react-vant-nova/guide/theme',
+            langpath: '/react-vant-nova/en/guide/theme',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/guide/theme.md',
@@ -26307,13 +26307,13 @@ var wm = {
         ],
       },
       {
-        path: '/hooks',
+        path: '/react-vant-nova/hooks',
         children: [
           {
             lang: 'en',
             title: 'React Vant Hooks (Beta)',
-            path: '/hooks/intro',
-            langPath: '/en/hooks/intro',
+            path: '/react-vant-nova/hooks/intro',
+            langpath: '/react-vant-nova/en/hooks/intro',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/intro.md',
@@ -26321,8 +26321,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useClickAway',
-            path: '/hooks/use-click-away',
-            langPath: '/en/hooks/use-click-away',
+            path: '/react-vant-nova/hooks/use-click-away',
+            langpath: '/react-vant-nova/en/hooks/use-click-away',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-click-away.md',
@@ -26330,8 +26330,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useCountDown',
-            path: '/hooks/use-count-down',
-            langPath: '/en/hooks/use-count-down',
+            path: '/react-vant-nova/hooks/use-count-down',
+            langpath: '/react-vant-nova/en/hooks/use-count-down',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-count-down.md',
@@ -26339,8 +26339,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useEventListener',
-            path: '/hooks/use-event-listener',
-            langPath: '/en/hooks/use-event-listener',
+            path: '/react-vant-nova/hooks/use-event-listener',
+            langpath: '/react-vant-nova/en/hooks/use-event-listener',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-event-listener.md',
@@ -26348,8 +26348,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useFormSmart',
-            path: '/hooks/use-form-smart',
-            langPath: '/en/hooks/use-form-smart',
+            path: '/react-vant-nova/hooks/use-form-smart',
+            langpath: '/react-vant-nova/en/hooks/use-form-smart',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-form-smart.md',
@@ -26357,8 +26357,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useInViewport',
-            path: '/hooks/use-in-viewport',
-            langPath: '/en/hooks/use-in-viewport',
+            path: '/react-vant-nova/hooks/use-in-viewport',
+            langpath: '/react-vant-nova/en/hooks/use-in-viewport',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-in-viewport.md',
@@ -26366,8 +26366,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useMount',
-            path: '/hooks/use-mount',
-            langPath: '/en/hooks/use-mount',
+            path: '/react-vant-nova/hooks/use-mount',
+            langpath: '/react-vant-nova/en/hooks/use-mount',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-mount.md',
@@ -26375,8 +26375,8 @@ var wm = {
           {
             lang: 'en',
             title: 'usePageVisibility',
-            path: '/hooks/use-page-visibility',
-            langPath: '/en/hooks/use-page-visibility',
+            path: '/react-vant-nova/hooks/use-page-visibility',
+            langpath: '/react-vant-nova/en/hooks/use-page-visibility',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-page-visibility.md',
@@ -26384,8 +26384,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useScrollParent',
-            path: '/hooks/use-scroll-parent',
-            langPath: '/en/hooks/use-scroll-parent',
+            path: '/react-vant-nova/hooks/use-scroll-parent',
+            langpath: '/react-vant-nova/en/hooks/use-scroll-parent',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-scroll-parent.md',
@@ -26393,8 +26393,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useSetState',
-            path: '/hooks/use-set-state',
-            langPath: '/en/hooks/use-set-state',
+            path: '/react-vant-nova/hooks/use-set-state',
+            langpath: '/react-vant-nova/en/hooks/use-set-state',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-set-state.md',
@@ -26402,8 +26402,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useTouch',
-            path: '/hooks/use-touch',
-            langPath: '/en/hooks/use-touch',
+            path: '/react-vant-nova/hooks/use-touch',
+            langpath: '/react-vant-nova/en/hooks/use-touch',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-touch.md',
@@ -26411,8 +26411,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useUpdateEffect',
-            path: '/hooks/use-update-effect',
-            langPath: '/en/hooks/use-update-effect',
+            path: '/react-vant-nova/hooks/use-update-effect',
+            langpath: '/react-vant-nova/en/hooks/use-update-effect',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-update-effect.md',
@@ -26420,8 +26420,8 @@ var wm = {
           {
             lang: 'en',
             title: 'useWindowSize',
-            path: '/hooks/use-window-size',
-            langPath: '/en/hooks/use-window-size',
+            path: '/react-vant-nova/hooks/use-window-size',
+            langpath: '/react-vant-nova/en/hooks/use-window-size',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/docs/hooks/use-window-size.md',
@@ -26429,13 +26429,13 @@ var wm = {
         ],
       },
       {
-        path: '/components',
+        path: '/react-vant-nova/components',
         children: [
           {
             lang: 'en',
             title: 'ActionBar \u52A8\u4F5C\u680F',
-            path: '/components/action-bar',
-            langPath: '/en/components/action-bar',
+            path: '/react-vant-nova/components/action-bar',
+            langpath: '/react-vant-nova/en/components/action-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/action-bar/README.md',
@@ -26443,8 +26443,8 @@ var wm = {
           {
             lang: 'en',
             title: 'ActionSheet \u52A8\u4F5C\u9762\u677F',
-            path: '/components/action-sheet',
-            langPath: '/en/components/action-sheet',
+            path: '/react-vant-nova/components/action-sheet',
+            langpath: '/react-vant-nova/en/components/action-sheet',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/action-sheet/README.md',
@@ -26452,8 +26452,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Area \u7701\u5E02\u533A\u9009\u62E9',
-            path: '/components/area',
-            langPath: '/en/components/area',
+            path: '/react-vant-nova/components/area',
+            langpath: '/react-vant-nova/en/components/area',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/area/README.md',
@@ -26461,8 +26461,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Badge \u5FBD\u6807',
-            path: '/components/badge',
-            langPath: '/en/components/badge',
+            path: '/react-vant-nova/components/badge',
+            langpath: '/react-vant-nova/en/components/badge',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/badge/README.md',
@@ -26470,8 +26470,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Button \u6309\u94AE',
-            path: '/components/button',
-            langPath: '/en/components/button',
+            path: '/react-vant-nova/components/button',
+            langpath: '/react-vant-nova/en/components/button',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/button/README.md',
@@ -26479,8 +26479,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Calendar \u65E5\u5386',
-            path: '/components/calendar',
-            langPath: '/en/components/calendar',
+            path: '/react-vant-nova/components/calendar',
+            langpath: '/react-vant-nova/en/components/calendar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/calendar/README.md',
@@ -26488,8 +26488,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Card \u5361\u7247',
-            path: '/components/card',
-            langPath: '/en/components/card',
+            path: '/react-vant-nova/components/card',
+            langpath: '/react-vant-nova/en/components/card',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/card/README.md',
@@ -26497,8 +26497,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Cascader \u7EA7\u8054\u9009\u62E9',
-            path: '/components/cascader',
-            langPath: '/en/components/cascader',
+            path: '/react-vant-nova/components/cascader',
+            langpath: '/react-vant-nova/en/components/cascader',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/cascader/README.md',
@@ -26506,8 +26506,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Cell \u5355\u5143\u683C',
-            path: '/components/cell',
-            langPath: '/en/components/cell',
+            path: '/react-vant-nova/components/cell',
+            langpath: '/react-vant-nova/en/components/cell',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/cell/README.md',
@@ -26515,8 +26515,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Checkbox \u590D\u9009\u6846',
-            path: '/components/checkbox',
-            langPath: '/en/components/checkbox',
+            path: '/react-vant-nova/components/checkbox',
+            langpath: '/react-vant-nova/en/components/checkbox',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/checkbox/README.md',
@@ -26524,8 +26524,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Circle \u73AF\u5F62\u8FDB\u5EA6\u6761',
-            path: '/components/circle',
-            langPath: '/en/components/circle',
+            path: '/react-vant-nova/components/circle',
+            langpath: '/react-vant-nova/en/components/circle',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/circle/README.md',
@@ -26533,8 +26533,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Collapse \u6298\u53E0\u9762\u677F',
-            path: '/components/collapse',
-            langPath: '/en/components/collapse',
+            path: '/react-vant-nova/components/collapse',
+            langpath: '/react-vant-nova/en/components/collapse',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/collapse/README.md',
@@ -26542,8 +26542,8 @@ var wm = {
           {
             lang: 'en',
             title: 'ConfigProvider \u5168\u5C40\u914D\u7F6E',
-            path: '/components/config-provider',
-            langPath: '/en/components/config-provider',
+            path: '/react-vant-nova/components/config-provider',
+            langpath: '/react-vant-nova/en/components/config-provider',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/config-provider/README.md',
@@ -26551,8 +26551,8 @@ var wm = {
           {
             lang: 'en',
             title: 'CountDown \u5012\u8BA1\u65F6',
-            path: '/components/count-down',
-            langPath: '/en/components/count-down',
+            path: '/react-vant-nova/components/count-down',
+            langpath: '/react-vant-nova/en/components/count-down',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/count-down/README.md',
@@ -26560,8 +26560,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Coupon \u4F18\u60E0\u5238\u9009\u62E9\u5668',
-            path: '/components/coupon-list',
-            langPath: '/en/components/coupon-list',
+            path: '/react-vant-nova/components/coupon-list',
+            langpath: '/react-vant-nova/en/components/coupon-list',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/coupon-list/README.md',
@@ -26569,8 +26569,8 @@ var wm = {
           {
             lang: 'en',
             title: 'DatetimePicker \u65F6\u95F4\u9009\u62E9',
-            path: '/components/datetime-picker',
-            langPath: '/en/components/datetime-picker',
+            path: '/react-vant-nova/components/datetime-picker',
+            langpath: '/react-vant-nova/en/components/datetime-picker',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/datetime-picker/README.md',
@@ -26578,8 +26578,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Dialog \u5F39\u51FA\u6846',
-            path: '/components/dialog',
-            langPath: '/en/components/dialog',
+            path: '/react-vant-nova/components/dialog',
+            langpath: '/react-vant-nova/en/components/dialog',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/dialog/README.md',
@@ -26587,8 +26587,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Divider \u5206\u5272\u7EBF',
-            path: '/components/divider',
-            langPath: '/en/components/divider',
+            path: '/react-vant-nova/components/divider',
+            langpath: '/react-vant-nova/en/components/divider',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/divider/README.md',
@@ -26596,8 +26596,8 @@ var wm = {
           {
             lang: 'en',
             title: 'DropdownMenu \u4E0B\u62C9\u83DC\u5355',
-            path: '/components/dropdown-menu',
-            langPath: '/en/components/dropdown-menu',
+            path: '/react-vant-nova/components/dropdown-menu',
+            langpath: '/react-vant-nova/en/components/dropdown-menu',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/dropdown-menu/README.md',
@@ -26605,8 +26605,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Empty \u7A7A\u72B6\u6001',
-            path: '/components/empty',
-            langPath: '/en/components/empty',
+            path: '/react-vant-nova/components/empty',
+            langpath: '/react-vant-nova/en/components/empty',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/empty/README.md',
@@ -26614,8 +26614,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Field \u8868\u5355\u9879',
-            path: '/components/field',
-            langPath: '/en/components/field',
+            path: '/react-vant-nova/components/field',
+            langpath: '/react-vant-nova/en/components/field',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/field/README.md',
@@ -26623,8 +26623,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Flex \u5E03\u5C40',
-            path: '/components/flex',
-            langPath: '/en/components/flex',
+            path: '/react-vant-nova/components/flex',
+            langpath: '/react-vant-nova/en/components/flex',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/flex/README.md',
@@ -26632,8 +26632,8 @@ var wm = {
           {
             lang: 'en',
             title: 'FloatingBall \u60AC\u6D6E\u7403',
-            path: '/components/floating-ball',
-            langPath: '/en/components/floating-ball',
+            path: '/react-vant-nova/components/floating-ball',
+            langpath: '/react-vant-nova/en/components/floating-ball',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/floating-ball/README.md',
@@ -26641,8 +26641,8 @@ var wm = {
           {
             lang: 'en',
             title: 'FloatingPanel \u6D6E\u52A8\u9762\u677F',
-            path: '/components/floating-panel',
-            langPath: '/en/components/floating-panel',
+            path: '/react-vant-nova/components/floating-panel',
+            langpath: '/react-vant-nova/en/components/floating-panel',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/floating-panel/README.md',
@@ -26650,8 +26650,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Form \u8868\u5355',
-            path: '/components/form',
-            langPath: '/en/components/form',
+            path: '/react-vant-nova/components/form',
+            langpath: '/react-vant-nova/en/components/form',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/form/README.md',
@@ -26659,8 +26659,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Grid \u5BAB\u683C',
-            path: '/components/grid',
-            langPath: '/en/components/grid',
+            path: '/react-vant-nova/components/grid',
+            langpath: '/react-vant-nova/en/components/grid',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/grid/README.md',
@@ -26668,8 +26668,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Icon \u56FE\u6807',
-            path: '/components/icon',
-            langPath: '/en/components/icon',
+            path: '/react-vant-nova/components/icon',
+            langpath: '/react-vant-nova/en/components/icon',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/icon/README.md',
@@ -26677,8 +26677,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Image \u56FE\u7247',
-            path: '/components/image',
-            langPath: '/en/components/image',
+            path: '/react-vant-nova/components/image',
+            langpath: '/react-vant-nova/en/components/image',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/image/README.md',
@@ -26686,8 +26686,8 @@ var wm = {
           {
             lang: 'en',
             title: 'ImagePreview \u56FE\u7247\u9884\u89C8',
-            path: '/components/image-preview',
-            langPath: '/en/components/image-preview',
+            path: '/react-vant-nova/components/image-preview',
+            langpath: '/react-vant-nova/en/components/image-preview',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/image-preview/README.md',
@@ -26695,8 +26695,8 @@ var wm = {
           {
             lang: 'en',
             title: 'IndexBar \u7D22\u5F15\u680F',
-            path: '/components/index-bar',
-            langPath: '/en/components/index-bar',
+            path: '/react-vant-nova/components/index-bar',
+            langpath: '/react-vant-nova/en/components/index-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/index-bar/README.md',
@@ -26704,8 +26704,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Input \u8F93\u5165\u6846',
-            path: '/components/input',
-            langPath: '/en/components/input',
+            path: '/react-vant-nova/components/input',
+            langpath: '/react-vant-nova/en/components/input',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/input/README.md',
@@ -26713,8 +26713,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Lazyload \u61D2\u52A0\u8F7D',
-            path: '/components/lazyload',
-            langPath: '/en/components/lazyload',
+            path: '/react-vant-nova/components/lazyload',
+            langpath: '/react-vant-nova/en/components/lazyload',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/lazyload/README.md',
@@ -26722,8 +26722,8 @@ var wm = {
           {
             lang: 'en',
             title: 'List \u5217\u8868',
-            path: '/components/list',
-            langPath: '/en/components/list',
+            path: '/react-vant-nova/components/list',
+            langpath: '/react-vant-nova/en/components/list',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/list/README.md',
@@ -26731,8 +26731,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Loading \u52A0\u8F7D',
-            path: '/components/loading',
-            langPath: '/en/components/loading',
+            path: '/react-vant-nova/components/loading',
+            langpath: '/react-vant-nova/en/components/loading',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/loading/README.md',
@@ -26740,8 +26740,8 @@ var wm = {
           {
             lang: 'en',
             title: 'NavBar \u5BFC\u822A\u680F',
-            path: '/components/nav-bar',
-            langPath: '/en/components/nav-bar',
+            path: '/react-vant-nova/components/nav-bar',
+            langpath: '/react-vant-nova/en/components/nav-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/nav-bar/README.md',
@@ -26749,8 +26749,8 @@ var wm = {
           {
             lang: 'en',
             title: 'NoticeBar \u901A\u77E5\u680F',
-            path: '/components/notice-bar',
-            langPath: '/en/components/notice-bar',
+            path: '/react-vant-nova/components/notice-bar',
+            langpath: '/react-vant-nova/en/components/notice-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/notice-bar/README.md',
@@ -26758,8 +26758,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Notify \u6D88\u606F\u63D0\u793A',
-            path: '/components/notify',
-            langPath: '/en/components/notify',
+            path: '/react-vant-nova/components/notify',
+            langpath: '/react-vant-nova/en/components/notify',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/notify/README.md',
@@ -26767,8 +26767,8 @@ var wm = {
           {
             lang: 'en',
             title: 'NumberKeyboard \u6570\u5B57\u952E\u76D8',
-            path: '/components/number-keyboard',
-            langPath: '/en/components/number-keyboard',
+            path: '/react-vant-nova/components/number-keyboard',
+            langpath: '/react-vant-nova/en/components/number-keyboard',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/number-keyboard/README.md',
@@ -26776,8 +26776,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Overlay \u906E\u7F69\u5C42',
-            path: '/components/overlay',
-            langPath: '/en/components/overlay',
+            path: '/react-vant-nova/components/overlay',
+            langpath: '/react-vant-nova/en/components/overlay',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/overlay/README.md',
@@ -26785,8 +26785,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Pagination \u5206\u9875',
-            path: '/components/pagination',
-            langPath: '/en/components/pagination',
+            path: '/react-vant-nova/components/pagination',
+            langpath: '/react-vant-nova/en/components/pagination',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/pagination/README.md',
@@ -26794,8 +26794,8 @@ var wm = {
           {
             lang: 'en',
             title: 'PasswordInput \u5BC6\u7801\u8F93\u5165\u6846',
-            path: '/components/password-input',
-            langPath: '/en/components/password-input',
+            path: '/react-vant-nova/components/password-input',
+            langpath: '/react-vant-nova/en/components/password-input',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/password-input/README.md',
@@ -26803,8 +26803,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Picker \u9009\u62E9\u5668',
-            path: '/components/picker',
-            langPath: '/en/components/picker',
+            path: '/react-vant-nova/components/picker',
+            langpath: '/react-vant-nova/en/components/picker',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/picker/README.md',
@@ -26812,8 +26812,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Popover \u6C14\u6CE1\u5F39\u51FA\u6846',
-            path: '/components/popover',
-            langPath: '/en/components/popover',
+            path: '/react-vant-nova/components/popover',
+            langpath: '/react-vant-nova/en/components/popover',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/popover/README.md',
@@ -26821,8 +26821,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Popup \u5F39\u51FA\u5C42',
-            path: '/components/popup',
-            langPath: '/en/components/popup',
+            path: '/react-vant-nova/components/popup',
+            langpath: '/react-vant-nova/en/components/popup',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/popup/README.md',
@@ -26830,8 +26830,8 @@ var wm = {
           {
             lang: 'en',
             title: 'ProductCard \u5546\u54C1\u5361\u7247',
-            path: '/components/product-card',
-            langPath: '/en/components/product-card',
+            path: '/react-vant-nova/components/product-card',
+            langpath: '/react-vant-nova/en/components/product-card',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/product-card/README.md',
@@ -26839,8 +26839,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Progress \u8FDB\u5EA6\u6761',
-            path: '/components/progress',
-            langPath: '/en/components/progress',
+            path: '/react-vant-nova/components/progress',
+            langpath: '/react-vant-nova/en/components/progress',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/progress/README.md',
@@ -26848,8 +26848,8 @@ var wm = {
           {
             lang: 'en',
             title: 'PullRefresh \u4E0B\u62C9\u5237\u65B0',
-            path: '/components/pull-refresh',
-            langPath: '/en/components/pull-refresh',
+            path: '/react-vant-nova/components/pull-refresh',
+            langpath: '/react-vant-nova/en/components/pull-refresh',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/pull-refresh/README.md',
@@ -26857,8 +26857,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Radio \u5355\u9009\u6846',
-            path: '/components/radio',
-            langPath: '/en/components/radio',
+            path: '/react-vant-nova/components/radio',
+            langpath: '/react-vant-nova/en/components/radio',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/radio/README.md',
@@ -26866,8 +26866,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Rate \u8BC4\u5206',
-            path: '/components/rate',
-            langPath: '/en/components/rate',
+            path: '/react-vant-nova/components/rate',
+            langpath: '/react-vant-nova/en/components/rate',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/rate/README.md',
@@ -26875,8 +26875,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Search \u641C\u7D22',
-            path: '/components/search',
-            langPath: '/en/components/search',
+            path: '/react-vant-nova/components/search',
+            langpath: '/react-vant-nova/en/components/search',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/search/README.md',
@@ -26884,8 +26884,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Selector \u9009\u62E9\u7EC4',
-            path: '/components/selector',
-            langPath: '/en/components/selector',
+            path: '/react-vant-nova/components/selector',
+            langpath: '/react-vant-nova/en/components/selector',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/selector/README.md',
@@ -26893,8 +26893,8 @@ var wm = {
           {
             lang: 'en',
             title: 'ShareSheet \u5206\u4EAB\u9762\u677F',
-            path: '/components/share-sheet',
-            langPath: '/en/components/share-sheet',
+            path: '/react-vant-nova/components/share-sheet',
+            langpath: '/react-vant-nova/en/components/share-sheet',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/share-sheet/README.md',
@@ -26902,8 +26902,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Sidebar \u4FA7\u8FB9\u5BFC\u822A',
-            path: '/components/sidebar',
-            langPath: '/en/components/sidebar',
+            path: '/react-vant-nova/components/sidebar',
+            langpath: '/react-vant-nova/en/components/sidebar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/sidebar/README.md',
@@ -26911,8 +26911,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Skeleton \u9AA8\u67B6\u5C4F',
-            path: '/components/skeleton',
-            langPath: '/en/components/skeleton',
+            path: '/react-vant-nova/components/skeleton',
+            langpath: '/react-vant-nova/en/components/skeleton',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/skeleton/README.md',
@@ -26920,8 +26920,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Sku \u5546\u54C1\u89C4\u683C',
-            path: '/components/sku',
-            langPath: '/en/components/sku',
+            path: '/react-vant-nova/components/sku',
+            langpath: '/react-vant-nova/en/components/sku',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/sku/README.md',
@@ -26929,8 +26929,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Slider \u6ED1\u5757',
-            path: '/components/slider',
-            langPath: '/en/components/slider',
+            path: '/react-vant-nova/components/slider',
+            langpath: '/react-vant-nova/en/components/slider',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/slider/README.md',
@@ -26938,8 +26938,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Space \u95F4\u8DDD',
-            path: '/components/space',
-            langPath: '/en/components/space',
+            path: '/react-vant-nova/components/space',
+            langpath: '/react-vant-nova/en/components/space',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/space/README.md',
@@ -26947,8 +26947,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Stepper \u6B65\u8FDB\u5668',
-            path: '/components/stepper',
-            langPath: '/en/components/stepper',
+            path: '/react-vant-nova/components/stepper',
+            langpath: '/react-vant-nova/en/components/stepper',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/stepper/README.md',
@@ -26956,8 +26956,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Steps \u6B65\u9AA4\u6761',
-            path: '/components/steps',
-            langPath: '/en/components/steps',
+            path: '/react-vant-nova/components/steps',
+            langpath: '/react-vant-nova/en/components/steps',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/steps/README.md',
@@ -26965,8 +26965,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Sticky \u7C98\u6027\u5E03\u5C40',
-            path: '/components/sticky',
-            langPath: '/en/components/sticky',
+            path: '/react-vant-nova/components/sticky',
+            langpath: '/react-vant-nova/en/components/sticky',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/sticky/README.md',
@@ -26974,8 +26974,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Style \u5185\u7F6E\u6837\u5F0F',
-            path: '/components/styles',
-            langPath: '/en/components/styles',
+            path: '/react-vant-nova/components/styles',
+            langpath: '/react-vant-nova/en/components/styles',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/styles/README.md',
@@ -26983,8 +26983,8 @@ var wm = {
           {
             lang: 'en',
             title: 'SubmitBar \u63D0\u4EA4\u8BA2\u5355\u680F',
-            path: '/components/submit-bar',
-            langPath: '/en/components/submit-bar',
+            path: '/react-vant-nova/components/submit-bar',
+            langpath: '/react-vant-nova/en/components/submit-bar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/submit-bar/README.md',
@@ -26992,8 +26992,8 @@ var wm = {
           {
             lang: 'en',
             title: 'SwipeCell \u6ED1\u52A8\u5355\u5143\u683C',
-            path: '/components/swipe-cell',
-            langPath: '/en/components/swipe-cell',
+            path: '/react-vant-nova/components/swipe-cell',
+            langpath: '/react-vant-nova/en/components/swipe-cell',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/swipe-cell/README.md',
@@ -27001,8 +27001,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Swiper \u8F6E\u64AD',
-            path: '/components/swiper',
-            langPath: '/en/components/swiper',
+            path: '/react-vant-nova/components/swiper',
+            langpath: '/react-vant-nova/en/components/swiper',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/swiper/README.md',
@@ -27010,8 +27010,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Switch \u5F00\u5173',
-            path: '/components/switch',
-            langPath: '/en/components/switch',
+            path: '/react-vant-nova/components/switch',
+            langpath: '/react-vant-nova/en/components/switch',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/switch/README.md',
@@ -27019,8 +27019,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Tabbar \u6807\u7B7E\u680F',
-            path: '/components/tabbar',
-            langPath: '/en/components/tabbar',
+            path: '/react-vant-nova/components/tabbar',
+            langpath: '/react-vant-nova/en/components/tabbar',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/tabbar/README.md',
@@ -27028,8 +27028,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Tabs \u6807\u7B7E\u9875',
-            path: '/components/tabs',
-            langPath: '/en/components/tabs',
+            path: '/react-vant-nova/components/tabs',
+            langpath: '/react-vant-nova/en/components/tabs',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/tabs/README.md',
@@ -27037,8 +27037,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Tag \u6807\u7B7E',
-            path: '/components/tag',
-            langPath: '/en/components/tag',
+            path: '/react-vant-nova/components/tag',
+            langpath: '/react-vant-nova/en/components/tag',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/tag/README.md',
@@ -27046,8 +27046,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Toast \u8F7B\u63D0\u793A',
-            path: '/components/toast',
-            langPath: '/en/components/toast',
+            path: '/react-vant-nova/components/toast',
+            langpath: '/react-vant-nova/en/components/toast',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/toast/README.md',
@@ -27055,8 +27055,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Typography \u6587\u672C',
-            path: '/components/typography',
-            langPath: '/en/components/typography',
+            path: '/react-vant-nova/components/typography',
+            langpath: '/react-vant-nova/en/components/typography',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/typography/README.md',
@@ -27064,8 +27064,8 @@ var wm = {
           {
             lang: 'en',
             title: 'Uploader \u6587\u4EF6\u4E0A\u4F20',
-            path: '/components/uploader',
-            langPath: '/en/components/uploader',
+            path: '/react-vant-nova/components/uploader',
+            langpath: '/react-vant-nova/en/components/uploader',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/uploader/README.md',
@@ -27073,8 +27073,8 @@ var wm = {
           {
             lang: 'en',
             title: 'WaterMark \u6C34\u5370',
-            path: '/components/water-mark',
-            langPath: '/en/components/water-mark',
+            path: '/react-vant-nova/components/water-mark',
+            langpath: '/react-vant-nova/en/components/water-mark',
             isLink: !0,
             filePath:
               '/Users/wpp/project/react-vant-nova/packages/react-vant/src/components/water-mark/README.md',
@@ -27320,7 +27320,7 @@ const AE = ({ children: e }) => {
                   )
                 : S(lr, { path: o.path, element: o.component }, o.path)
             ),
-            S(lr, { path: '/~demo', element: S(PE, {}) }),
+            S(lr, { path: '/react-vant-nova/~demo', element: S(PE, {}) }),
           ],
         }),
       })
