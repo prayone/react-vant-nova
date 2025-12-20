@@ -10,9 +10,6 @@
 - 📝 提供完善的文档和组件示例.
 - 🎨 支持主题定制，内置 700+ 个主题变量.
 - 😎 支持按需引入和 Tree Shaking.
-- ⚡️ 支持 [Vite](https://github.com/3lang3/react-vant-template/tree/main/template/vite)和 Parcel@2.
-- 🌵 现代浏览器
-- 🌝 支持 SSR([nextjs](https://github.com/3lang3/react-vant-template/tree/main/next/nextjs), [remix](https://github.com/3lang3/react-vant-template/tree/main/next/remix)).
 
 ### 快速上手
 
@@ -24,8 +21,8 @@
 
 ### 周边生态
 
-| 项目 | 描述 |
-| --- | --- |
+| 项目                                     | 描述                     |
+| ---------------------------------------- | ------------------------ |
 | [rcdoc](https://github.com/3lang3/rcdoc) | 开箱即用的组件库搭建工具 |
 
 ### 链接
@@ -33,14 +30,6 @@
 - [意见反馈](https://github.com/3lang3/react-vant/issues)
 - [更新日志](https://github.com/3lang3/react-vant/releases)
 - [码云镜像](https://react-vant-gitee.3lang.dev/)
-
-### 贡献者
-
-<a href="https://github.com/3lang3/react-vant/graphs/contributors">
-  <img style="max-width: 100%;" src="https://opencollective.com/react-vant/contributors.svg?width=960"/>
-</a>
-
-- 部分图形设计来自[BiscuitCoder](https://biscuitcoder.github.io)
 
 ### 开源协议
 

@@ -1,7 +1,7 @@
 import { defineConfig } from '@rcdoc/cli'
 
 export default defineConfig({
-  title: 'react vant',
+  title: 'react vant nova',
   description: '轻量、可靠的移动端 React 组件库',
   logo: '/logo.svg',
   locales: [
@@ -191,11 +191,7 @@ export default defineConfig({
   site: {
     injectComponentCss: false,
     favicon: '/favicon.png',
-    github: 'https://github.com/3lang3/react-vant',
-    versions: [
-      { title: 'v1', path: 'https://react-vant-v1.3lang.dev' },
-      { title: 'v2 alpha', path: 'https://react-vant-v2.surge.sh' },
-    ],
+    github: 'https://github.com/prayone/react-vant-nova/',
     themeConfig: {
       simulator: {
         include: ['/components', '/en/components'],
@@ -208,7 +204,7 @@ export default defineConfig({
     //   indexName: 'react-vant-nova',
     // },
     sitemap: {
-      hostname: 'https://react-vant.3lang.dev',
+      hostname: 'http://react-vant.fenewbee.com/',
     },
   },
   resolve: {

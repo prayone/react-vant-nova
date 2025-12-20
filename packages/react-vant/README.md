@@ -2,7 +2,7 @@
     <img alt="logo" src="https://cdn.jsdelivr.net/gh/3lang3/react-vant@main/public/logo.svg" width="200" style="margin-bottom: 10px;">
 </p>
 
-<h1 align="center">React Vant（此版本兼容 React 19）</h1>
+<h1 align="center">React Vant Nova （此版本兼容 React 19）</h1>
 
 <p align="center">📱 A mobile component library based on the <strong>React</strong> framework according to <a href="https://github.com/youzan/vant">Vant</a>.</p>
 
@@ -90,10 +90,10 @@ ReactDOM.render(<App />, mountNode);
 - [Astro](https://github.com/3lang3/react-vant-template/tree/main/next/astro)
 - [Vite](https://github.com/3lang3/react-vant-template/tree/main/next/vite)
 
-For more information, please refer to [QuickStart](https://react-vant.3lang.dev/guide/quickstart).
+For more information, please refer to [QuickStart](http://react-vant.fenewbee.com/guide/quickstart).
 
 ## 🤝 交流与支持
 
 - 反馈问题：[GitHub Issues](https://github.com/prayone/react-vant-nova/issues)
 - 开发交流：添加微信 wpp_rvn（备注「react-vant-nova」）
-- 文档地址：https://react-vant.3lang.dev/
+- 文档地址：[http://react-vant.fenewbee.com/](https://react-vant.fenewbee.com/)
