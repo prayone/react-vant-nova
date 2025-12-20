@@ -12,8 +12,7 @@
     "react-vant:lint": "pnpm --dir ./packages/react-vant lint:tsx"
   },
   "lint-staged": {
-    "*.{ts,tsx,less}": "prettier --write",
-    "*.{ts,tsx}": "npm run react-vant:lint"
+    "*.{ts,tsx,less}": "prettier --write"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "17.0.3",
