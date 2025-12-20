@@ -3,7 +3,7 @@ import { defineConfig } from '@rcdoc/cli'
 export default defineConfig({
   title: 'react vant',
   description: '轻量、可靠的移动端 React 组件库',
-  logo: '/logo.svg',
+  logo: '/react-vant-nova/logo.svg',
   locales: [
     ['zh', '🇨🇳 中文'],
     ['en', '🇺🇸 English'],
@@ -190,7 +190,7 @@ export default defineConfig({
   },
   site: {
     injectComponentCss: false,
-    favicon: '/favicon.png',
+    favicon: '/react-vant-nova/favicon.png',
     github: 'https://github.com/3lang3/react-vant',
     versions: [
       { title: 'v1', path: 'https://react-vant-v1.3lang.dev' },
@@ -237,6 +237,6 @@ export default defineConfig({
     server: {
       host: true,
     },
-    // base: '/react-vant-nova',
+    base: '/react-vant-nova/',
   },
 })
