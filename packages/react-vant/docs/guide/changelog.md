@@ -2,7 +2,7 @@
 
 ### 介绍
 
-React Vant 遵循 [Semver](https://semver.org/lang/zh-CN/) 语义化版本规范。
+React Vant Nova 遵循 [Semver](https://semver.org/lang/zh-CN/) 语义化版本规范。
 
 **发布节奏**
 

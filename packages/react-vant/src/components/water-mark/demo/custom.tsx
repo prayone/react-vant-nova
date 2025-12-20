@@ -4,7 +4,7 @@ import { Button, WaterMark } from 'react-vant-nova'
 import './style.less'
 
 const textProps = {
-  content: 'react vant',
+  content: 'react vant nova',
 }
 
 const imageProps = {

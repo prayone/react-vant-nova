@@ -6,7 +6,7 @@
 
 ### 组件实例方法
 
-React Vant 中的许多组件提供了实例方法，调用实例方法时，我们需要通过 `useRef` 来引用组件实例，我们可以通过`ref.current`访问到对应的组件实例，并调用上面的实例方法。
+React Vant Nova 中的许多组件提供了实例方法，调用实例方法时，我们需要通过 `useRef` 来引用组件实例，我们可以通过`ref.current`访问到对应的组件实例，并调用上面的实例方法。
 
 ```jsx | pure
 import { useRef } from 'react';

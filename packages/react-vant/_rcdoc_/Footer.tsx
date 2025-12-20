@@ -39,8 +39,8 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <strong>React Vant</strong> | Open-source MIT Licensed | Powered by{' '}
-          <a href='https://github.com/3lang3/rcdoc'>rcdoc</a>😘
+          <strong>React Vant Nova</strong> | Open-source MIT Licensed | Powered
+          by <a href='https://github.com/3lang3/rcdoc'>rcdoc</a>😘
         </div>
       </div>
     </footer>
