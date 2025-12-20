@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Toast } from 'react-vant';
+import { Toast } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -115,7 +115,7 @@ Toast.resetDefaultOptions('loading');
 组件导出以下类型定义：
 
 ```js
-import type { ToastType, ToastOptions, ToastPosition } from 'react-vant';
+import type { ToastType, ToastOptions, ToastPosition } from 'react-vant-nova';
 ```
 
 ## 主题定制

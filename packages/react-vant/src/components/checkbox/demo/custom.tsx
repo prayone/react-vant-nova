@@ -1,5 +1,5 @@
 import React from 'react'
-import { Checkbox } from 'react-vant'
+import { Checkbox } from 'react-vant-nova'
 import './custom.less'
 
 const activeIcon = 'https://img.yzcdn.cn/vant/user-active.png'

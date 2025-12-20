@@ -1,5 +1,5 @@
 import React from 'react'
-import { Toast, Uploader } from 'react-vant'
+import { Toast, Uploader } from 'react-vant-nova'
 import { demoData, upload } from './utils'
 import './style.less'
 

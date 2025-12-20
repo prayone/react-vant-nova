@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { DropdownMenu } from 'react-vant';
+import { DropdownMenu } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -42,7 +42,7 @@ import { DropdownMenu } from 'react-vant';
 | defaultValue | 下拉菜单默认值 | _Record<any, any>_ | - |
 | disabled | 是否禁用菜单 | _boolean_ | false |
 | activeColor | 菜单标题和选项的选中态颜色 | _string_ | `#ee0a24` |
-| activeIcon | 自定义选项的选中态勾选icon | _ReactNode_ | - |
+| activeIcon | 自定义选项的选中态勾选 icon | _ReactNode_ | - |
 | direction | 菜单展开方向，可选值为`up` | _string_ | `down` |
 | zIndex | 菜单栏 z-index 层级 | _number \| string_ | `10` |
 | duration | 动画时长，单位秒 | _number \| string_ | `0.2` |
@@ -96,14 +96,14 @@ import { DropdownMenu } from 'react-vant';
 组件导出以下类型定义：
 
 ```ts
-import type { DropdownMenuInstance, DropdownItemOption, DropdownMenuDirection } from 'react-vant';
+import type { DropdownMenuInstance, DropdownItemOption, DropdownMenuDirection } from 'react-vant-nova';
 ```
 
 `DropdownMenuInstance` 是组件实例的类型，用法如下：
 
 ```ts
 import { useRef } from 'react';
-import type { DropdownMenuInstance } from 'react-vant';
+import type { DropdownMenuInstance } from 'react-vant-nova';
 
 const dropdownRef = useRef<DropdownMenuInstance>(null);
 

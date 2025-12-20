@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Cell, Popup, PopupPosition } from 'react-vant'
+import { Cell, Popup, PopupPosition } from 'react-vant-nova'
 
 export default () => {
   const [state, setState] = useState<PopupPosition>('')

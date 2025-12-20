@@ -10,7 +10,7 @@ simulator:
 ## 引入
 
 ```js
-import { Sku } from 'react-vant';
+import { Sku } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -22,8 +22,8 @@ import { Sku } from 'react-vant';
  * title: 基础用法
  */
 import React, { useRef } from 'react';
-import { Sku, Button, Toast } from 'react-vant';
-import type { SkuInstance } from 'react-vant';
+import { Sku, Button, Toast } from 'react-vant-nova';
+import type { SkuInstance } from 'react-vant-nova';
 import { getSkuData, initialSku } from './demo/data';
 
 const demoData = getSkuData();
@@ -72,8 +72,8 @@ export default () => {
  * title: 自定义步进器
  */
 import React, { useRef } from 'react';
-import { Sku, Button, Toast } from 'react-vant';
-import type { SkuInstance } from 'react-vant';
+import { Sku, Button, Toast } from 'react-vant-nova';
+import type { SkuInstance } from 'react-vant-nova';
 import { getSkuData } from './demo/data';
 
 const demoData = getSkuData();
@@ -132,8 +132,8 @@ export default () => {
  * title: 大图模式
  */
 import React, { useRef } from 'react';
-import { Sku, Button } from 'react-vant';
-import type { SkuInstance } from 'react-vant';
+import { Sku, Button } from 'react-vant-nova';
+import type { SkuInstance } from 'react-vant-nova';
 import { getSkuData } from './demo/data';
 
 const demoDataLarge = getSkuData(true);
@@ -170,8 +170,8 @@ export default () => {
  * title: 自定义
  */
 import React, { useRef } from 'react';
-import { Sku, Button, Toast } from 'react-vant';
-import type { SkuInstance } from 'react-vant';
+import { Sku, Button, Toast } from 'react-vant-nova';
+import type { SkuInstance } from 'react-vant-nova';
 import { getSkuData } from './demo/data';
 
 const demoData = getSkuData();

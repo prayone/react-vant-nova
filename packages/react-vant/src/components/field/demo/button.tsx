@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Field, Flex, Popup, Picker, Button } from 'react-vant'
+import { Field, Flex, Popup, Picker, Button } from 'react-vant-nova'
 import { ArrowDown } from '@react-vant/icons'
 
 const columns = ['86 🇨🇳', '87 🇺🇸', '88 🏳️‍🌈', '89 🏳️‍⚧️', '90 🇴🇲', '91 🇵🇪', '92 🇩🇪']

@@ -9,7 +9,7 @@
 通过以下方式来全局注册组件，更多注册方式请参考[组件注册](/guide/advanced-usage#zu-jian-zhu-ce)。
 
 ```js
-import { Grid } from 'react-vant';
+import { Grid } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -97,7 +97,7 @@ import { Grid } from 'react-vant';
 组件导出以下类型定义：
 
 ```ts
-import type { GridDirection } from 'react-vant';
+import type { GridDirection } from 'react-vant-nova';
 ```
 
 ## 主题定制

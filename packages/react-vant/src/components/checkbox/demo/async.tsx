@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Checkbox, Toast } from 'react-vant'
+import { Checkbox, Toast } from 'react-vant-nova'
 
 export default () => {
   const [value, setValue] = useState(false)

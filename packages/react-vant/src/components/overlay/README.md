@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { Overlay } from 'react-vant';
+import { Overlay } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -24,7 +24,7 @@ import { Overlay } from 'react-vant';
  * title: 显示遮罩层
  */
 import React, { useState } from 'react';
-import { Button, Overlay } from 'react-vant';
+import { Button, Overlay } from 'react-vant-nova';
 
 export default () => {
   const [show, setShow] = useState(false);
@@ -49,7 +49,7 @@ export default () => {
  * title: 嵌入内容
  */
 import React, { useState } from 'react';
-import { Button, Overlay } from 'react-vant';
+import { Button, Overlay } from 'react-vant-nova';
 
 export default () => {
   const [visible, setVisible] = useState(false);

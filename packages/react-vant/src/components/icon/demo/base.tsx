@@ -1,5 +1,5 @@
 import React from 'react'
-import { Space } from 'react-vant'
+import { Space } from 'react-vant-nova'
 import { LocationO, LikeO, StarO } from '@react-vant/icons'
 
 export default () => {

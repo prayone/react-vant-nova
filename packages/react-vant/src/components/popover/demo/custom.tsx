@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { PhotoO } from '@react-vant/icons'
-import { Popover, Button, Grid } from 'react-vant'
-import type { PopoverInstance } from 'react-vant'
+import { Popover, Button, Grid } from 'react-vant-nova'
+import type { PopoverInstance } from 'react-vant-nova'
 
 export default () => {
   const popover = useRef<PopoverInstance>(null)

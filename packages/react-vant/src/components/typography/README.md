@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Typography } from 'react-vant';
+import { Typography } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -26,7 +26,7 @@ import { Typography } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Typography } from 'react-vant';
+import { Typography } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -60,7 +60,7 @@ export default () => {
  * title: 标题
  */
 import React from 'react';
-import { Typography } from 'react-vant';
+import { Typography } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -85,7 +85,7 @@ export default () => {
  * title: 链接样式
  */
 import React from 'react';
-import { Typography } from 'react-vant';
+import { Typography } from 'react-vant-nova';
 
 export default () => {
   return (

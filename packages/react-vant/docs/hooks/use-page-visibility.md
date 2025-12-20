@@ -10,7 +10,7 @@
 
 ```js
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const pageVisibility = hooks.usePageVisibility();
@@ -35,6 +35,6 @@ function usePageVisibility(): VisibilityState;
 
 ### 返回值
 
-| 参数            | 说明                                                  | 类型              |
-| --------------- | ----------------------------------------------------- | ----------------- |
+| 参数 | 说明 | 类型 |
+| --- | --- | --- |
 | visibilityState | 页面当前的可见状态，`visible` 为可见，`hidden` 为隐藏 | _VisibilityState_ |

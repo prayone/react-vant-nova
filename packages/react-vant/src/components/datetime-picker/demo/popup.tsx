@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { DatetimePicker, Field } from 'react-vant'
+import { DatetimePicker, Field } from 'react-vant-nova'
 
 export default () => {
   const [value, setValue] = useState(new Date())

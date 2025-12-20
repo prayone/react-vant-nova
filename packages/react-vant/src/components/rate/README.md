@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -29,7 +29,7 @@ import { Rate } from 'react-vant';
  * card: true
  */
 import React, { useState } from 'react';
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(3);
@@ -53,7 +53,7 @@ export default () => {
  * card: true
  */
 import React, { useState } from 'react';
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(3);
@@ -71,7 +71,7 @@ export default () => {
  * card: true
  */
 import React, { useState } from 'react';
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(3.5);
@@ -89,7 +89,7 @@ export default () => {
  * card: true
  */
 import React, { useState } from 'react';
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(4);
@@ -107,7 +107,7 @@ export default () => {
  * card: true
  */
 import React, { useState } from 'react';
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(4);
@@ -125,7 +125,7 @@ export default () => {
  * card: true
  */
 import React, { useState } from 'react';
-import { Rate } from 'react-vant';
+import { Rate } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(3.3);

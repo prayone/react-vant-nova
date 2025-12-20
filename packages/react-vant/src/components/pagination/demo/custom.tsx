@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Arrow, ArrowLeft } from '@react-vant/icons'
-import { Pagination } from 'react-vant'
+import { Pagination } from 'react-vant-nova'
 
 export default () => {
   const [page, setPage] = useState(1)

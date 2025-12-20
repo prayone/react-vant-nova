@@ -13,7 +13,7 @@ simulator:
 ## 引入
 
 ```js
-import { Slider } from 'react-vant';
+import { Slider } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -25,7 +25,7 @@ import { Slider } from 'react-vant';
  * title: 基础用法
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(10);
@@ -44,7 +44,7 @@ export default () => {
  * title: 双滑块
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState([10, 50]);
@@ -61,7 +61,7 @@ export default () => {
  * title: 指定选择范围
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(10);
@@ -80,7 +80,7 @@ export default () => {
  * title: 禁用
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(10);
@@ -97,7 +97,7 @@ export default () => {
  * title: 指定步长
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(10);
@@ -114,7 +114,7 @@ export default () => {
  * title: 自定义样式
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(10);
@@ -139,7 +139,7 @@ export default () => {
  * title: 自定义按钮
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 import './demo/style.less';
 
 export default () => {
@@ -166,7 +166,7 @@ export default () => {
  * title: 垂直方向
  */
 import { useState } from 'react';
-import { Slider, Toast } from 'react-vant';
+import { Slider, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value1, setValue1] = useState(50);

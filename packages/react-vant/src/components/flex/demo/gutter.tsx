@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex } from 'react-vant'
+import { Flex } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

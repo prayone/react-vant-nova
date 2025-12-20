@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from 'react-vant'
+import { Grid } from 'react-vant-nova'
 import { HomeO, Search } from '@react-vant/icons'
 
 export default () => {

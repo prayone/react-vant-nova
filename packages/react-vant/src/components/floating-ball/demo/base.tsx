@@ -1,6 +1,14 @@
 import React, { useState } from 'react'
-import { Cell, Field, Stepper, Form, Switch, Radio, hooks } from 'react-vant'
-import type { FloatingBallProps } from 'react-vant'
+import {
+  Cell,
+  Field,
+  Stepper,
+  Form,
+  Switch,
+  Radio,
+  hooks,
+} from 'react-vant-nova'
+import type { FloatingBallProps } from 'react-vant-nova'
 import Bubble from './bubble'
 import Menu from './menu'
 import './style.less'

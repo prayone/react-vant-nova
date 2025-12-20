@@ -1,5 +1,5 @@
 import React from 'react'
-import { Space, Button, Cell, Input, Form } from 'react-vant'
+import { Space, Button, Cell, Input, Form } from 'react-vant-nova'
 import { AddO, Delete } from '@react-vant/icons'
 import './style.less'
 
@@ -23,7 +23,7 @@ export default () => {
         <Cell.Group>
           <Form.List
             name='users'
-            initialValue={[{ name: 'react-vant', age: '1' }]}
+            initialValue={[{ name: 'react-vant-nova', age: '1' }]}
           >
             {(fields, { add, remove }) => (
               <>

@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react'
-import { Checkbox } from 'react-vant'
+import { Checkbox } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

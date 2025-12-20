@@ -12,7 +12,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const { current } = hooks.useCountDown({
@@ -41,7 +41,7 @@ export default () => {
 
 ```jsx | pure
 import React from 'react';
-import { useCountDown } from 'react-vant';
+import { useCountDown } from 'react-vant-nova';
 
 export default () => {
   const { current } = useCountDown({
@@ -99,12 +99,12 @@ function useCountDown(options: UseCountDownOptions): CountDown;
 
 ### 参数
 
-| 参数        | 说明                       | 类型                             | 默认值  |
-| ----------- | -------------------------- | -------------------------------- | ------- |
-| time        | 倒计时时长，单位毫秒       | _number_                         | -       |
-| millisecond | 是否开启毫秒级渲染         | _boolean_                        | `false` |
-| onChange    | 倒计时改变时触发的回调函数 | _(current: CurrentTime) => void_ | -       |
-| onFinish    | 倒计时结束时触发的回调函数 | -                                |
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| time | 倒计时时长，单位毫秒 | _number_ | - |
+| millisecond | 是否开启毫秒级渲染 | _boolean_ | `false` |
+| onChange | 倒计时改变时触发的回调函数 | _(current: CurrentTime) => void_ | - |
+| onFinish | 倒计时结束时触发的回调函数 | - |
 
 ### 返回值
 

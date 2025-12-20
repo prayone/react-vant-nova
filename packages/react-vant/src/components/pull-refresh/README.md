@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { PullRefresh } from 'react-vant';
+import { PullRefresh } from 'react-vant-nova';
 ```
 
 ## 代码演示

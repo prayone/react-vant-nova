@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Switch } from 'react-vant';
+import { Switch } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -29,7 +29,7 @@ import { Switch } from 'react-vant';
  * card: true
  */
 import React from 'react';
-import { Switch } from 'react-vant';
+import { Switch } from 'react-vant-nova';
 
 export default () => {
   return <Switch defaultChecked />;
@@ -46,7 +46,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Switch } from 'react-vant';
+import { Switch } from 'react-vant-nova';
 
 export default () => {
   return <Switch disabled defaultChecked />;
@@ -63,7 +63,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Switch } from 'react-vant';
+import { Switch } from 'react-vant-nova';
 
 export default () => {
   return <Switch loading defaultChecked />;
@@ -80,7 +80,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Switch } from 'react-vant';
+import { Switch } from 'react-vant-nova';
 
 export default () => {
   return <Switch size="24px" defaultChecked />;
@@ -97,7 +97,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Switch } from 'react-vant';
+import { Switch } from 'react-vant-nova';
 
 export default () => {
   return <Switch activeColor="#ee0a24" inactiveColor="#dcdee0" defaultChecked />;
@@ -114,7 +114,7 @@ export default () => {
  * card: true
  */
 import React, { useState } from 'react';
-import { Switch, Dialog } from 'react-vant';
+import { Switch, Dialog } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState(false);
@@ -141,7 +141,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Cell, Switch } from 'react-vant';
+import { Cell, Switch } from 'react-vant-nova';
 
 export default () => {
   return (

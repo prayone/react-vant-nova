@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Cell, Field } from 'react-vant'
+import { Cell, Field } from 'react-vant-nova'
 
 export default () => {
   const [username, setUsername] = useState('')

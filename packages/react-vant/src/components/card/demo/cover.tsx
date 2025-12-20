@@ -1,6 +1,6 @@
 import React from 'react'
 import { Arrow, Like } from '@react-vant/icons'
-import { Card, Image, Button, Toast, Space } from 'react-vant'
+import { Card, Image, Button, Toast, Space } from 'react-vant-nova'
 
 export default () => {
   return (

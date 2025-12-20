@@ -15,7 +15,7 @@
  * title: 基础用法
  */
 import React from 'react';
-import { ImagePreview, Cell } from 'react-vant';
+import { ImagePreview, Cell } from 'react-vant-nova';
 
 const images = [
   'https://img.yzcdn.cn/vant/apple-1.jpg',
@@ -51,7 +51,7 @@ export default () => {
  * title: 基础用法
  */
 import React from 'react';
-import { ImagePreview, Cell, Toast } from 'react-vant';
+import { ImagePreview, Cell, Toast } from 'react-vant-nova';
 
 const images = [
   'https://img.yzcdn.cn/vant/apple-1.jpg',
@@ -111,7 +111,7 @@ export default () => {
  * title: 异步关闭
  */
 import React from 'react';
-import { ImagePreview, Cell } from 'react-vant';
+import { ImagePreview, Cell } from 'react-vant-nova';
 
 const images = [
   'https://img.yzcdn.cn/vant/apple-1.jpg',
@@ -142,7 +142,7 @@ export default () => {
  * title: 组件调用
  */
 import React, { useState } from 'react';
-import { ImagePreview, Cell } from 'react-vant';
+import { ImagePreview, Cell } from 'react-vant-nova';
 
 const images = [
   'https://img.yzcdn.cn/vant/apple-1.jpg',
@@ -176,7 +176,7 @@ export default () => {
  * title: 指定挂载节点
  */
 import React from 'react';
-import { ImagePreview, Cell } from 'react-vant';
+import { ImagePreview, Cell } from 'react-vant-nova';
 
 const images = [
   'https://img.yzcdn.cn/vant/apple-1.jpg',

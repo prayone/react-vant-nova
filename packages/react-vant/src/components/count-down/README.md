@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { CountDown } from 'react-vant';
+import { CountDown } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -26,7 +26,7 @@ import { CountDown } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { CountDown } from 'react-vant';
+import { CountDown } from 'react-vant-nova';
 export default () => {
   return <CountDown time={30 * 60 * 60 * 1000} />;
 };
@@ -41,7 +41,7 @@ export default () => {
  * title: 自定义格式
  */
 import React from 'react';
-import { CountDown } from 'react-vant';
+import { CountDown } from 'react-vant-nova';
 export default () => {
   return <CountDown time={30 * 60 * 60 * 1000} format="DD 天 HH 时 mm 分 ss 秒" />;
 };
@@ -56,7 +56,7 @@ export default () => {
  * title: 毫秒级渲染
  */
 import React from 'react';
-import { CountDown } from 'react-vant';
+import { CountDown } from 'react-vant-nova';
 export default () => {
   return <CountDown time={30 * 60 * 60 * 1000} millisecond format="HH:mm:ss:SS" />;
 };
@@ -71,7 +71,7 @@ export default () => {
  * title: 自定义样式
  */
 import React from 'react';
-import { CountDown } from 'react-vant';
+import { CountDown } from 'react-vant-nova';
 import './demo/style.less';
 
 export default () => {
@@ -155,14 +155,14 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { CountDownInstance, CountDownCurrentTime } from 'react-vant';
+import type { CountDownInstance, CountDownCurrentTime } from 'react-vant-nova';
 ```
 
 `CountDownInstance` 是组件实例的类型，用法如下：
 
 ```ts
 import { useRef } from 'react';
-import type { CountDownInstance } from 'react-vant';
+import type { CountDownInstance } from 'react-vant-nova';
 
 const countDownRef = useRef<CountDownInstance>(null);
 

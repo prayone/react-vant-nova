@@ -13,7 +13,7 @@ simulator:
 ## 引入
 
 ```js
-import { NoticeBar } from 'react-vant';
+import { NoticeBar } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -33,7 +33,7 @@ import { NoticeBar } from 'react-vant';
  * title: 滚动播放
  */
 import React from 'react';
-import { NoticeBar } from 'react-vant';
+import { NoticeBar } from 'react-vant-nova';
 
 export default () => {
   return <NoticeBar scrollable text="在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。" />;
@@ -49,7 +49,7 @@ export default () => {
  * title: 多行展示
  */
 import React from 'react';
-import { NoticeBar } from 'react-vant';
+import { NoticeBar } from 'react-vant-nova';
 
 export default () => {
   return <NoticeBar wrapable text="在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。" />;
@@ -65,7 +65,7 @@ export default () => {
  * title: 通知栏模式
  */
 import React from 'react';
-import { NoticeBar } from 'react-vant';
+import { NoticeBar } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -88,7 +88,7 @@ export default () => {
  * title: 自定义样式
  */
 import React from 'react';
-import { NoticeBar } from 'react-vant';
+import { NoticeBar } from 'react-vant-nova';
 
 export default () => {
   return (

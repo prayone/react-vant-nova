@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cascader, Field } from 'react-vant'
+import { Cascader, Field } from 'react-vant-nova'
 
 export default () => {
   return (

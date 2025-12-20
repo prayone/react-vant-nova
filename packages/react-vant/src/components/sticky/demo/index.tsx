@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Sticky, Button } from 'react-vant'
+import { Sticky, Button } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

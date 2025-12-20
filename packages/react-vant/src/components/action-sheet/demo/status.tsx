@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ActionSheet, Cell } from 'react-vant'
+import { ActionSheet, Cell } from 'react-vant-nova'
 
 const actions2 = [
   { name: '选项一', color: '#ee0a24' },

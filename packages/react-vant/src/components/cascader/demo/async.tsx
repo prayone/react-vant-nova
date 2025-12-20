@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cascader, Toast, Field } from 'react-vant'
+import { Cascader, Toast, Field } from 'react-vant-nova'
 
 export default () => {
   const [dynamicOpts, setDynamicOpts] = React.useState([

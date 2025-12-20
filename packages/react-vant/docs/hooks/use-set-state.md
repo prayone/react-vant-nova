@@ -10,7 +10,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const [state, setState] = hooks.useSetState({
@@ -36,7 +36,7 @@ export default () => {
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const [state, setState, stateRef] = hooks.useSetState({ count: 0 });

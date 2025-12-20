@@ -1,10 +1,8 @@
-English | [简体中文](https://github.com/3lang3/react-vant/blob/main/packages/react-vant/README.zh-CN.md)
-
 <p align="center">
     <img alt="logo" src="https://cdn.jsdelivr.net/gh/3lang3/react-vant@main/public/logo.svg" width="200" style="margin-bottom: 10px;">
 </p>
 
-<h1 align="center">React Vant（此版本兼容recat 19）</h1>
+<h1 align="center">React Vant（此版本兼容 React 19）</h1>
 
 <p align="center">📱 A mobile component library based on the <strong>React</strong> framework according to <a href="https://github.com/youzan/vant">Vant</a>.</p>
 
@@ -80,6 +78,7 @@ function App() {
 }
 
 ReactDOM.render(<App />, mountNode);
+// 🔔 注意：React 19 与 React 18 及以下的导入/渲染方式存在差异，但组件的使用方法同React 18
 ```
 
 #### Code Examples:
@@ -93,12 +92,8 @@ ReactDOM.render(<App />, mountNode);
 
 For more information, please refer to [QuickStart](https://react-vant.3lang.dev/guide/quickstart).
 
-## 🤝 Contributing
+## 🤝 交流与支持
 
-Read our contributing guide and let's build a better react-vant together.
-
-We welcome all contributions. Please read our [CONTRIBUTING.md](https://react-vant.3lang.dev/guide/contribution) first. You can submit any ideas as pull requests or as GitHub issues. :)
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+- 反馈问题：[GitHub Issues](https://github.com/prayone/react-vant-nova/issues)
+- 开发交流：添加微信 wpp_rvn（备注「react-vant-nova」）
+- 文档地址：https://react-vant.3lang.dev/

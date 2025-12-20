@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Radio, Toast } from 'react-vant'
+import { Radio, Toast } from 'react-vant-nova'
 
 let timer
 

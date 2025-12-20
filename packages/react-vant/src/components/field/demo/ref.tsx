@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
-import { Field, Button } from 'react-vant'
-import type { FieldInstance } from 'react-vant'
+import { Field, Button } from 'react-vant-nova'
+import type { FieldInstance } from 'react-vant-nova'
 
 export default () => {
   const fieldRef = useRef<FieldInstance>(null)

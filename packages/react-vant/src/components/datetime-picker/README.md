@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { DatetimePicker } from 'react-vant';
+import { DatetimePicker } from 'react-vant-nova';
 ```
 
 ## 代码演示

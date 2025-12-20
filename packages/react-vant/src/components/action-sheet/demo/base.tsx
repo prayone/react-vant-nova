@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ActionSheet, Cell } from 'react-vant'
+import { ActionSheet, Cell } from 'react-vant-nova'
 
 const actions = [{ name: '选项一' }, { name: '选项二' }, { name: '选项三' }]
 const actions1 = [

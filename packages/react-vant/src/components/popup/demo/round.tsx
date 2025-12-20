@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Popup, Cell } from 'react-vant'
+import { Popup, Cell } from 'react-vant-nova'
 
 export default () => {
   const [visible, setVisible] = useState(false)

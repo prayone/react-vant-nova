@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Selector } from 'react-vant'
+import { Form, Selector } from 'react-vant-nova'
 import { options } from './options'
 
 export default () => {

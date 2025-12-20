@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ConfigProvider, Button, Rate, Field, Slider } from 'react-vant'
+import { ConfigProvider, Button, Rate, Field, Slider } from 'react-vant-nova'
 import './style.less'
 
 const themeVars = {

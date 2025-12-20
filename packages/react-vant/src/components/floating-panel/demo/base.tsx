@@ -1,5 +1,11 @@
 import React from 'react'
-import { ProductCard, Grid, FloatingPanel, Search, Divider } from 'react-vant'
+import {
+  ProductCard,
+  Grid,
+  FloatingPanel,
+  Search,
+  Divider,
+} from 'react-vant-nova'
 import { LocationO, StarO, CartO, Discount } from '@react-vant/icons'
 
 export default () => {

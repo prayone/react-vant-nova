@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { ShareSheet } from 'react-vant';
+import { ShareSheet } from 'react-vant-nova';
 ```
 
 ## 代码演示

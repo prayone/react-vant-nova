@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfoO } from '@react-vant/icons'
-import { SubmitBar } from 'react-vant'
+import { SubmitBar } from 'react-vant-nova'
 
 export default () => {
   return (

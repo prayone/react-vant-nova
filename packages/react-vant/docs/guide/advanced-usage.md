@@ -10,7 +10,7 @@ React Vant 中的许多组件提供了实例方法，调用实例方法时，我
 
 ```jsx | pure
 import { useRef } from 'react';
-import { Checkbox } from 'react-vant';
+import { Checkbox } from 'react-vant-nova';
 
 export default () => {
   const checkboxRef = useRef(null);

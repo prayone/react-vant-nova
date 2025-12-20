@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Calendar } from 'react-vant';
+import { Calendar } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -152,7 +152,7 @@ import { Calendar } from 'react-vant';
 
 ```js
 import { useRef } from 'react';
-import type { CalendarInstance } from 'react-vant';
+import type { CalendarInstance } from 'react-vant-nova';
 
 const calendarRef = ref<CalendarInstance>();
 

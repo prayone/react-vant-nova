@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Loading } from 'react-vant';
+import { Loading } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -29,7 +29,7 @@ import { Loading } from 'react-vant';
  * card: true
  */
 import React from 'react';
-import { Flex, Loading } from 'react-vant';
+import { Flex, Loading } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -58,7 +58,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Flex, Loading } from 'react-vant';
+import { Flex, Loading } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -84,7 +84,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Flex, Loading } from 'react-vant';
+import { Flex, Loading } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -110,7 +110,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Loading } from 'react-vant';
+import { Loading } from 'react-vant-nova';
 
 export default () => {
   return <Loading size="24px">加载中...</Loading>;
@@ -127,7 +127,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Loading } from 'react-vant';
+import { Loading } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -148,7 +148,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Loading } from 'react-vant';
+import { Loading } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -177,7 +177,7 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { LoadingType } from 'react-vant';
+import type { LoadingType } from 'react-vant-nova';
 ```
 
 ## 主题定制

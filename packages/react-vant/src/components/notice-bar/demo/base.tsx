@@ -1,6 +1,6 @@
 import React from 'react'
 import { VolumeO } from '@react-vant/icons'
-import { NoticeBar } from 'react-vant'
+import { NoticeBar } from 'react-vant-nova'
 
 export default () => {
   return (

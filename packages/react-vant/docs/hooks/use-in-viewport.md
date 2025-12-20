@@ -14,7 +14,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const ref = React.useRef();
@@ -40,6 +40,6 @@ function useInViewport(target): boolean;
 
 ### 参数
 
-| 参数   | 说明           | 类型                                                         | 默认值 |
-| ------ | -------------- | ------------------------------------------------------------ | ------ |
-| target | 需要监听的元素 | _HTMLElement \| () => HTMLElement \| React.MutableRefObject_ | -      |
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| target | 需要监听的元素 | _HTMLElement \| () => HTMLElement \| React.MutableRefObject_ | - |

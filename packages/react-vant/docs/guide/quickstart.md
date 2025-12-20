@@ -12,14 +12,14 @@ npm i react-vant
 yarn add react-vant
 ```
 
-> 当前为rc版本，API 可能出现 break change，推荐使用 `lockfile` 锁定版本
+> 当前为 rc 版本，API 可能出现 break change，推荐使用 `lockfile` 锁定版本
 
 ### 引入
 
 直接引入组件即可，react-vant 会自动为你加载 css 样式文件：
 
 ```js
-import { Button } from 'react-vant';
+import { Button } from 'react-vant-nova';
 ```
 
 ### 模版
@@ -43,7 +43,6 @@ import { Button } from 'react-vant';
 #### 在 astro 使用
 
 参考[react-vant-astro](https://github.com/3lang3/react-vant-template/tree/main/next/astro)
-
 
 #### vite 集成
 
@@ -79,7 +78,7 @@ module.exports = {
     [
       'import',
       {
-        libraryName: 'react-vant',
+        libraryName: 'react-vant-nova',
         libraryDirectory: 'es',
         style: false,
       },

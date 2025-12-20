@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Notify, Cell, Flex } from 'react-vant'
+import { Notify, Cell, Flex } from 'react-vant-nova'
 import { Bell, Close } from '@react-vant/icons'
 
 export default () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Form, Picker, DatetimePicker, Calendar } from 'react-vant'
+import { Button, Form, Picker, DatetimePicker, Calendar } from 'react-vant-nova'
 
 export default () => {
   const [form] = Form.useForm()

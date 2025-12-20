@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Cascader } from 'react-vant';
+import { Cascader } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -16,7 +16,7 @@ import { Cascader } from 'react-vant';
 
 <code title="基础用法" src="./demo/base.tsx" />
 
-### Form中使用
+### Form 中使用
 
 <code title="Form中使用" src="./demo/form.tsx" />
 

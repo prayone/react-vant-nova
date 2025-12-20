@@ -1,5 +1,5 @@
 import React from 'react'
-import { Field, NumberKeyboard, hooks } from 'react-vant'
+import { Field, NumberKeyboard, hooks } from 'react-vant-nova'
 
 export default () => {
   const [state, set] = hooks.useSetState({

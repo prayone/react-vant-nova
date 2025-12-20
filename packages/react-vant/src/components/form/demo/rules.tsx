@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Input, Toast, Form } from 'react-vant'
+import { Button, Input, Toast, Form } from 'react-vant-nova'
 
 export default () => {
   const onFinish = values => {

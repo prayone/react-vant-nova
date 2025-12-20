@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Badge } from 'react-vant';
+import { Badge } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -28,7 +28,7 @@ import { Badge } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Space, Badge } from 'react-vant';
+import { Space, Badge } from 'react-vant-nova';
 
 const Child = () => (
   <div style={{ width: 40, height: 40, background: '#f2f3f5', borderRadius: 4 }} />
@@ -63,7 +63,7 @@ export default () => {
  * title: 最大值
  */
 import React from 'react';
-import { Space, Badge } from 'react-vant';
+import { Space, Badge } from 'react-vant-nova';
 
 const Child = () => (
   <div style={{ width: 40, height: 40, background: '#f2f3f5', borderRadius: 4 }} />
@@ -96,7 +96,7 @@ export default () => {
  * title: 自定义颜色和偏移量
  */
 import React from 'react';
-import { Space, Badge } from 'react-vant';
+import { Space, Badge } from 'react-vant-nova';
 
 const Child = () => (
   <div style={{ width: 40, height: 40, background: '#f2f3f5', borderRadius: 4 }} />
@@ -138,7 +138,7 @@ export default () => {
  * title: 独立展示
  */
 import React from 'react';
-import { Space, Badge } from 'react-vant';
+import { Space, Badge } from 'react-vant-nova';
 
 export default () => {
   return (

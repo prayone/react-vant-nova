@@ -12,7 +12,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { hooks, Toast } from 'react-vant';
+import { hooks, Toast } from 'react-vant-nova';
 
 const MyComponent = () => {
   hooks.useMount(() => {

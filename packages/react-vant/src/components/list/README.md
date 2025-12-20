@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { List } from 'react-vant';
+import { List } from 'react-vant-nova';
 ```
 
 ## 代码演示

@@ -7,7 +7,7 @@ import {
   Toast,
   Typography,
   Search,
-} from 'react-vant'
+} from 'react-vant-nova'
 import * as Icons from '@react-vant/icons'
 import icons from './config'
 import './style.less'

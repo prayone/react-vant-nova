@@ -1,5 +1,5 @@
 import React from 'react'
-import { Badge, Space } from 'react-vant'
+import { Badge, Space } from 'react-vant-nova'
 import { Success, Cross, Down } from '@react-vant/icons'
 
 const Child = () => (

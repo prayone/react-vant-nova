@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Field } from 'react-vant';
+import { Field } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -21,7 +21,7 @@ import { Field } from 'react-vant';
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Field } from 'react-vant';
+import { Field } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -68,7 +68,7 @@ export default () => {
  * title: 高度自适应
  */
 import React, { useState } from 'react';
-import { Field } from 'react-vant';
+import { Field } from 'react-vant-nova';
 
 export default () => {
   const [content, setContent] = useState('');
@@ -95,7 +95,7 @@ export default () => {
  * title: 显示字数统计
  */
 import React, { useState } from 'react';
-import { Field } from 'react-vant';
+import { Field } from 'react-vant-nova';
 
 export default () => {
   const [content, setContent] = useState('');
@@ -125,7 +125,7 @@ export default () => {
  * title: 输入框内容对齐
  */
 import React from 'react';
-import { Field } from 'react-vant';
+import { Field } from 'react-vant-nova';
 
 export default () => {
   return <Field label="文本" placeholder="输入框内容右对齐" align="right" />;

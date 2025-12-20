@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { FloatingBall } from 'react-vant';
+import { FloatingBall } from 'react-vant-nova';
 ```
 
 ### 示例代码

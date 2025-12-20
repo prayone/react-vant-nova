@@ -1,5 +1,5 @@
 import React from 'react'
-import { Calendar, Cell } from 'react-vant'
+import { Calendar, Cell } from 'react-vant-nova'
 
 export default () => {
   return (

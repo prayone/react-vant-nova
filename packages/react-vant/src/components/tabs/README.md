@@ -5,7 +5,7 @@
 ## 引入
 
 ```js
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 ```
 
 ## 代码演示
@@ -30,7 +30,7 @@ import { Tabs } from 'react-vant'
  * title: 通过名称匹配
  */
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 
 export default () => {
   return (
@@ -56,7 +56,7 @@ export default () => {
  * title: 标签栏滚动
  */
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 
 export default () => {
   return (
@@ -82,7 +82,7 @@ export default () => {
  * title: 禁用标签
  */
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 
 export default () => {
   return (
@@ -108,7 +108,7 @@ export default () => {
  * title: 对齐方式
  */
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 
 export default () => {
   return (
@@ -134,7 +134,7 @@ export default () => {
  * title: 粘性布局
  */
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 
 export default () => {
   return (
@@ -160,7 +160,7 @@ export default () => {
  * title: 滚动导航
  */
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 
 export default () => {
   return (

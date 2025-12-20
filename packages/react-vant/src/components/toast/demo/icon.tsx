@@ -1,6 +1,6 @@
 import { FireO } from '@react-vant/icons'
 import React from 'react'
-import { Toast, Cell, Image } from 'react-vant'
+import { Toast, Cell, Image } from 'react-vant-nova'
 
 export default () => {
   return (

@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { CouponCell, CouponList } from 'react-vant';
+import { CouponCell, CouponList } from 'react-vant-nova';
 ```
 
 ## 代码演示

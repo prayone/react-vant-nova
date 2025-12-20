@@ -13,7 +13,7 @@ import {
   Picker,
   Calendar,
   DatetimePicker,
-} from 'react-vant'
+} from 'react-vant-nova'
 
 export default () => {
   const [form] = Form.useForm()

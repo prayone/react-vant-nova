@@ -12,7 +12,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { Field, Form, hooks } from 'react-vant';
+import { Field, Form, hooks } from 'react-vant-nova';
 
 function useRequest() {
   const [data, setData] = React.useState({});
@@ -59,7 +59,7 @@ export default () => {
 
 ```jsx | pure
 import React from 'react';
-import { Field, Form, hooks } from 'react-vant';
+import { Field, Form, hooks } from 'react-vant-nova';
 
 export default () => {
   const [data, run] = useRequest(); //模拟请求
@@ -109,10 +109,10 @@ function useFormSmart(options?: FormOption): [ref, FormMethod];
 
 ### 参数
 
-| 参数  | 说明                                            | 类型      | 默认值  |
-| ----- | ----------------------------------------------- | --------- | ------- |
-| value | 需要设置到表单的值                              | _object_  | -       |
-| sync  | 开启 value 同步模式,每次 value 变化都会设置表单 | _boolean_ | `false` |
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| value | 需要设置到表单的值 | _object_ | - |
+| sync | 开启 value 同步模式,每次 value 变化都会设置表单 | _boolean_ | `false` |
 
 ### 返回值
 

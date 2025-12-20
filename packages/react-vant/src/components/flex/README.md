@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Flex } from 'react-vant';
+import { Flex } from 'react-vant-nova';
 ```
 
 ## 代码演示

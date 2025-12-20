@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Image } from 'react-vant'
+import { Grid, Image } from 'react-vant-nova'
 
 export default () => {
   return (

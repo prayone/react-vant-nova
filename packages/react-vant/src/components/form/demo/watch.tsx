@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Input, Button, Radio, Space, NoticeBar } from 'react-vant'
+import { Form, Input, Button, Radio, Space, NoticeBar } from 'react-vant-nova'
 
 type FieldType = { account?: string; loginMethod?: 'mobile' | 'email' }
 

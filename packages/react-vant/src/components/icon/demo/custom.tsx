@@ -1,5 +1,5 @@
 import React from 'react'
-import { Space } from 'react-vant'
+import { Space } from 'react-vant-nova'
 import { createFromIconfontCN } from '@react-vant/icons'
 
 const IconFont = createFromIconfontCN(

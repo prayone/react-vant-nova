@@ -17,10 +17,10 @@
     "lib": ["DOM", "ES2015"],
     "typeRoots": ["src/typings", "node_modules/@types"],
     "paths": {
-      "react-vant": ["src/components/index.ts"]
+      "react-vant-nova": ["src/components/index.ts"]
     },
     "noEmitOnError": false
   },
-  "exclude": ["node_modules", "dist", ".rcdoc", "propsType","src"],
-  "include": ["docs", "_rcdoc_", "rcdoc.config.ts"]
+  "exclude": ["node_modules", "dist", ".rcdoc", "propsType", "src"],
+  "include": [ "docs", "_rcdoc_", "rcdoc.config.ts"]
 }

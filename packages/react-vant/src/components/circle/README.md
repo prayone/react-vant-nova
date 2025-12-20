@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { Circle } from 'react-vant';
+import { Circle } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -26,7 +26,7 @@ import { Circle } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Circle } from 'react-vant';
+import { Circle } from 'react-vant-nova';
 
 export default () => {
   return <Circle rate={70} speed={100} text="70%" />;
@@ -42,7 +42,7 @@ export default () => {
  * title: 样式定制
  */
 import React, { useState } from 'react';
-import { Circle, Flex, Button, Space } from 'react-vant';
+import { Circle, Flex, Button, Space } from 'react-vant-nova';
 
 const format = (rate) => Math.min(Math.max(rate, 0), 100);
 
@@ -111,7 +111,7 @@ export default () => {
  * title: 起始位置
  */
 import React from 'react';
-import { Space, Circle } from 'react-vant';
+import { Space, Circle } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -148,7 +148,7 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { CircleStartPosition } from 'react-vant';
+import type { CircleStartPosition } from 'react-vant-nova';
 ```
 
 ## 主题定制

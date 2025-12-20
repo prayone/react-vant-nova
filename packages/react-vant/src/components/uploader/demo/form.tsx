@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Uploader, UploaderValueItem, Button } from 'react-vant'
+import { Form, Uploader, UploaderValueItem, Button } from 'react-vant-nova'
 import { upload } from './utils'
 import './style.less'
 

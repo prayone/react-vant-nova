@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cell, Toast, Switch } from 'react-vant'
+import { Cell, Toast, Switch } from 'react-vant-nova'
 import { ToastReturnType } from '../PropsType'
 
 let t1: ToastReturnType

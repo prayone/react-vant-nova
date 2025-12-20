@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, WaterMark } from 'react-vant'
+import { Button, WaterMark } from 'react-vant-nova'
 
 import './style.less'
 

@@ -1,6 +1,6 @@
 import { ArrowDown } from '@react-vant/icons'
 import React from 'react'
-import { Button, Input, Form, Picker, Space } from 'react-vant'
+import { Button, Input, Form, Picker, Space } from 'react-vant-nova'
 
 const columns = [
   { text: '86 🇨🇳', value: '86' },

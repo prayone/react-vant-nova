@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { NavBar } from 'react-vant';
+import { NavBar } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -19,7 +19,7 @@ import { NavBar } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Toast, NavBar } from 'react-vant';
+import { Toast, NavBar } from 'react-vant-nova';
 
 export default () => {
   return (

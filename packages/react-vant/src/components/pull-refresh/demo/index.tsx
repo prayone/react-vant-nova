@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { PullRefresh, Tabs, Toast } from 'react-vant'
+import { PullRefresh, Tabs, Toast } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

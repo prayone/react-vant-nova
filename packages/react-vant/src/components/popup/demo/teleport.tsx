@@ -1,5 +1,5 @@
 import React from 'react'
-import { Popup, Cell, ConfigProvider } from 'react-vant'
+import { Popup, Cell, ConfigProvider } from 'react-vant-nova'
 
 const theme = {
   '--rv-popup-title-color': '#fff',

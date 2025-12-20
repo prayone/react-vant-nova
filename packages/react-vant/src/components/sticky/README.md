@@ -7,7 +7,7 @@ Sticky 组件与 CSS 中`position: sticky`属性实现的效果一致，当组�
 ## 引入
 
 ```js
-import { Sticky } from 'react-vant';
+import { Sticky } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -20,7 +20,7 @@ import { Sticky } from 'react-vant';
 
 ```jsx | pure
 import React from 'react';
-import { Sticky, Button } from 'react-vant';
+import { Sticky, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -39,7 +39,7 @@ export default () => {
 
 ```jsx | pure
 import React from 'react';
-import { Sticky, Button } from 'react-vant';
+import { Sticky, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -58,7 +58,7 @@ export default () => {
 
 ```tsx | pure
 import React, { useRef } from 'react';
-import { Sticky, Button } from 'react-vant';
+import { Sticky, Button } from 'react-vant-nova';
 
 export default () => {
   const container = useRef<HTMLDivElement>(null);
@@ -81,7 +81,7 @@ export default () => {
 
 ```jsx | pure
 import React from 'react';
-import { Sticky, Button } from 'react-vant';
+import { Sticky, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -121,7 +121,7 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { StickyPosition } from 'react-vant';
+import type { StickyPosition } from 'react-vant-nova';
 ```
 
 ## 主题定制

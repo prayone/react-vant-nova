@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Image } from 'react-vant';
+import { Image } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -92,7 +92,7 @@ import { Image } from 'react-vant';
 组件导出以下类型定义：
 
 ```js
-import type { ImageFit } from 'react-vant';
+import type { ImageFit } from 'react-vant-nova';
 ```
 
 ## 主题定制

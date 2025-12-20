@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { ActionSheet } from 'react-vant';
+import { ActionSheet } from 'react-vant-nova';
 ```
 
 ## 代码演示

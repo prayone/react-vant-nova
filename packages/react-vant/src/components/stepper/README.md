@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Stepper } from 'react-vant';
+import { Stepper } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -72,14 +72,14 @@ import { Stepper } from 'react-vant';
 组件导出以下类型定义：
 
 ```ts
-import type { StepperTheme, StepperInstance } from 'react-vant';
+import type { StepperTheme, StepperInstance } from 'react-vant-nova';
 ```
 
 `StepperInstance` 是组件实例的类型，用法如下：
 
 ```ts
 import { useRef } from 'react';
-import type { StepperInstance } from 'react-vant';
+import type { StepperInstance } from 'react-vant-nova';
 
 const stepperRef = useRef<StepperInstance>(null);
 

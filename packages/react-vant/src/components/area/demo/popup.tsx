@@ -1,5 +1,5 @@
 import React from 'react'
-import { Area, Field } from 'react-vant'
+import { Area, Field } from 'react-vant-nova'
 import { areaList } from '@vant/area-data'
 
 export default () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Rate } from 'react-vant'
+import { Rate } from 'react-vant-nova'
 import { Fire, FireO } from '@react-vant/icons'
 
 export default () => {

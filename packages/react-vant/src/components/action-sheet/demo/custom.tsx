@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ActionSheet, Cell } from 'react-vant'
+import { ActionSheet, Cell } from 'react-vant-nova'
 
 export default () => {
   const [visible, setVisible] = useState(false)

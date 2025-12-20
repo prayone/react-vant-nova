@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { Checkbox, Button } from 'react-vant'
+import { Checkbox, Button } from 'react-vant-nova'
 import { CheckboxGroupInstance } from '../PropsType'
 
 export default () => {

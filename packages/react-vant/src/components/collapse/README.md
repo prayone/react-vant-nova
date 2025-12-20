@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Collapse } from 'react-vant';
+import { Collapse } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -21,7 +21,7 @@ import { Collapse } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Collapse } from 'react-vant';
+import { Collapse } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -49,7 +49,7 @@ export default () => {
  * title: 手风琴
  */
 import React from 'react';
-import { Collapse } from 'react-vant';
+import { Collapse } from 'react-vant-nova';
 import { QuestionO } from '@react-vant/icons';
 
 export default () => {
@@ -78,7 +78,7 @@ export default () => {
  * title: 禁用状态
  */
 import React from 'react';
-import { Collapse } from 'react-vant';
+import { Collapse } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -144,14 +144,14 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { CollapseItemInstance } from 'react-vant';
+import type { CollapseItemInstance } from 'react-vant-nova';
 ```
 
 `CollapseItemInstance` 是组件实例的类型，用法如下：
 
 ```ts
 import { useRef } from 'react';
-import type { CollapseItemInstance } from 'react-vant';
+import type { CollapseItemInstance } from 'react-vant-nova';
 
 const collapseItemRef = useRef<CollapseItemInstance>(null);
 

@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { SwipeCell } from 'react-vant';
+import { SwipeCell } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -21,7 +21,7 @@ import { SwipeCell } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { SwipeCell, Button, Cell, Toast } from 'react-vant';
+import { SwipeCell, Button, Cell, Toast } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -47,7 +47,7 @@ export default () => {
  * title: 事件监听
  */
 import React from 'react';
-import { SwipeCell, Button, Cell } from 'react-vant';
+import { SwipeCell, Button, Cell } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -83,7 +83,7 @@ export default () => {
  * title: 自定义内容
  */
 import React from 'react';
-import { SwipeCell, Flex, Button, Image, Typography } from 'react-vant';
+import { SwipeCell, Flex, Button, Image, Typography } from 'react-vant-nova';
 import './demo/style.less';
 
 export default () => {
@@ -126,7 +126,7 @@ export default () => {
  * title: 异步关闭
  */
 import React from 'react';
-import { SwipeCell, Button, Cell, Dialog } from 'react-vant';
+import { SwipeCell, Button, Cell, Dialog } from 'react-vant-nova';
 
 const beforeClose = ({ position }) => {
   switch (position) {

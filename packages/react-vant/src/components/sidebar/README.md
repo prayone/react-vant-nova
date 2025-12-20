@@ -11,7 +11,7 @@ mobile-className: 'vant-doc-demo-section--card'
 ## 引入
 
 ```js
-import { Sidebar, SidebarItem } from 'react-vant';
+import { Sidebar, SidebarItem } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -25,7 +25,7 @@ import { Sidebar, SidebarItem } from 'react-vant';
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Sidebar, Toast } from 'react-vant';
+import { Sidebar, Toast } from 'react-vant-nova';
 
 export default () => {
   const [active, setActive] = useState(2);
@@ -54,7 +54,7 @@ export default () => {
  * title: 徽标提示
  */
 import React from 'react';
-import { Sidebar } from 'react-vant';
+import { Sidebar } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -76,7 +76,7 @@ export default () => {
  * title: 徽标提示
  */
 import React from 'react';
-import { Sidebar } from 'react-vant';
+import { Sidebar } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -96,7 +96,7 @@ export default () => {
  * title: 自定义内容区
  */
 import React, { useState } from 'react';
-import { Sidebar, Toast } from 'react-vant';
+import { Sidebar, Toast } from 'react-vant-nova';
 
 export default () => {
   const [active, setActive] = useState(0);

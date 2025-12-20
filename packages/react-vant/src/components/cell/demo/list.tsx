@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cell, Image } from 'react-vant'
+import { Cell, Image } from 'react-vant-nova'
 
 export default () => {
   return (

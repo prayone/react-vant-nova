@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Step, Steps } from 'react-vant';
+import { Step, Steps } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -21,7 +21,7 @@ import { Step, Steps } from 'react-vant';
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Steps, Button } from 'react-vant';
+import { Steps, Button } from 'react-vant-nova';
 
 export default () => {
   const [active, setActive] = useState(1);
@@ -53,7 +53,7 @@ export default () => {
  * title: 自定义样式
  */
 import React, { useState } from 'react';
-import { Steps, Button } from 'react-vant';
+import { Steps, Button } from 'react-vant-nova';
 
 export default () => {
   const [active, setActive] = useState(1);
@@ -85,7 +85,7 @@ export default () => {
  * title: 竖向步骤条
  */
 import React from 'react';
-import { Steps } from 'react-vant';
+import { Steps } from 'react-vant-nova';
 
 export default () => {
   return (

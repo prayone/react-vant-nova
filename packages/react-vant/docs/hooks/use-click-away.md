@@ -10,7 +10,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { useClickAway } from 'react-vant';
+import { useClickAway } from 'react-vant-nova';
 
 export default () => {
   const ref = React.useRef();
@@ -29,7 +29,7 @@ export default () => {
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const ref = React.useRef();

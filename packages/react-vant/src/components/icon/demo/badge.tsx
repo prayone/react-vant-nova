@@ -1,5 +1,5 @@
 import React from 'react'
-import { Space, Badge } from 'react-vant'
+import { Space, Badge } from 'react-vant-nova'
 import { ChatO } from '@react-vant/icons'
 
 export default () => {

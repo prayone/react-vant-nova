@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react'
-import { Stepper, Cell, Toast } from 'react-vant'
+import { Stepper, Cell, Toast } from 'react-vant-nova'
 
 let timer
 

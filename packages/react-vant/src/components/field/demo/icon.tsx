@@ -1,6 +1,6 @@
 import { ShopO, WarningO } from '@react-vant/icons'
 import React, { useState } from 'react'
-import { Cell, Field, Toast } from 'react-vant'
+import { Cell, Field, Toast } from 'react-vant-nova'
 
 export default () => {
   const [value1, setValue1] = useState('')

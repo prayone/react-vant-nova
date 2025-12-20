@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Lazyload } from 'react-vant';
+import { Lazyload } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -29,7 +29,7 @@ import { Lazyload } from 'react-vant';
  * card: true
  */
 import React from 'react';
-import { Image } from 'react-vant';
+import { Image } from 'react-vant-nova';
 import './demo/style.less';
 
 const imageList = [
@@ -63,7 +63,7 @@ export default () => {
  * card: true
  */
 import React, { useEffect } from 'react';
-import { Lazyload, Image, Typography } from 'react-vant';
+import { Lazyload, Image, Typography } from 'react-vant-nova';
 
 const LazyComponent = () => {
   useEffect(() => {

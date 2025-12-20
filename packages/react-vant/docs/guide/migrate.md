@@ -39,6 +39,7 @@
 +  <Input.TextArea />
 <Form.Item>
 ```
+
 #### 废弃组件
 
 - 移除了 `Swipe` 组件，现由 `Swiper` 代替
@@ -59,11 +60,13 @@
 #### 组件重构
 
 - `List` 组件:
+
   - 调整 `errorText` 类型
   - 移除 `loading` `error` `immediateCheck` `autoCheck` 属性，现由内部维护。
   - `onLoad` 方法新增 `isRetry` 参数，用来区分请求出错后用户点击底部重试场景。
 
 - `Uploader` 组件:
+
   - 新增 `upload` 属性，解决上传以及动态状态问题
   - 新增 `statusTextRender` 属性，支持上传是自定义文案
   - 新增 `deleteRender` 属性，支持自定义上传按钮视图
@@ -73,20 +76,23 @@
   - 调整 `beforeRead` 类型
   - 移除 `beforeDelete` 属性，现可通过 `onDelete` 实现
   - 移除 `afterRead` 属性，现可通过 `upload` 实现
-  
+
 - `Tabs` 组件:
+
   - 调整 `type` 属性，新增 `capsule` `jumbo` 类型
   - 调整 `color` 属性定义，适配 `type` 属性
   - 调整 `onChange` 类型
   - 调整 `onClickTab` 类型
 
 - `Tabs.TabPane`:
+
   - 调整 `title` 类型
   - 移除 `renderTitle` 属性，现可通过 `title` 实现
   - 调整 `badge` 属性
   - 移除 `dot` `showZeroBadge` 属性，现可通过 `badge` 实现
 
 - `Field` 组件:
+
   - 现在内部由 `Input` 实现
   - 移除 `autosize` 属性，使用 `autoSize` 替代
   - 移除 `inputAlign` 属性，使用 `align` 代替
@@ -96,16 +102,19 @@
   - 移除 `button` 属性，使用 `suffix` 代替
 
 - `Form` 组件:
+
   - 移除 `inputAlign` 属性，使用 `controlAlign` 代替
   - 新增 `Form.Subscribe`
   - 新增 `Form.useWatch`
-  
+
 - `Form.Item` 组件:
+
   - `Form.Item` 移除 `inputAlign` 属性，使用 `controlAlign` 代替
   - `Form.Item` 移除 `customField` 属性
   - `Form.Item` 调整 `onClick` 属性，现第二个参数为子组件 `ref` 的实例
 
 - `Cascader` 组件:
+
   - 支持 [受控](https://reactjs.org/docs/forms.html#controlled-components)和[非受控模式](https://reactjs.org/docs/uncontrolled-components.html)
   - 调整 `title` 类型
   - 调整 `value`，`defaultValue` 类型
@@ -114,6 +123,7 @@
   - 调整 `onFinish` 类型
 
 - `Picker` 组件:
+
   - 支持 [受控](https://reactjs.org/docs/forms.html#controlled-components)和[非受控模式](https://reactjs.org/docs/uncontrolled-components.html)
   - 调整 `value` 类型
   - 调整 `columns` 类型
@@ -126,8 +136,8 @@
   - 新增 `popup` 属性
   - 新增 `visible` 属性，需开启 `popup` 生效
 
-
 - `Area` 组件:
+
   - 支持 [受控](https://reactjs.org/docs/forms.html#controlled-components)和[非受控模式](https://reactjs.org/docs/uncontrolled-components.html)
   - 受 `Picker` 变更影响
   - 移除 `isOverseaCode` 属性
@@ -140,12 +150,14 @@
   - 调整 `children` 类型，仅支持 `Function`
 
 - `Calendar` 组件:
+
   - 支持 [受控](https://reactjs.org/docs/forms.html#controlled-components)和[非受控模式](https://reactjs.org/docs/uncontrolled-components.html)
   - 将 `defaultDate` 改为 `defaultValue`
   - 新增 `Picker` 实例方法
   - 调整 `children` 类型，仅支持 `Function`
 
 - `DatetimePicker` 组件:
+
   - 支持 [受控](https://reactjs.org/docs/forms.html#controlled-components)和[非受控模式](https://reactjs.org/docs/uncontrolled-components.html)
   - 新增 `defaultValue`
   - 新增 `Picker` 实例方法
@@ -162,10 +174,10 @@
 2.0 中采用按需引入的方式：
 
 ```diff
-import { Button } from 'react-vant';
+import { Button } from 'react-vant-nova';
 
 // tree-shaking supported
-- import { Icon } from 'react-vant';
+- import { Icon } from 'react-vant-nova';
 + import { Arrow } from '@react-vant/icons';
 
 const Demo = () => (

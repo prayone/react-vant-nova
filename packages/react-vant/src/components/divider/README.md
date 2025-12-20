@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Divider } from 'react-vant';
+import { Divider } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -28,7 +28,7 @@ import { Divider } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Divider } from 'react-vant';
+import { Divider } from 'react-vant-nova';
 
 export default () => <Divider />;
 ```
@@ -42,7 +42,7 @@ export default () => <Divider />;
  * title: 展示文字
  */
 import React from 'react';
-import { Divider } from 'react-vant';
+import { Divider } from 'react-vant-nova';
 
 export default () => <Divider>文字</Divider>;
 ```
@@ -56,7 +56,7 @@ export default () => <Divider>文字</Divider>;
  * title: 内容位置
  */
 import React from 'react';
-import { Divider } from 'react-vant';
+import { Divider } from 'react-vant-nova';
 
 export default () => (
   <>
@@ -75,7 +75,7 @@ export default () => (
  * title: 虚线
  */
 import React from 'react';
-import { Divider } from 'react-vant';
+import { Divider } from 'react-vant-nova';
 
 export default () => <Divider dashed>虚线Divider</Divider>;
 ```
@@ -89,7 +89,7 @@ export default () => <Divider dashed>虚线Divider</Divider>;
  * title: 自定义样式
  */
 import React from 'react';
-import { Divider } from 'react-vant';
+import { Divider } from 'react-vant-nova';
 
 export default () => (
   <Divider style={{ color: '#3f45ff', borderColor: '#3f45ff', padding: '0 16px' }}>

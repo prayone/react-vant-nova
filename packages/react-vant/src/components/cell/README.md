@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Cell } from 'react-vant';
+import { Cell } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -116,7 +116,7 @@ import { Cell } from 'react-vant';
 组件导出以下类型定义：
 
 ```js
-import type { CellArrowDirection } from 'react-vant';
+import type { CellArrowDirection } from 'react-vant-nova';
 ```
 
 ## 主题定制

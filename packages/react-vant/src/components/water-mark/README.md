@@ -14,7 +14,7 @@ simulator:
 适用于防止信息盗用、标识版权时使用。
 
 ```js
-import { WaterMark } from 'react-vant';
+import { WaterMark } from 'react-vant-nova';
 ```
 
 ## 代码演示

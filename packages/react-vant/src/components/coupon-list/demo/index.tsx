@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CouponList, Popup, Toast, CouponCell } from 'react-vant'
+import { CouponList, Popup, Toast, CouponCell } from 'react-vant-nova'
 import { data, disabledDiscountCoupon, disabledCoupon } from './demo'
 
 const getRandomId = (max = 999999) =>

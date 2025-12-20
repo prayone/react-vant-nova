@@ -1,5 +1,5 @@
 import React from 'react'
-import { Toast, NavBar } from 'react-vant'
+import { Toast, NavBar } from 'react-vant-nova'
 import { Search } from '@react-vant/icons'
 
 export default () => {

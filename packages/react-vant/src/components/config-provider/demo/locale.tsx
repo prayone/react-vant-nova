@@ -1,5 +1,5 @@
 import React from 'react'
-import { ConfigProvider, Calendar } from 'react-vant'
+import { ConfigProvider, Calendar } from 'react-vant-nova'
 import locale from './enUs'
 import './style.less'
 

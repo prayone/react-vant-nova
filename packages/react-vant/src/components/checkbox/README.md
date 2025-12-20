@@ -13,7 +13,7 @@ simulator:
 ## 引入
 
 ```js
-import { Checkbox } from 'react-vant';
+import { Checkbox } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -135,7 +135,7 @@ import { Checkbox } from 'react-vant';
 
 ```ts
 import { useRef } from 'react';
-import type { CheckboxInstance, CheckboxGroupInstance } from 'react-vant';
+import type { CheckboxInstance, CheckboxGroupInstance } from 'react-vant-nova';
 
 const checkboxRef = useRef<CheckboxInstance>();
 const checkboxGroupRef = useRef<CheckboxGroupInstance>();

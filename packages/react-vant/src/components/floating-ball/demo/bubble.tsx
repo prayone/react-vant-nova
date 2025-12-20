@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, FloatingBall } from 'react-vant'
+import { Flex, FloatingBall } from 'react-vant-nova'
 import { Chat } from '@react-vant/icons'
 
 export default props => {

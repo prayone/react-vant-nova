@@ -9,7 +9,7 @@
 Notify 是一个函数，调用后会直接在页面中弹出相应的消息提示。
 
 ```js
-import { Notify } from 'react-vant';
+import { Notify } from 'react-vant-nova';
 
 Notify.show('通知内容');
 ```
@@ -24,7 +24,7 @@ Notify.show('通知内容');
  * card: true
  */
 import React from 'react';
-import { Notify, Cell } from 'react-vant';
+import { Notify, Cell } from 'react-vant-nova';
 
 export default () => {
   return <Cell title="基础用法" isLink onClick={() => Notify.show('通知内容')} />;
@@ -41,7 +41,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Notify, Cell } from 'react-vant';
+import { Notify, Cell } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -81,7 +81,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Notify, Cell } from 'react-vant';
+import { Notify, Cell } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -140,7 +140,7 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { NotifyType, NotifyProps } from 'react-vant';
+import type { NotifyType, NotifyProps } from 'react-vant-nova';
 ```
 
 ## 主题定制

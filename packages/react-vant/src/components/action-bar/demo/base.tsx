@@ -1,6 +1,6 @@
 import React from 'react'
 import { CartO, ChatO, ShopO } from '@react-vant/icons'
-import { ActionBar } from 'react-vant'
+import { ActionBar } from 'react-vant-nova'
 
 export default () => {
   return (

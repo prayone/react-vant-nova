@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { Button } from 'react-vant';
+import { Button } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -136,7 +136,7 @@ import { Button } from 'react-vant';
 组件导出以下类型定义：
 
 ```js
-import type { ButtonType, ButtonSize } from 'react-vant';
+import type { ButtonType, ButtonSize } from 'react-vant-nova';
 ```
 
 ## 主题定制

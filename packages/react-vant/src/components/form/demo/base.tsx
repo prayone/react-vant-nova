@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Input, Form } from 'react-vant'
+import { Button, Input, Form } from 'react-vant-nova'
 
 export default () => {
   const [form] = Form.useForm()

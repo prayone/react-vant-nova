@@ -1,5 +1,5 @@
 import React from 'react'
-import { IndexBar, Tabs, Cell } from 'react-vant'
+import { IndexBar, Tabs, Cell } from 'react-vant-nova'
 
 const indexList = []
 const customIndexList = [1, 2, 3, 4, 5, 6, 8, 9, 10]

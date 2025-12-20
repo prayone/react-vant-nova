@@ -1,5 +1,5 @@
 import React from 'react'
-import { Toast, Calendar } from 'react-vant'
+import { Toast, Calendar } from 'react-vant-nova'
 
 const formatDate = date => `${date.getMonth() + 1}/${date.getDate()}`
 

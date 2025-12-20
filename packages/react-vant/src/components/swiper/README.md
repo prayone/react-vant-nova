@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Swiper } from 'react-vant';
+import { Swiper } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -21,7 +21,7 @@ import { Swiper } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Swiper } from 'react-vant';
+import { Swiper } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/base.less';
 
@@ -43,7 +43,7 @@ export default () => {
  * title: 懒加载
  */
 import React from 'react';
-import { Swiper, Image } from 'react-vant';
+import { Swiper, Image } from 'react-vant-nova';
 import { images } from './demo/images';
 import './demo/images.less';
 
@@ -71,7 +71,7 @@ export default () => {
  * title: 监听 onChange 事件
  */
 import React from 'react';
-import { Swiper, Toast } from 'react-vant';
+import { Swiper, Toast } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/base.less';
 
@@ -93,7 +93,7 @@ export default () => {
  * title: 纵向滚动
  */
 import React from 'react';
-import { Swiper, Toast } from 'react-vant';
+import { Swiper, Toast } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/base.less';
 
@@ -117,7 +117,7 @@ export default () => {
  * title: 自定义滑块大小
  */
 import React from 'react';
-import { Swiper, Toast } from 'react-vant';
+import { Swiper, Toast } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/base.less';
 
@@ -139,7 +139,7 @@ export default () => {
  * title: 滑块居中
  */
 import React from 'react';
-import { Swiper, Toast } from 'react-vant';
+import { Swiper, Toast } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/base.less';
 
@@ -161,7 +161,7 @@ export default () => {
  * title: 垂直滑块居中
  */
 import React from 'react';
-import { Swiper, Toast } from 'react-vant';
+import { Swiper, Toast } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/base.less';
 
@@ -185,7 +185,7 @@ export default () => {
  * title: 自定义指示器
  */
 import React from 'react';
-import { Swiper, Toast } from 'react-vant';
+import { Swiper, Toast } from 'react-vant-nova';
 import { items } from './demo/items';
 import './demo/indicator.less';
 
@@ -258,14 +258,14 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { SwiperInstance } from 'react-vant';
+import type { SwiperInstance } from 'react-vant-nova';
 ```
 
 `SwiperInstance` 是组件实例的类型，用法如下：
 
 ```ts
 import { useRef } from 'react';
-import type { SwiperInstance } from 'react-vant';
+import type { SwiperInstance } from 'react-vant-nova';
 
 const swipeRef = useRef<SwipeInstance>(null);
 

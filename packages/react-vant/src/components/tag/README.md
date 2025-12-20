@@ -3,7 +3,7 @@
 ## 引入
 
 ```js
-import { Tag } from 'react-vant';
+import { Tag } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -18,7 +18,7 @@ import { Tag } from 'react-vant';
  * card: true
  */
 import React from 'react';
-import { Cell, Tag } from 'react-vant';
+import { Cell, Tag } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -53,7 +53,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Cell, Tag } from 'react-vant';
+import { Cell, Tag } from 'react-vant-nova';
 
 export default () => {
   const [show, setShow] = React.useState(true);
@@ -102,7 +102,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Cell, Tag } from 'react-vant';
+import { Cell, Tag } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -135,7 +135,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Cell, Tag } from 'react-vant';
+import { Cell, Tag } from 'react-vant-nova';
 
 export default () => {
   return (

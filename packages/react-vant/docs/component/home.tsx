@@ -15,7 +15,7 @@ import {
   Tabs,
   Cell,
   Steps,
-} from 'react-vant'
+} from '../../src/components/index'
 import clsx from 'clsx'
 import {
   ClockO,

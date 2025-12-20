@@ -1,5 +1,5 @@
 import React from 'react'
-import { Picker } from 'react-vant'
+import { Picker } from 'react-vant-nova'
 import { cascaderData } from './data'
 
 export default () => {

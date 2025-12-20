@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Picker } from 'react-vant';
+import { Picker } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -122,7 +122,7 @@ export type PickerColumn<T = PickerColumnOption> = (string | T)[];
 
 ```ts
 import { useRef } from 'react';
-import type { PickerPopupActions } from 'react-vant';
+import type { PickerPopupActions } from 'react-vant-nova';
 
 const pickerRef = useRef<PickerPopupActions>();
 

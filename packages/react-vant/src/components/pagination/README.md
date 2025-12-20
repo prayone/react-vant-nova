@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { Pagination } from 'react-vant';
+import { Pagination } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -26,7 +26,7 @@ import { Pagination } from 'react-vant';
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Pagination } from 'react-vant';
+import { Pagination } from 'react-vant-nova';
 
 export default () => {
   const [page, setPage] = useState(1);
@@ -43,7 +43,7 @@ export default () => {
  * title: 简单模式
  */
 import React, { useState } from 'react';
-import { Pagination } from 'react-vant';
+import { Pagination } from 'react-vant-nova';
 
 export default () => {
   const [page, setPage] = useState(1);
@@ -58,7 +58,7 @@ export default () => {
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Pagination } from 'react-vant';
+import { Pagination } from 'react-vant-nova';
 
 export default () => {
   const [page, setPage] = useState(1);
@@ -102,7 +102,7 @@ export default () => {
 组件导出以下类型定义：
 
 ```ts
-import type { PaginationMode } from 'react-vant';
+import type { PaginationMode } from 'react-vant-nova';
 ```
 
 ## 主题定制

@@ -1,6 +1,6 @@
 ---
 simulator:
-  style: 
+  style:
     background: '#fff'
 ---
 
@@ -11,7 +11,7 @@ simulator:
 商品卡片，用于展示商品的图片、价格等信息。
 
 ```js
-import { ProductCard } from 'react-vant';
+import { ProductCard } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -23,7 +23,7 @@ import { ProductCard } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { ProductCard, Tag, Button } from 'react-vant';
+import { ProductCard, Tag, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -47,7 +47,7 @@ export default () => {
  * title: 营销信息
  */
 import React from 'react';
-import { ProductCard, Tag, Button } from 'react-vant';
+import { ProductCard, Tag, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -73,7 +73,7 @@ export default () => {
  * title: 自定义内容
  */
 import React from 'react';
-import { ProductCard, Tag, Button } from 'react-vant';
+import { ProductCard, Tag, Button } from 'react-vant-nova';
 
 export default () => {
   return (

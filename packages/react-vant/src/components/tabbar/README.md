@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Tabbar } from 'react-vant';
+import { Tabbar } from 'react-vant-nova';
 ```
 
 ## 代码演示

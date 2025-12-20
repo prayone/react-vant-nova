@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Divider } from 'react-vant'
+import { Typography, Divider } from 'react-vant-nova'
 import './style.less'
 
 const content =

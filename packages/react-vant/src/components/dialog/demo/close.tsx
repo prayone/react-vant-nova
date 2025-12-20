@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cell, Dialog, Toast } from 'react-vant'
+import { Cell, Dialog, Toast } from 'react-vant-nova'
 
 export default () => {
   return (

@@ -13,7 +13,7 @@ simulator:
 ## 引入
 
 ```js
-import { Skeleton } from 'react-vant';
+import { Skeleton } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -27,7 +27,7 @@ import { Skeleton } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Skeleton } from 'react-vant';
+import { Skeleton } from 'react-vant-nova';
 
 export default () => {
   return <Skeleton title />;
@@ -43,7 +43,7 @@ export default () => {
  * title: 显示头像
  */
 import React from 'react';
-import { Skeleton } from 'react-vant';
+import { Skeleton } from 'react-vant-nova';
 
 export default () => {
   return <Skeleton avatar />;
@@ -59,7 +59,7 @@ export default () => {
  * title: 自定义高度
  */
 import React from 'react';
-import { Skeleton } from 'react-vant';
+import { Skeleton } from 'react-vant-nova';
 
 export default () => {
   return <Skeleton rowHeight={10} />;
@@ -75,7 +75,7 @@ export default () => {
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Flex, Typography, Switch, Skeleton } from 'react-vant';
+import { Flex, Typography, Switch, Skeleton } from 'react-vant-nova';
 import './demo/style.less';
 
 export default () => {

@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Area } from 'react-vant';
+import { Area } from 'react-vant-nova';
 ```
 
 ### @vant/area-data

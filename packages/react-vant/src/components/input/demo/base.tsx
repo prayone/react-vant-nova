@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cell, Input, hooks } from 'react-vant'
+import { Cell, Input, hooks } from 'react-vant-nova'
 
 export default () => {
   const [state, updateState] = hooks.useSetState({

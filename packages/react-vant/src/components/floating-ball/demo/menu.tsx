@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, FloatingBall, Toast } from 'react-vant'
+import { Flex, FloatingBall, Toast } from 'react-vant-nova'
 import {
   StarO,
   CartCircleO,

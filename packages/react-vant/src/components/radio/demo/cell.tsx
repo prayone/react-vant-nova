@@ -1,6 +1,6 @@
 import { ShopO } from '@react-vant/icons'
 import React, { useState } from 'react'
-import { Radio, Cell } from 'react-vant'
+import { Radio, Cell } from 'react-vant-nova'
 
 export default () => {
   const [cellValue, setCellValue] = useState('')

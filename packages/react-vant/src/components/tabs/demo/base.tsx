@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tabs } from 'react-vant'
+import { Tabs } from 'react-vant-nova'
 import './style.less'
 
 const items = Array.from({ length: 3 }, (_, i) => i + 1)

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { DropdownMenu, Cell, Switch } from 'react-vant'
+import { DropdownMenu, Cell, Switch } from 'react-vant-nova'
 import { option1 } from './options'
 
 export default () => {

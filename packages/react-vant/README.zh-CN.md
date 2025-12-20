@@ -95,7 +95,7 @@ pnpm i react-vant -S -E
 
 ```jsx
 import ReactDOM from 'react-dom';
-import { Button } from 'react-vant';
+import { Button } from 'react-vant-nova';
 
 function App() {
   return <Button>Default Button</Button>;

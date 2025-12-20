@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Checkbox, Cell } from 'react-vant'
+import { Checkbox, Cell } from 'react-vant-nova'
 import { ShopO } from '@react-vant/icons'
 
 export default () => {

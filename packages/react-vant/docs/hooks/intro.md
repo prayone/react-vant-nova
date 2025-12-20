@@ -11,7 +11,7 @@ React Vant 内置了一系列的 Hooks，可以直接使用这些 API 进行开�
 引入 `hooks.useWindowSize` 方法，即可获取到当前 Window 的宽度和高度。
 
 ```js
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 const { width, height } = hooks.useWindowSize();
 
@@ -34,6 +34,6 @@ console.log(height); // 窗口高度
 | [usePageVisibility](/hooks/use-page-visibility) | 获取页面的可见状态 |
 | [useSetState](/hooks/use-set-state) | 管理 `object` 类型 state 的 Hooks，同时支持返回 state 最新状态 |
 | [useScrollParent](/hooks/use-scroll-parent) | 获取元素最近的可滚动父元素 |
-| [useTouch](/hooks/use-touch) | 方便地进行touch事件管理 |
+| [useTouch](/hooks/use-touch) | 方便地进行 touch 事件管理 |
 | [useUpdateEffect](/hooks/use-update-effect) | 只在依赖更新时执行的 `useEffect` hook |
 | [useWindowSize](/hooks/use-window-size) | 获取浏览器窗口的视口宽度和高度 |

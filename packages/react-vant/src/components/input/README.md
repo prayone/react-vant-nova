@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Input } from 'react-vant';
+import { Input } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -27,7 +27,7 @@ import { Input } from 'react-vant';
  * title: 清除按钮
  */
 import React, { useState } from 'react';
-import { Input, Cell } from 'react-vant';
+import { Input, Cell } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -55,7 +55,7 @@ export default () => {
  */
 import React, { useState } from 'react';
 import { CommentO } from '@react-vant/icons'
-import { Input, Cell, Button } from 'react-vant';
+import { Input, Cell, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -79,7 +79,7 @@ export default () => {
  * title: 多行输入
  */
 import React, { useState } from 'react';
-import { Input, Cell } from 'react-vant';
+import { Input, Cell } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -110,7 +110,7 @@ export default () => {
  * title: 字数统计
  */
 import React, { useState } from 'react';
-import { Toast, Input, Cell } from 'react-vant';
+import { Toast, Input, Cell } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -145,7 +145,7 @@ export default () => {
  * title: 对齐方式
  */
 import React, { useState } from 'react';
-import { Input, Cell } from 'react-vant';
+import { Input, Cell } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -172,7 +172,7 @@ export default () => {
  * title: 输入框状态
  */
 import React, { useState } from 'react';
-import { Input, Cell } from 'react-vant';
+import { Input, Cell } from 'react-vant-nova';
 
 export default () => {
   const [value1, setValue1] = useState('只读模式');

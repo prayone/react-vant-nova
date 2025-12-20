@@ -10,7 +10,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const root = React.useRef();

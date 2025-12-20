@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Progress } from 'react-vant';
+import { Progress } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -28,7 +28,7 @@ import { Progress } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Progress } from 'react-vant';
+import { Progress } from 'react-vant-nova';
 
 export default () => {
   return <Progress percentage="50" />;
@@ -44,7 +44,7 @@ export default () => {
  * title: 线条粗细
  */
 import React from 'react';
-import { Progress } from 'react-vant';
+import { Progress } from 'react-vant-nova';
 
 export default () => {
   return <Progress strokeWidth={8} percentage="50" />;
@@ -60,7 +60,7 @@ export default () => {
  * title: 置灰
  */
 import React from 'react';
-import { Progress } from 'react-vant';
+import { Progress } from 'react-vant-nova';
 
 export default () => {
   return <Progress inactive percentage="50" />;
@@ -76,7 +76,7 @@ export default () => {
  * title: 样式定制
  */
 import React from 'react';
-import { Space, Progress } from 'react-vant';
+import { Space, Progress } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -101,7 +101,7 @@ export default () => {
  * title: 过渡效果
  */
 import React, { useState } from 'react';
-import { Flex, Button, Progress } from 'react-vant';
+import { Flex, Button, Progress } from 'react-vant-nova';
 
 const format = (rate) => Math.min(Math.max(rate, 0), 100);
 

@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { Popover } from 'react-vant';
+import { Popover } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -26,7 +26,7 @@ import { Popover } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Popover, Space, Toast, Button } from 'react-vant';
+import { Popover, Space, Toast, Button } from 'react-vant-nova';
 
 const actions = [{ text: '选项一' }, { text: '选项二' }, { text: '选项三' }];
 
@@ -62,8 +62,8 @@ export default () => {
  * compact: true
  */
 import React, { useRef, useState } from 'react';
-import { Toast, Popover, Popup, Picker, Cell } from 'react-vant';
-import type { PopoverInstance, PopoverPlacement } from 'react-vant';
+import { Toast, Popover, Popup, Picker, Cell } from 'react-vant-nova';
+import type { PopoverInstance, PopoverPlacement } from 'react-vant-nova';
 
 const popupActions = [{ text: '选项一' }, { text: '选项二' }];
 

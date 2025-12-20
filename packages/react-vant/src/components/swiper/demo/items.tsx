@@ -1,5 +1,5 @@
 import React from 'react'
-import { Swiper, Toast } from 'react-vant'
+import { Swiper, Toast } from 'react-vant-nova'
 
 const colors = ['#ace0ff', '#bcffbd', '#e4fabd', '#ffcfac']
 

@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { Search } from 'react-vant';
+import { Search } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -21,7 +21,7 @@ import { Search } from 'react-vant';
  * title: 基础用法
  */
 import React, { useState } from 'react';
-import { Search } from 'react-vant';
+import { Search } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -38,7 +38,7 @@ Search 组件提供了 `onSearch` 和 `onCancel` 事件，`onSearch` 事件在�
  * title: 事件监听
  */
 import React, { useState } from 'react';
-import { Search, Toast } from 'react-vant';
+import { Search, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -77,7 +77,7 @@ export default () => {
  * title: 搜索框内容对齐
  */
 import React, { useState } from 'react';
-import { Search } from 'react-vant';
+import { Search } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -96,7 +96,7 @@ export default () => {
  * title: 禁用搜索框
  */
 import React, { useState } from 'react';
-import { Search } from 'react-vant';
+import { Search } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -113,7 +113,7 @@ export default () => {
  * title: 自定义背景色
  */
 import React, { useState } from 'react';
-import { Search } from 'react-vant';
+import { Search } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -138,7 +138,7 @@ export default () => {
  * title: 自定义按钮
  */
 import React, { useState } from 'react';
-import { Search, Toast } from 'react-vant';
+import { Search, Toast } from 'react-vant-nova';
 
 export default () => {
   const [value, setValue] = useState('');
@@ -210,7 +210,7 @@ export default () => {
 
 ```ts
 import { useRef } from 'react';
-import type { SearchInstance } from 'react-vant';
+import type { SearchInstance } from 'react-vant-nova';
 
 const searchRef = useRef<SearchInstance>();
 

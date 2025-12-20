@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { ActionBar } from 'react-vant';
+import { ActionBar } from 'react-vant-nova';
 ```
 
 ## 代码演示

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Picker, Field } from 'react-vant'
+import { Picker, Field } from 'react-vant-nova'
 
 const columns = [
   '南京',

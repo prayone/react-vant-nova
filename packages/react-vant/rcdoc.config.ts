@@ -205,7 +205,7 @@ export default defineConfig({
     // algolia: {
     //   appId: 'XTQTEX7VE6',
     //   apiKey: 'ce7bcb03b0899b14a9198b12a717f7c4',
-    //   indexName: 'react-vant',
+    //   indexName: 'react-vant-nova',
     // },
     sitemap: {
       hostname: 'https://react-vant.3lang.dev',

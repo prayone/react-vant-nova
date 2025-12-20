@@ -3,7 +3,7 @@
 ## 引入
 
 ```js
-import { IndexBar } from 'react-vant';
+import { IndexBar } from 'react-vant-nova';
 ```
 
 > 注意: IndexBar 嵌套在 Tabs 组件中时，请关闭 Tabs 的 animated 和 swipeable 属性，详见[Tabs 和 IndexBar 组合使用问题](https://github.com/3lang3/react-vant/issues/70)
@@ -24,7 +24,7 @@ import { IndexBar } from 'react-vant';
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
 | indexList | 索引字符列表 | _string[] \| number[]_ | `A-Z` |
-| itemRender | 自定义字符渲染| _(item: string\|number, active: boolean) => ReactNode_ | - |
+| itemRender | 自定义字符渲染 | _(item: string\|number, active: boolean) => ReactNode_ | - |
 | zIndex | z-index 层级 | _number \| string_ | `1` |
 | sticky | 是否开启锚点自动吸顶 | _boolean_ | `true` |
 | stickyOffsetTop | 锚点自动吸顶时与顶部的距离 | _number_ | `0` |
@@ -57,14 +57,14 @@ import { IndexBar } from 'react-vant';
 组件导出以下类型定义：
 
 ```ts
-import type { IndexBarInstance } from 'react-vant';
+import type { IndexBarInstance } from 'react-vant-nova';
 ```
 
 `IndexBarInstance` 是组件实例的类型，用法如下：
 
 ```ts
 import { useRef } from 'react';
-import type { IndexBarInstance } from 'react-vant';
+import type { IndexBarInstance } from 'react-vant-nova';
 
 const indexBarRef = useRef<IndexBarInstance>(null);
 

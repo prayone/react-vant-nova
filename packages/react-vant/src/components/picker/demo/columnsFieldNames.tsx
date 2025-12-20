@@ -1,5 +1,5 @@
 import React from 'react'
-import { Picker } from 'react-vant'
+import { Picker } from 'react-vant-nova'
 import { fieldNamesData } from './data'
 
 export default () => {

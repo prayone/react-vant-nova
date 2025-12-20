@@ -13,7 +13,7 @@ simulator:
 ## 引入
 
 ```js
-import { Empty } from 'react-vant';
+import { Empty } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -25,7 +25,7 @@ import { Empty } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Empty } from 'react-vant';
+import { Empty } from 'react-vant-nova';
 
 export default () => {
   return <Empty description="描述文字" />;
@@ -39,7 +39,7 @@ export default () => {
  * title: 图片类型
  */
 import React from 'react';
-import { Tabs, Empty } from 'react-vant';
+import { Tabs, Empty } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -67,7 +67,7 @@ export default () => {
  * title: 自定义图片
  */
 import React from 'react';
-import { Empty } from 'react-vant';
+import { Empty } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -90,7 +90,7 @@ export default () => {
  * title: 底部内容
  */
 import React from 'react';
-import { Empty, Button } from 'react-vant';
+import { Empty, Button } from 'react-vant-nova';
 
 export default () => {
   return (

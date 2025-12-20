@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Cell, ShareSheet } from 'react-vant'
+import { Cell, ShareSheet } from 'react-vant-nova'
 
 const options = [
   { name: '微信', icon: 'wechat' },

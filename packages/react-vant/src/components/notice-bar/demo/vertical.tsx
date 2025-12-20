@@ -1,6 +1,6 @@
 import React from 'react'
 import { VolumeO } from '@react-vant/icons'
-import { NoticeBar, Swiper } from 'react-vant'
+import { NoticeBar, Swiper } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

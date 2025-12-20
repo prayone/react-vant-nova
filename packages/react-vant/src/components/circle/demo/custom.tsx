@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Circle, Flex, Button } from 'react-vant'
+import { Circle, Flex, Button } from 'react-vant-nova'
 
 const format = (rate: number) => Math.min(Math.max(rate, 0), 100)
 

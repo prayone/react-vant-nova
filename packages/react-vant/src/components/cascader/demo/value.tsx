@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cascader, Button, Field } from 'react-vant'
+import { Cascader, Button, Field } from 'react-vant-nova'
 import options from './options'
 
 export default () => {

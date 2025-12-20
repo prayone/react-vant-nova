@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Uploader } from 'react-vant';
+import { Uploader } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -91,7 +91,7 @@ import { Uploader } from 'react-vant';
 ### Events
 
 | 事件名 | 说明 | 回调参数 |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | upload | 上传方法 | _(file: File) => Promise\<UploaderValueItem\>_ |
 | onChange | 组件值更新时调用 | _UploaderValueItem[]_ |
 | onOversize | 文件大小超过限制时触发 | _(files: File[]) => void_ |
@@ -125,14 +125,14 @@ import { Uploader } from 'react-vant';
 组件导出以下类型定义：
 
 ```js
-import type { UploaderInstance, UploaderResultType, UploaderValueItem } from 'react-vant';
+import type { UploaderInstance, UploaderResultType, UploaderValueItem } from 'react-vant-nova';
 ```
 
 `UploaderInstance` 是组件实例的类型，用法如下：
 
 ```js
 import { useRef } from 'react';
-import type { UploaderInstance } from 'react-vant';
+import type { UploaderInstance } from 'react-vant-nova';
 
 const uploaderRef = useRef<UploaderInstance>();
 

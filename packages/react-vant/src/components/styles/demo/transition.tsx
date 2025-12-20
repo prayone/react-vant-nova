@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Cell } from 'react-vant'
+import { Cell } from 'react-vant-nova'
 import { CSSTransition } from 'react-transition-group'
 import './transition.less'
 

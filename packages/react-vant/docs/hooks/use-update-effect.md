@@ -12,7 +12,7 @@
 
 ```jsx | pure
 import React from 'react';
-import { hooks } from 'react-vant';
+import { hooks } from 'react-vant-nova';
 
 export default () => {
   const [count, setCount] = React.useState(0);

@@ -1,6 +1,6 @@
 import React from 'react'
 import { AddO, MoreO, MusicO } from '@react-vant/icons'
-import { Space, Toast, Button, Popover } from 'react-vant'
+import { Space, Toast, Button, Popover } from 'react-vant-nova'
 
 const iconActions = [
   { text: '选项一', icon: <AddO /> },

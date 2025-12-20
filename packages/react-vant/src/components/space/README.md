@@ -14,7 +14,7 @@ simulator:
 ## 引入
 
 ```js
-import { Space } from 'react-vant';
+import { Space } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -28,7 +28,7 @@ import { Space } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Space, Button } from 'react-vant';
+import { Space, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -50,7 +50,7 @@ export default () => {
  * title: 分隔符
  */
 import React from 'react';
-import { Space, Typography, Divider } from 'react-vant';
+import { Space, Typography, Divider } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -72,7 +72,7 @@ export default () => {
  * title: 垂直间距
  */
 import React from 'react';
-import { Space, Button } from 'react-vant';
+import { Space, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -96,7 +96,7 @@ export default () => {
  * title: 间距大小
  */
 import React from 'react';
-import { Space, Button } from 'react-vant';
+import { Space, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -121,7 +121,7 @@ export default () => {
  * title: 对齐方式
  */
 import React from 'react';
-import { Space, Button } from 'react-vant';
+import { Space, Button } from 'react-vant-nova';
 
 const Child = ({ children }) => (
   <div style={{ padding: 15, border: '1px solid #eee', borderRadius: 4 }}>{children}</div>
@@ -162,7 +162,7 @@ export default () => {
  * title: 自动换行
  */
 import React from 'react';
-import { Space, Button } from 'react-vant';
+import { Space, Button } from 'react-vant-nova';
 
 export default () => {
   return (

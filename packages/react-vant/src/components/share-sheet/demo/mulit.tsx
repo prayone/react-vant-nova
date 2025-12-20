@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ShareSheet, Cell } from 'react-vant'
+import { ShareSheet, Cell } from 'react-vant-nova'
 
 const options = [
   [

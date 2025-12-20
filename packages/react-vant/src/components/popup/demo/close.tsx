@@ -1,6 +1,6 @@
 import { Fire } from '@react-vant/icons'
 import React, { useState } from 'react'
-import { Popup, Cell } from 'react-vant'
+import { Popup, Cell } from 'react-vant-nova'
 
 export default () => {
   const [showCloseIcon, setShowCloseIcon] = useState(false)

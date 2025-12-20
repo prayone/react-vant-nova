@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
-import { CountDown, Grid, Toast } from 'react-vant'
+import { CountDown, Grid, Toast } from 'react-vant-nova'
 import { PauseCircleO, PlayCircleO, Replay } from '@react-vant/icons'
-import type { CountDownInstance } from 'react-vant'
+import type { CountDownInstance } from 'react-vant-nova'
 
 export default () => {
   const ref = useRef<CountDownInstance>()

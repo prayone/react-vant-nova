@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-vant'
+import { Button } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Picker, Toast } from 'react-vant'
+import { Picker, Toast } from 'react-vant-nova'
 
 export default () => {
   const [value, setValue] = React.useState(['周二', '晚上'])

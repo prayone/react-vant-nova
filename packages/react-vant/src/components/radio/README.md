@@ -12,7 +12,7 @@ simulator:
 ## 引入
 
 ```js
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -27,7 +27,7 @@ import { Radio } from 'react-vant';
  * card: true
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -49,7 +49,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -71,7 +71,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -96,7 +96,7 @@ export default () => {
  * title: 自定义形状
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -121,7 +121,7 @@ export default () => {
  * title: 自定义颜色
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -147,7 +147,7 @@ export default () => {
  * card: true
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -172,7 +172,7 @@ export default () => {
  * title: 禁用文本点击
  */
 import React from 'react';
-import { Radio } from 'react-vant';
+import { Radio } from 'react-vant-nova';
 
 export default () => {
   return (

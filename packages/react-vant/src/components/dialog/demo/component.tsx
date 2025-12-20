@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Cell, Dialog, Toast } from 'react-vant'
+import { Cell, Dialog, Toast } from 'react-vant-nova'
 import './style.less'
 
 export default () => {

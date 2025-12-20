@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Field } from 'react-vant'
+import { Field } from 'react-vant-nova'
 
 export default () => {
   const [value1, setValue1] = useState('')

@@ -5,7 +5,7 @@
 用于展示订单金额与提交订单。
 
 ```js
-import { SubmitBar } from 'react-vant';
+import { SubmitBar } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -17,7 +17,7 @@ import { SubmitBar } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { SubmitBar } from 'react-vant';
+import { SubmitBar } from 'react-vant-nova';
 
 export default () => {
   return <div className="demo-submit-bar"><SubmitBar price="3050" buttonText="提交订单" /></div>;
@@ -39,7 +39,7 @@ export default () => {
  * title: 加载状态
  */
 import React from 'react';
-import { SubmitBar } from 'react-vant';
+import { SubmitBar } from 'react-vant-nova';
 
 export default () => {
   return <div className="demo-submit-bar"><SubmitBar loading price="3050" buttonText="提交订单" /></div>;
@@ -55,7 +55,7 @@ export default () => {
  * title: 高级用法
  */
 import React from 'react';
-import { SubmitBar, Checkbox } from 'react-vant';
+import { SubmitBar, Checkbox } from 'react-vant-nova';
 import './demo/style.less';
 
 export default () => {

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react'
-import { PullRefresh, List, Tabs, Cell } from 'react-vant'
+import { PullRefresh, List, Tabs, Cell } from 'react-vant-nova'
 import './style.less'
 
 // 模拟异步请求

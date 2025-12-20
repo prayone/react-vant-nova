@@ -10,7 +10,7 @@ simulator:
 最基础的卡片容器，可承载文字、列表、图片、段落。
 
 ```js
-import { Card } from 'react-vant';
+import { Card } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -22,7 +22,7 @@ import { Card } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { Card } from 'react-vant';
+import { Card } from 'react-vant-nova';
 export default () => {
   return (
     <Card>
@@ -42,7 +42,7 @@ export default () => {
  * title: 圆角卡片
  */
 import React from 'react';
-import { Card } from 'react-vant';
+import { Card } from 'react-vant-nova';
 export default () => {
   return (
     <Card round>
@@ -62,7 +62,7 @@ export default () => {
  * title: 底部内容
  */
 import React from 'react';
-import { Card, Button } from 'react-vant';
+import { Card, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -96,7 +96,7 @@ export default () => {
  * title: 展示边框
  */
 import React from 'react';
-import { Card, Button } from 'react-vant';
+import { Card, Button } from 'react-vant-nova';
 
 export default () => {
   return (
@@ -129,7 +129,7 @@ export default () => {
  * title: 自定义卡片样式
  */
 import React from 'react';
-import { Card } from 'react-vant';
+import { Card } from 'react-vant-nova';
 
 export default () => {
   return (

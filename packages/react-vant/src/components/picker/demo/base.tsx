@@ -1,5 +1,5 @@
 import React from 'react'
-import { Picker, Toast } from 'react-vant'
+import { Picker, Toast } from 'react-vant-nova'
 
 const columns = [
   { text: '南京', value: 0 },

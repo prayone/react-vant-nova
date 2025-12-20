@@ -1,5 +1,5 @@
 import React from 'react'
-import { Picker } from 'react-vant'
+import { Picker } from 'react-vant-nova'
 
 const cities = {
   浙江: ['杭州', '宁波', '温州', '嘉兴', '湖州'],

@@ -1,5 +1,12 @@
 import React, { Fragment } from 'react'
-import { Button, Input, Form, Picker, Selector, Typography } from 'react-vant'
+import {
+  Button,
+  Input,
+  Form,
+  Picker,
+  Selector,
+  Typography,
+} from 'react-vant-nova'
 
 const columns = [
   '南京',

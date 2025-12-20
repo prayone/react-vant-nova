@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
-import { SwipeCell, Flex, Button, Cell } from 'react-vant'
+import { SwipeCell, Flex, Button, Cell } from 'react-vant-nova'
 import { Arrow, ArrowLeft, Cross } from '@react-vant/icons'
-import type { SwipeCellInstance } from 'react-vant'
+import type { SwipeCellInstance } from 'react-vant-nova'
 
 export default () => {
   const ref = useRef<SwipeCellInstance>()

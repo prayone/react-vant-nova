@@ -1,5 +1,5 @@
 import React from 'react'
-import { DatetimePicker } from 'react-vant'
+import { DatetimePicker } from 'react-vant-nova'
 
 export default () => {
   return (

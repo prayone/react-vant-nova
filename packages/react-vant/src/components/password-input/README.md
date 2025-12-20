@@ -7,7 +7,7 @@
 ## 引入
 
 ```js
-import { PasswordInput } from 'react-vant';
+import { PasswordInput } from 'react-vant-nova';
 ```
 
 ## 代码演示
@@ -19,7 +19,7 @@ import { PasswordInput } from 'react-vant';
  * title: 基础用法
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -38,7 +38,7 @@ export default () => {
  * title: 限制长度
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -57,7 +57,7 @@ export default () => {
  * title: 格子间距
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -76,7 +76,7 @@ export default () => {
  * title: 明文展示
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -95,7 +95,7 @@ export default () => {
  * title: 只允许数字
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -116,7 +116,7 @@ export default () => {
  * title: 只允许数字
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -145,7 +145,7 @@ export default () => {
  * title: 只允许数字
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {
@@ -164,7 +164,7 @@ export default () => {
  * title: 提示信息
  */
 import React from 'react';
-import { PasswordInput, Dialog } from 'react-vant';
+import { PasswordInput, Dialog } from 'react-vant-nova';
 
 export default () => {
   const onSubmit = (val) => {

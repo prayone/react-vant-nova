@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tabbar } from 'react-vant'
+import { Tabbar } from 'react-vant-nova'
 import { FriendsO, HomeO, Search, SettingO } from '@react-vant/icons'
 
 export default () => {
