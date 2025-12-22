@@ -6,10 +6,10 @@
 
 ```bash
 # 通过 npm 安装
-npm i react-vant
+npm i react-vant-nova
 
 # 通过 yarn 安装
-yarn add react-vant
+yarn add react-vant-nova
 ```
 
 > 当前为 rc 版本，API 可能出现 break change，推荐使用 `lockfile` 锁定版本

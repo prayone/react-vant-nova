@@ -63,7 +63,7 @@ const Home = () => {
     <div className='_home-container'>
       <div className='_home-container-left'>
         <Space direction='vertical' block align='end'>
-          <Typography.Title level={1}>React Vant</Typography.Title>
+          <Typography.Title level={1}>React Vant Nova</Typography.Title>
           <Typography.Title level={2} style={{ textAlign: 'right' }}>
             {isCN ? (
               <>

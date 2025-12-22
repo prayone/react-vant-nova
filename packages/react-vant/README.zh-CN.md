@@ -28,9 +28,9 @@
 </p>
 
 <p align="center">
-  🔥 <a href="http://react-vant.fenewbee.com/">文档网站 (国内站点)</a>
+  🔥 <a href="https://react-vant.fenewbee.com/">文档网站 (国内站点)</a>
   &nbsp;
-  🌈 <a href="http://react-vant.fenewbee.com/">文档网站（GitHub）</a>
+  🌈 <a href="https://react-vant.fenewbee.com/">文档网站（GitHub）</a>
 </p>
 
 ## ✨ 特性
@@ -77,10 +77,10 @@
 
 ```bash
 # npm
-npm i react-vant -S -E
+npm i react-vant-nova -S -E
 
 # pnpm
-pnpm i react-vant -S -E
+pnpm i react-vant-nova -S -E
 ```
 
 ## 🚀 快速开始
@@ -109,7 +109,7 @@ ReactDOM.render(<App />, mountNode);
 - [Astro](https://github.com/3lang3/react-vant-template/tree/main/next/astro)
 - [Vite](https://github.com/3lang3/react-vant-template/tree/main/next/vite)
 
-更多信息请参考[快速开始](http://react-vant.fenewbee.com/guide/quickstart).
+更多信息请参考[快速开始](https://react-vant.fenewbee.com/guide/quickstart).
 
 ## 🙏 鸣谢
 

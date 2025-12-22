@@ -1,7 +1,7 @@
 {
   "name": "react-vant-nova",
-  "version": "1.0.4",
-  "description": "React Mobile UI Components base on Vant UI （此版本兼容 React 19）",
+  "version": "1.0.5",
+  "description": "基于 Vant UI 迭代维护的 React 移动端 UI 组件库（兼容 React 19+）",
   "keywords": [
     "ui",
     "react",
@@ -13,7 +13,7 @@
     "frontend",
     "react-component"
   ],
-  "homepage": "https://react-vant.3lang.dev",
+  "homepage": "https://react-vant.fenewbee.com/",
   "repository": {
     "type": "git",
     "url": "暂无git地址，如有问题请联系作者wx: wpp_rvn",

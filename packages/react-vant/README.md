@@ -90,10 +90,10 @@ ReactDOM.render(<App />, mountNode);
 - [Astro](https://github.com/3lang3/react-vant-template/tree/main/next/astro)
 - [Vite](https://github.com/3lang3/react-vant-template/tree/main/next/vite)
 
-For more information, please refer to [QuickStart](http://react-vant.fenewbee.com/guide/quickstart).
+For more information, please refer to [QuickStart](https://react-vant.fenewbee.com//guide/quickstart).
 
 ## 🤝 交流与支持
 
 - 反馈问题：[GitHub Issues](https://github.com/prayone/react-vant-nova/issues)
 - 开发交流：添加微信 wpp_rvn（备注「react-vant-nova」）
-- 文档地址：[http://react-vant.fenewbee.com/](https://react-vant.fenewbee.com/)
+- 文档地址：[https://react-vant.fenewbee.com//](https://react-vant.fenewbee.com/)

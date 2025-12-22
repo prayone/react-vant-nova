@@ -204,7 +204,7 @@ export default defineConfig({
     //   indexName: 'react-vant-nova',
     // },
     sitemap: {
-      hostname: 'http://react-vant.fenewbee.com/',
+      hostname: 'https://react-vant.fenewbee.com/',
     },
   },
   resolve: {
