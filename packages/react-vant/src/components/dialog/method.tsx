@@ -111,10 +111,10 @@ Dialog.show = (props: DialogProps) => {
 
   const close = () => {
     if (!dialogCloseMap.has(id)) {
-      return;
+      return
     }
-    dialogCloseMap.get(id)?.();
-    dialogCloseMap.delete(id);
+    dialogCloseMap.get(id)?.()
+    dialogCloseMap.delete(id)
   }
 
   return close
@@ -143,7 +143,7 @@ Dialog.confirm = (props: DialogProps): Promise<boolean> => {
       ...props,
       onCancel: e => {
         onCancel(e)
-        reject()
+        resolve(false)
       },
       onConfirm: e => {
         onConfirm(e)

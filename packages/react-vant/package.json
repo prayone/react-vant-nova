@@ -1,7 +1,7 @@
 {
   "name": "react-vant-nova",
-  "version": "1.0.5",
-  "description": "基于 Vant UI 迭代维护的 React 移动端 UI 组件库（兼容 React 19+）",
+  "version": "1.0.6",
+  "description": "React Mobile UI Components base on Vant UI（此版本兼容 React 19+）",
   "keywords": [
     "ui",
     "react",
