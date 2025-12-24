@@ -78,6 +78,13 @@ export default defineConfig({
     ],
     '/components': [
       {
+        title: '表格组件',
+        children: [
+          // ... 其他展示组件
+          '/components/table',
+        ],
+      },
+      {
         title: '布局组件',
         children: ['/components/flex', '/components/space'],
       },
