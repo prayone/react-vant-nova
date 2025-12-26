@@ -52,28 +52,30 @@ export default () => {
     {
       title: '姓名',
       dataIndex: 'name',
-      width: '15%',
+      width: '70px',
+      align: 'center',
     },
     {
       title: '年龄',
       dataIndex: 'age',
-      width: '10%',
+      width: '70px',
+      align: 'center',
     },
     {
       title: '性别',
       dataIndex: 'gender',
-      width: '10%',
     },
     {
       title: '邮箱',
       dataIndex: 'email',
-      // width: '30%',
+      width: '50%',
       render: (text: string) => <a href={`mailto:${text}`}>{text}</a>,
+      align: 'center',
     },
     {
       title: '电话',
       dataIndex: 'phone',
-      width: '25%',
+      width: '120px',
       render: (text: string) => <a href={`tel:${text}`}>{text}</a>,
     },
   ]
@@ -81,12 +83,7 @@ export default () => {
   return (
     <div className='demo-table'>
       <h2>基础表格</h2>
-      <Table
-        dataSource={dataSource}
-        columns={columns}
-        bordered
-        style={{ marginTop: '16px' }}
-      />
+      <Table dataSource={dataSource} columns={columns} bordered />
     </div>
   )
 }

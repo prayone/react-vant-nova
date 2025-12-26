@@ -8,6 +8,8 @@ export interface TableColumn {
   dataIndex: string
   /** 列宽度 */
   width?: string | number
+  /** 列对齐方式 */
+  align?: 'left' | 'center' | 'right'
   /** 自定义单元格渲染函数 */
   render?: (text: any, record: any, index: number) => React.ReactNode
   /** 自定义表头渲染函数 */
@@ -27,4 +29,6 @@ export interface TableProps<T = any> extends BaseTypeProps {
   showHeader?: boolean
   /** 空数据时显示的内容 */
   emptyText?: React.ReactNode
+  /** 空数据时显示的图片 */
+  emptyImage?: string
 }
