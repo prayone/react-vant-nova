@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">
-  🔥 <a href="https://react-vant-gitee.3lang.dev">Documentation (Domestic)</a>
+  🔥 <a href="https://github.com/prayone/react-vant-nova">Documentation (Domestic)</a>
   &nbsp;
-  🌈 <a href="https://react-vant.3lang.dev">Documentation（GitHub）</a>
+  🌈 <a href="https://github.com/prayone/react-vant-nova">Documentation（GitHub）</a>
 </p>
 
 ## 🧑‍💻 Project Status

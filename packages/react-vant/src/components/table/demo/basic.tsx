@@ -83,7 +83,12 @@ export default () => {
   return (
     <div className='demo-table'>
       <h2>基础表格</h2>
-      <Table dataSource={dataSource} columns={columns} bordered />
+      <Table
+        dataSource={dataSource}
+        key='basic-table'
+        columns={columns}
+        bordered
+      />
     </div>
   )
 }

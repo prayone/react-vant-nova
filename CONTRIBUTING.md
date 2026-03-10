@@ -14,7 +14,7 @@
 
 ```bash
 # 克隆仓库
-https://github.com/3lang3/react-vant.git
+https://github.com/prayone/react-vant-nova.git
 
 # 安装依赖
 cd my-app && npm run bootstrap
@@ -83,7 +83,7 @@ packages/react-vant/src
 
 ```bash
 # 添加主仓库到 remote，作为 fork 后仓库的上游仓库
-git remote add upstream https://github.com/3lang3/react-vant.git
+git remote add upstream https://github.com/prayone/react-vant-nova.git
 
 # 拉取主仓库最新代码
 git fetch upstream

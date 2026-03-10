@@ -38,6 +38,7 @@ export default () => {
         dataSource={dataSource}
         columns={columns}
         bordered
+        key='empty-table'
         emptyText='暂无数据'
         emptyImage='https://resource.xdfgk.cn/%E8%B5%84%E6%BA%90%201.png'
       />

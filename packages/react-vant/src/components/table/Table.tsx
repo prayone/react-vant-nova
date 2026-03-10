@@ -42,7 +42,6 @@ const Table: React.FC<TableProps> = props => {
     emptyImage,
     ...restProps
   } = props
-
   // 检查是否有列设置了宽度
   const hasColumnWithWidth = useMemo(() => {
     return columns.some(col => col.width)
