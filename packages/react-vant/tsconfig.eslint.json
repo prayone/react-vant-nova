@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src", "docs", "_rcdoc_", "rcdoc.config.ts"],
+  "exclude": ["node_modules", "dist", ".rcdoc", "propsType"]
+}

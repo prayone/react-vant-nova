@@ -1,6 +1,6 @@
 {
   "name": "react-vant-nova",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "React Mobile UI Components based on Vant UI (兼容 React 19+,新增轻量 Table 组件)",
   "keywords": [
     "ui",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "author": "wx: wpp_rvn",
   "sideEffects": [
-   "**/*.css",
+    "**/*.css",
     "**/*.less",
     "./es/index.js",
     "./src/components/index.ts",
@@ -49,7 +49,7 @@
     "./2x/": "./2x/",
     "./package.json": "./package.json",
     "./*": "./*",
-    "./es/locale":"./es/locale/index.js"
+    "./es/locale": "./es/locale/index.js"
   },
   "main": "./lib/index.js",
   "jsdelivr": "./bundle/react-vant-nova.min.js",
@@ -61,15 +61,15 @@
     "./dist"
   ],
   "scripts": {
-    "build": "rcdoc build && pnpm build:gulp",
+    "build": "node scripts/patch-rcdoc-parser.js && rcdoc build && pnpm build:gulp",
     "build:gulp": "gulp",
     "deploy:gh-pages": "gh-pages -d docs-dist",
-    "dev": "rcdoc dev",
-    "docs:build": "rcdoc docs-build",
+    "dev": "node scripts/patch-rcdoc-parser.js && rcdoc dev",
+    "docs:build": "node scripts/patch-rcdoc-parser.js && rcdoc docs-build",
     "lint": "eslint src --ext ts,tsx --fix",
     "lint:tsx": "eslint src --ext ts,tsx",
     "prettier": "npx prettier --write src",
-    "preview": "rcdoc preview",
+    "preview": "node scripts/patch-rcdoc-parser.js && rcdoc preview",
     "pub": "pnpm publish ./dist",
     "pub:dev": "pnpm publish ./dist --tag dev"
   },

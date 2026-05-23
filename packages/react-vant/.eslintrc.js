@@ -13,11 +13,12 @@ module.exports = {
       // instead of extending them outside the `overrides`.
       // If you don't want to extend any rules, you don't need an `extends` attribute.
       parserOptions: {
-        project: './tsconfig.json',
-        tsconfigRootDir: __dirname,  // monorepo 的話要加上這行，才不會去找到最外層
+        project: './tsconfig.eslint.json',
+        tsconfigRootDir: __dirname, // monorepo 的話要加上這行，才不會去找到最外層
       },
       rules: {
         '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/object-curly-spacing': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-unsafe-argument': 'off',
@@ -40,8 +41,8 @@ module.exports = {
         'react/require-default-props': 'off',
         'react-hooks/exhaustive-deps': 'off', // Checks deps of Hooks
         'react/display-name': 'off',
-        'react/prop-types': 'off'
+        'react/prop-types': 'off',
       },
     },
   ],
-};
+}
