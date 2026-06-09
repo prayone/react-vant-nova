@@ -25,7 +25,7 @@ Built for enterprise H5 applications with React 19 migration support, state rest
 
 ---
 
-Installation npm install react-vant-nova
+## Installation npm install react-vant-nova
 
 # or
 
