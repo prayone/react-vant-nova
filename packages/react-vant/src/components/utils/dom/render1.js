@@ -1,11 +1,12 @@
 import { ReactElement } from 'react'
-import * as ReactDOM from 'react-dom'
-import type { Root } from 'react-dom/client'
-import { reactDomVersion } from './version'
+// import * as ReactDOM from 'react-dom'
+// import { reactDomVersion } from './version'
+
+
 
 // 移植自rc-util: https://github.com/react-component/util/blob/master/src/React/render.ts
 
-type CreateRoot = (container: ContainerType) => Root
+// type CreateRoot = (container: ContainerType) => Root
 
 // Let compiler not to search module usage
 const fullClone = {
@@ -17,17 +18,17 @@ const fullClone = {
   createRoot?: CreateRoot
 }
 
-const { render: reactRender, unmountComponentAtNode } = fullClone
+// const { render: reactRender, unmountComponentAtNode } = fullClone
 
-let createRoot: CreateRoot
-try {
-  if (reactDomVersion >= 18 && fullClone.createRoot) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    createRoot = fullClone.createRoot
-  }
-} catch (e) {
-  // Do nothing;
-}
+// let createRoot: CreateRoot
+// try {
+//   if (reactDomVersion >= 18 && fullClone.createRoot) {
+//     // eslint-disable-next-line @typescript-eslint/no-var-requires
+//     createRoot = fullClone.createRoot
+//   }
+// } catch (e) {
+//   // Do nothing;
+// }
 
 function toggleWarning(skip: boolean) {
   const { __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } = fullClone
@@ -49,7 +50,6 @@ type ContainerType = (Element | DocumentFragment) & {
 }
 
 function legacyRender(node: ReactElement, container: ContainerType) {
-  // @ts-ignore
   reactRender(node, container)
 }
 
@@ -57,7 +57,6 @@ function concurrentRender(node: ReactElement, container: ContainerType) {
   toggleWarning(true)
   const root = container[MARK] || createRoot(container)
   toggleWarning(false)
-  // @ts-ignore
   root.render(node)
   container[MARK] = root
 }
@@ -90,3 +89,24 @@ export function unmount(container: ContainerType) {
 
   return legacyUnmount(container)
 }
+
+
+
+  // react-vant
+  import * as ReactDOM from 'react-dom'
+  import { reactDomVersion } from './version'
+
+  type CreateRoot = (container: ContainerType) => Root
+
+  const { render: reactRender, unmountComponentAtNode } = fullClone
+
+  let createRoot: CreateRoot
+  try {
+    if (reactDomVersion >= 18 && fullClone.createRoot) {
+      createRoot = fullClone.createRoot
+    }
+  } catch (e) {
+    // Do nothing;
+  }
+
+  
